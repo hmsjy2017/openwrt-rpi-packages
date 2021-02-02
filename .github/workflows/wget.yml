@@ -15,9 +15,11 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: wget
-        run:
-          wget http://openwrt.cc -r -np -e robots=off
-
+        run: |
+          wget -r -np -e robots=off http://openwrt.cc /home/runner/work/openwrt-rpi-packages/openwrt-rpi-packages
+          cd openwrt.cc
+          mv * ../
+          
       - name: commit
         run: |
           git config --global user.email 1462668901@qq.com
