@@ -18,11 +18,6 @@ jobs:
         run: |
           wget http://openwrt.cc/snapshots/ -r -np -nd robots=off 
           pwd
-          # /home/runner/work/openwrt-rpi-packages/openwrt-rpi-packages
-         
-          # cd openwrt.cc
-          # mv * ../
-          
       - name: commit
         run: |
           git config --global user.email 1462668901@qq.com
