@@ -16,10 +16,12 @@ jobs:
 
       - name: wget
         run: |
-          wget http://openwrt.cc/snapshots/ -r -np -nd robots=off /home/runner/work/openwrt-rpi-packages/openwrt-rpi-packages
-
-          cd openwrt.cc
-          mv * ../
+          wget http://openwrt.cc/snapshots/ -r -np -nd robots=off 
+          pwd
+          #/home/runner/work/openwrt-rpi-packages/openwrt-rpi-packages
+         
+          #cd openwrt.cc
+          #mv * ../
           
       - name: commit
         run: |
