@@ -1,0 +1,300 @@
+CONFIG_TARGET_bcm27xx=y
+CONFIG_TARGET_bcm27xx_bcm2711=y
+CONFIG_TARGET_bcm27xx_bcm2711_DEVICE_rpi-4=y
+CONFIG_LUCI_LANG_ca=y
+CONFIG_LUCI_LANG_cs=y
+CONFIG_LUCI_LANG_de=y
+CONFIG_LUCI_LANG_el=y
+CONFIG_LUCI_LANG_es=y
+CONFIG_LUCI_LANG_fr=y
+CONFIG_LUCI_LANG_he=y
+CONFIG_LUCI_LANG_hu=y
+CONFIG_LUCI_LANG_it=y
+CONFIG_LUCI_LANG_ja=y
+CONFIG_LUCI_LANG_ko=y
+CONFIG_LUCI_LANG_ms=y
+CONFIG_LUCI_LANG_no=y
+CONFIG_LUCI_LANG_pl=y
+CONFIG_LUCI_LANG_pt=y
+CONFIG_LUCI_LANG_pt-br=y
+CONFIG_LUCI_LANG_ro=y
+CONFIG_LUCI_LANG_ru=y
+CONFIG_LUCI_LANG_sk=y
+CONFIG_LUCI_LANG_sv=y
+CONFIG_LUCI_LANG_tr=y
+CONFIG_LUCI_LANG_uk=y
+CONFIG_LUCI_LANG_vi=y
+CONFIG_LUCI_LANG_zh-tw=y
+CONFIG_PACKAGE_MAC80211_DEBUGFS=y
+CONFIG_PACKAGE_MAC80211_MESH=y
+CONFIG_PACKAGE_NTFS-3G_HAS_PROBE=y
+# CONFIG_PACKAGE_UnblockNeteaseMusic is not set
+# CONFIG_PACKAGE_UnblockNeteaseMusic-Go is not set
+# CONFIG_PACKAGE_adbyby is not set
+CONFIG_PACKAGE_automount=y
+CONFIG_PACKAGE_blkid=y
+CONFIG_PACKAGE_btrfs-progs=y
+# CONFIG_PACKAGE_coreutils is not set
+# CONFIG_PACKAGE_dns2socks is not set
+CONFIG_PACKAGE_hostapd=y
+CONFIG_PACKAGE_hostapd-basic=m
+CONFIG_PACKAGE_hostapd-utils=y
+# CONFIG_PACKAGE_ipset is not set
+# CONFIG_PACKAGE_ipt2socks-alt is not set
+# CONFIG_PACKAGE_iptables-mod-tproxy is not set
+CONFIG_PACKAGE_kmod-crypto-acompress=y
+CONFIG_PACKAGE_kmod-crypto-cbc=y
+CONFIG_PACKAGE_kmod-crypto-crc32=y
+CONFIG_PACKAGE_kmod-crypto-crc32c=y
+CONFIG_PACKAGE_kmod-crypto-cts=y
+CONFIG_PACKAGE_kmod-crypto-des=y
+CONFIG_PACKAGE_kmod-crypto-hmac=y
+CONFIG_PACKAGE_kmod-crypto-md5=y
+CONFIG_PACKAGE_kmod-dnsresolver=y
+CONFIG_PACKAGE_kmod-fs-btrfs=y
+CONFIG_PACKAGE_kmod-fs-exfat=y
+CONFIG_PACKAGE_kmod-fs-exportfs=y
+CONFIG_PACKAGE_kmod-fs-ext4=y
+CONFIG_PACKAGE_kmod-fs-f2fs=y
+CONFIG_PACKAGE_kmod-fs-nfs=y
+CONFIG_PACKAGE_kmod-fs-nfs-common=y
+CONFIG_PACKAGE_kmod-fs-nfs-common-rpcsec=y
+CONFIG_PACKAGE_kmod-fs-nfs-v3=y
+CONFIG_PACKAGE_kmod-fs-nfs-v4=y
+CONFIG_PACKAGE_kmod-fs-nfsd=y
+CONFIG_PACKAGE_kmod-fs-squashfs=y
+CONFIG_PACKAGE_kmod-fuse=y
+# CONFIG_PACKAGE_kmod-ip6tables is not set
+# CONFIG_PACKAGE_kmod-ipt-tproxy is not set
+CONFIG_PACKAGE_kmod-lib-crc16=y
+CONFIG_PACKAGE_kmod-lib-crc32c=y
+CONFIG_PACKAGE_kmod-lib-lzo=y
+CONFIG_PACKAGE_kmod-lib-raid6=y
+CONFIG_PACKAGE_kmod-lib-xor=y
+CONFIG_PACKAGE_kmod-lib-zlib-deflate=y
+CONFIG_PACKAGE_kmod-lib-zlib-inflate=y
+CONFIG_PACKAGE_kmod-lib-zstd=y
+CONFIG_PACKAGE_kmod-libphy=y
+CONFIG_PACKAGE_kmod-mac80211=y
+CONFIG_PACKAGE_kmod-md-mod=y
+CONFIG_PACKAGE_kmod-md-raid0=y
+CONFIG_PACKAGE_kmod-md-raid1=y
+CONFIG_PACKAGE_kmod-md-raid10=y
+CONFIG_PACKAGE_kmod-md-raid456=y
+CONFIG_PACKAGE_kmod-mii=y
+CONFIG_PACKAGE_kmod-mt76-core=y
+CONFIG_PACKAGE_kmod-mt76-usb=y
+CONFIG_PACKAGE_kmod-mt76x02-common=y
+CONFIG_PACKAGE_kmod-mt76x02-usb=y
+CONFIG_PACKAGE_kmod-mt76x2-common=y
+CONFIG_PACKAGE_kmod-mt76x2u=y
+# CONFIG_PACKAGE_kmod-nf-ipt6 is not set
+# CONFIG_PACKAGE_kmod-nf-reject6 is not set
+CONFIG_PACKAGE_kmod-rt2500-usb=y
+CONFIG_PACKAGE_kmod-rt2800-lib=y
+CONFIG_PACKAGE_kmod-rt2800-usb=y
+CONFIG_PACKAGE_kmod-rt2x00-lib=y
+CONFIG_PACKAGE_kmod-rt2x00-usb=y
+CONFIG_PACKAGE_kmod-rtl8812au-ac=y
+CONFIG_PACKAGE_kmod-rtl8821cu=y
+CONFIG_PACKAGE_kmod-scsi-core=y
+CONFIG_PACKAGE_kmod-usb-audio=y
+CONFIG_PACKAGE_kmod-usb-ehci=y
+CONFIG_PACKAGE_kmod-usb-net=y
+CONFIG_PACKAGE_kmod-usb-net-asix=y
+CONFIG_PACKAGE_kmod-usb-net-asix-ax88179=y
+CONFIG_PACKAGE_kmod-usb-net-rtl8150=y
+CONFIG_PACKAGE_kmod-usb-net-rtl8152=y
+CONFIG_PACKAGE_kmod-usb-ohci=y
+CONFIG_PACKAGE_kmod-usb-ohci-pci=y
+CONFIG_PACKAGE_kmod-usb-printer=y
+CONFIG_PACKAGE_kmod-usb-storage=y
+CONFIG_PACKAGE_kmod-usb-storage-extras=y
+CONFIG_PACKAGE_kmod-usb-storage-uas=y
+CONFIG_PACKAGE_kmod-usb-uhci=y
+CONFIG_PACKAGE_kmod-usb2=y
+CONFIG_PACKAGE_kmod-usb2-pci=y
+CONFIG_PACKAGE_kmod-usb3=y
+# CONFIG_PACKAGE_libatomic is not set
+CONFIG_PACKAGE_libattr=y
+# CONFIG_PACKAGE_libcares is not set
+# CONFIG_PACKAGE_libev is not set
+# CONFIG_PACKAGE_libipset is not set
+CONFIG_PACKAGE_liblzo=y
+# CONFIG_PACKAGE_libmbedtls is not set
+# CONFIG_PACKAGE_libmnl is not set
+CONFIG_PACKAGE_libmount=y
+# CONFIG_PACKAGE_libnghttp2 is not set
+# CONFIG_PACKAGE_libnss is not set
+CONFIG_PACKAGE_libreadline=y
+# CONFIG_PACKAGE_libsodium is not set
+# CONFIG_PACKAGE_libsqlite3 is not set
+# CONFIG_PACKAGE_libstdcpp is not set
+# CONFIG_PACKAGE_libudns is not set
+# CONFIG_PACKAGE_libuv is not set
+CONFIG_PACKAGE_lsblk=y
+# CONFIG_PACKAGE_luci-app-adbyby-plus is not set
+CONFIG_PACKAGE_luci-app-diskman=y
+CONFIG_PACKAGE_luci-app-diskman_INCLUDE_kmod_md_linear=y
+CONFIG_PACKAGE_luci-app-diskman_INCLUDE_kmod_md_raid456=y
+CONFIG_PACKAGE_luci-app-diskman_INCLUDE_mdadm=y
+# CONFIG_PACKAGE_luci-app-ssr-plus is not set
+# CONFIG_PACKAGE_luci-app-unblockmusic is not set
+# CONFIG_PACKAGE_luci-app-vlmcsd is not set
+# CONFIG_PACKAGE_luci-app-vsftpd is not set
+CONFIG_PACKAGE_luci-app-webadmin=y
+CONFIG_PACKAGE_luci-i18n-base-ca=y
+CONFIG_PACKAGE_luci-i18n-base-cs=y
+CONFIG_PACKAGE_luci-i18n-base-de=y
+CONFIG_PACKAGE_luci-i18n-base-el=y
+CONFIG_PACKAGE_luci-i18n-base-es=y
+CONFIG_PACKAGE_luci-i18n-base-fr=y
+CONFIG_PACKAGE_luci-i18n-base-he=y
+CONFIG_PACKAGE_luci-i18n-base-hu=y
+CONFIG_PACKAGE_luci-i18n-base-it=y
+CONFIG_PACKAGE_luci-i18n-base-ja=y
+CONFIG_PACKAGE_luci-i18n-base-ko=y
+CONFIG_PACKAGE_luci-i18n-base-ms=y
+CONFIG_PACKAGE_luci-i18n-base-no=y
+CONFIG_PACKAGE_luci-i18n-base-pl=y
+CONFIG_PACKAGE_luci-i18n-base-pt=y
+CONFIG_PACKAGE_luci-i18n-base-pt-br=y
+CONFIG_PACKAGE_luci-i18n-base-ro=y
+CONFIG_PACKAGE_luci-i18n-base-ru=y
+CONFIG_PACKAGE_luci-i18n-base-sk=y
+CONFIG_PACKAGE_luci-i18n-base-sv=y
+CONFIG_PACKAGE_luci-i18n-base-tr=y
+CONFIG_PACKAGE_luci-i18n-base-uk=y
+CONFIG_PACKAGE_luci-i18n-base-vi=y
+CONFIG_PACKAGE_luci-i18n-base-zh-tw=y
+CONFIG_PACKAGE_luci-i18n-ddns-ca=y
+CONFIG_PACKAGE_luci-i18n-ddns-cs=y
+CONFIG_PACKAGE_luci-i18n-ddns-de=y
+CONFIG_PACKAGE_luci-i18n-ddns-el=y
+CONFIG_PACKAGE_luci-i18n-ddns-es=y
+CONFIG_PACKAGE_luci-i18n-ddns-fr=y
+CONFIG_PACKAGE_luci-i18n-ddns-he=y
+CONFIG_PACKAGE_luci-i18n-ddns-hu=y
+CONFIG_PACKAGE_luci-i18n-ddns-it=y
+CONFIG_PACKAGE_luci-i18n-ddns-ja=y
+CONFIG_PACKAGE_luci-i18n-ddns-ko=y
+CONFIG_PACKAGE_luci-i18n-ddns-ms=y
+CONFIG_PACKAGE_luci-i18n-ddns-no=y
+CONFIG_PACKAGE_luci-i18n-ddns-pl=y
+CONFIG_PACKAGE_luci-i18n-ddns-pt=y
+CONFIG_PACKAGE_luci-i18n-ddns-pt-br=y
+CONFIG_PACKAGE_luci-i18n-ddns-ro=y
+CONFIG_PACKAGE_luci-i18n-ddns-ru=y
+CONFIG_PACKAGE_luci-i18n-ddns-sk=y
+CONFIG_PACKAGE_luci-i18n-ddns-sv=y
+CONFIG_PACKAGE_luci-i18n-ddns-tr=y
+CONFIG_PACKAGE_luci-i18n-ddns-uk=y
+CONFIG_PACKAGE_luci-i18n-ddns-vi=y
+CONFIG_PACKAGE_luci-i18n-ddns-zh-tw=y
+CONFIG_PACKAGE_luci-i18n-firewall-ca=y
+CONFIG_PACKAGE_luci-i18n-firewall-cs=y
+CONFIG_PACKAGE_luci-i18n-firewall-de=y
+CONFIG_PACKAGE_luci-i18n-firewall-el=y
+CONFIG_PACKAGE_luci-i18n-firewall-es=y
+CONFIG_PACKAGE_luci-i18n-firewall-fr=y
+CONFIG_PACKAGE_luci-i18n-firewall-he=y
+CONFIG_PACKAGE_luci-i18n-firewall-hu=y
+CONFIG_PACKAGE_luci-i18n-firewall-it=y
+CONFIG_PACKAGE_luci-i18n-firewall-ja=y
+CONFIG_PACKAGE_luci-i18n-firewall-ko=y
+CONFIG_PACKAGE_luci-i18n-firewall-ms=y
+CONFIG_PACKAGE_luci-i18n-firewall-no=y
+CONFIG_PACKAGE_luci-i18n-firewall-pl=y
+CONFIG_PACKAGE_luci-i18n-firewall-pt=y
+CONFIG_PACKAGE_luci-i18n-firewall-pt-br=y
+CONFIG_PACKAGE_luci-i18n-firewall-ro=y
+CONFIG_PACKAGE_luci-i18n-firewall-ru=y
+CONFIG_PACKAGE_luci-i18n-firewall-sk=y
+CONFIG_PACKAGE_luci-i18n-firewall-sv=y
+CONFIG_PACKAGE_luci-i18n-firewall-tr=y
+CONFIG_PACKAGE_luci-i18n-firewall-uk=y
+CONFIG_PACKAGE_luci-i18n-firewall-vi=y
+CONFIG_PACKAGE_luci-i18n-firewall-zh-tw=y
+CONFIG_PACKAGE_luci-i18n-nlbwmon-ja=y
+CONFIG_PACKAGE_luci-i18n-nlbwmon-ru=y
+CONFIG_PACKAGE_luci-i18n-upnp-ca=y
+CONFIG_PACKAGE_luci-i18n-upnp-cs=y
+CONFIG_PACKAGE_luci-i18n-upnp-de=y
+CONFIG_PACKAGE_luci-i18n-upnp-el=y
+CONFIG_PACKAGE_luci-i18n-upnp-es=y
+CONFIG_PACKAGE_luci-i18n-upnp-fr=y
+CONFIG_PACKAGE_luci-i18n-upnp-he=y
+CONFIG_PACKAGE_luci-i18n-upnp-hu=y
+CONFIG_PACKAGE_luci-i18n-upnp-it=y
+CONFIG_PACKAGE_luci-i18n-upnp-ja=y
+CONFIG_PACKAGE_luci-i18n-upnp-ms=y
+CONFIG_PACKAGE_luci-i18n-upnp-no=y
+CONFIG_PACKAGE_luci-i18n-upnp-pl=y
+CONFIG_PACKAGE_luci-i18n-upnp-pt=y
+CONFIG_PACKAGE_luci-i18n-upnp-pt-br=y
+CONFIG_PACKAGE_luci-i18n-upnp-ro=y
+CONFIG_PACKAGE_luci-i18n-upnp-ru=y
+CONFIG_PACKAGE_luci-i18n-upnp-sk=y
+CONFIG_PACKAGE_luci-i18n-upnp-sv=y
+CONFIG_PACKAGE_luci-i18n-upnp-tr=y
+CONFIG_PACKAGE_luci-i18n-upnp-uk=y
+CONFIG_PACKAGE_luci-i18n-upnp-vi=y
+CONFIG_PACKAGE_luci-i18n-upnp-zh-tw=y
+CONFIG_PACKAGE_luci-i18n-webadmin-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-wol-ca=y
+CONFIG_PACKAGE_luci-i18n-wol-cs=y
+CONFIG_PACKAGE_luci-i18n-wol-de=y
+CONFIG_PACKAGE_luci-i18n-wol-el=y
+CONFIG_PACKAGE_luci-i18n-wol-es=y
+CONFIG_PACKAGE_luci-i18n-wol-fr=y
+CONFIG_PACKAGE_luci-i18n-wol-he=y
+CONFIG_PACKAGE_luci-i18n-wol-hu=y
+CONFIG_PACKAGE_luci-i18n-wol-it=y
+CONFIG_PACKAGE_luci-i18n-wol-ja=y
+CONFIG_PACKAGE_luci-i18n-wol-ms=y
+CONFIG_PACKAGE_luci-i18n-wol-no=y
+CONFIG_PACKAGE_luci-i18n-wol-pl=y
+CONFIG_PACKAGE_luci-i18n-wol-pt=y
+CONFIG_PACKAGE_luci-i18n-wol-pt-br=y
+CONFIG_PACKAGE_luci-i18n-wol-ro=y
+CONFIG_PACKAGE_luci-i18n-wol-ru=y
+CONFIG_PACKAGE_luci-i18n-wol-sk=y
+CONFIG_PACKAGE_luci-i18n-wol-sv=y
+CONFIG_PACKAGE_luci-i18n-wol-tr=y
+CONFIG_PACKAGE_luci-i18n-wol-uk=y
+CONFIG_PACKAGE_luci-i18n-wol-vi=y
+CONFIG_PACKAGE_luci-i18n-wol-zh-tw=y
+CONFIG_PACKAGE_luci-theme-argonv3=y
+CONFIG_PACKAGE_luci-theme-material=y
+CONFIG_PACKAGE_mdadm=y
+# CONFIG_PACKAGE_microsocks is not set
+# CONFIG_PACKAGE_naiveproxy is not set
+# CONFIG_PACKAGE_node is not set
+# CONFIG_PACKAGE_nspr is not set
+CONFIG_PACKAGE_ntfs-3g=y
+CONFIG_PACKAGE_openssh-sftp-client=y
+CONFIG_PACKAGE_parted=y
+# CONFIG_PACKAGE_resolveip is not set
+CONFIG_PACKAGE_rt2800-usb-firmware=y
+# CONFIG_PACKAGE_shadowsocks-libev-config is not set
+# CONFIG_PACKAGE_shadowsocks-libev-ss-local is not set
+# CONFIG_PACKAGE_shadowsocks-libev-ss-redir is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-check is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-local is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-server is not set
+# CONFIG_PACKAGE_simple-obfs-client is not set
+CONFIG_PACKAGE_smartmontools=y
+# CONFIG_PACKAGE_tcping is not set
+CONFIG_PACKAGE_uclibcxx=y
+CONFIG_PACKAGE_vim=y
+# CONFIG_PACKAGE_vlmcsd is not set
+# CONFIG_PACKAGE_vsftpd-alt is not set
+CONFIG_PACKAGE_wpa-supplicant=y
+CONFIG_PACKAGE_wpad=m
+CONFIG_PACKAGE_wpad-basic=m
+CONFIG_PACKAGE_wpad-mini=m
+CONFIG_PACKAGE_wpad-openssl=m
+# CONFIG_PACKAGE_xray is not set
+CONFIG_PACKAGE_zsh=y
+CONFIG_TARGET_ROOTFS_PARTSIZE=960

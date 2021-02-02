@@ -1,0 +1,309 @@
+Package: btrfs-progs
+Version: 5.7-1
+Depends: libc, libattr, libuuid1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs
+Source: feeds/packages/utils/btrfs-progs
+SourceName: btrfs-progs
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1612110662
+Maintainer: Karel Kočí <karel.koci@nic.cz>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1073882
+Filename: btrfs-progs_5.7-1_aarch64_cortex-a72.ipk
+Size: 1074345
+SHA256sum: beb07ff7e3f1d423ba7e5b9822c3c3112d4b4d55920d3f093e4fe3291be2180d
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
+Package: ddns-scripts
+Version: 2.7.8-23
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1612110662
+Architecture: all
+Installed-Size: 14745
+Filename: ddns-scripts_2.7.8-23_all.ipk
+Size: 15835
+SHA256sum: 7d15fd38668001ddcc6be8d2a97898ea2c5ceb62415a42e78ccdff62d57a533f
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: https://openwrt.org/docs/guide-user/services/ddns/client
+
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Source: feeds/packages/net/etherwake
+SourceName: etherwake
+Section: net
+SourceDateEpoch: 1612110662
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5286
+Filename: etherwake_1.09-5_aarch64_cortex-a72.ipk
+Size: 6210
+SHA256sum: f193ada966528daa42f43828cf42334f7260a0bf30ad1a5b372c99bb84923c05
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: htop
+Version: 2.2.0-3
+Depends: libc, libncurses6
+Source: feeds/packages/admin/htop
+SourceName: htop
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+SourceDateEpoch: 1612110662
+CPE-ID: cpe:/a:htop:htop
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 65936
+Filename: htop_2.2.0-3_aarch64_cortex-a72.ipk
+Size: 66806
+SHA256sum: b76ad4f80b35836228dcefa2cbdfd13f9883588411cd4ec88548b32387d31daa
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: libattr
+Version: 2.4.48-2
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1612110662
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 6879
+Filename: libattr_2.4.48-2_aarch64_cortex-a72.ipk
+Size: 7691
+SHA256sum: f4fdb30604101b16820e56a0b162b334c955e453ed48c79236ed37c513c95047
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcap
+Version: 2.43-1
+Depends: libc
+Source: feeds/packages/libs/libcap
+SourceName: libcap
+License: GPL-2.0-only
+LicenseFiles: License
+Section: libs
+SourceDateEpoch: 1612110662
+Maintainer: Paul Wassi <p.wassi@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 12299
+Filename: libcap_2.43-1_aarch64_cortex-a72.ipk
+Size: 13036
+SHA256sum: 97fec90f052d3f1f2173bf4a34a4ef27d5a575da9690f8badf0f5a4849439be5
+Description:  Linux capabilities library library
+
+Package: liblzo2
+Version: 2.10-4
+Depends: libc
+Provides: liblzo
+Source: feeds/packages/libs/lzo
+SourceName: liblzo
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1612110662
+Architecture: aarch64_cortex-a72
+Installed-Size: 39094
+Filename: liblzo2_2.10-4_aarch64_cortex-a72.ipk
+Size: 39899
+SHA256sum: 70e7a743fde858fa0f7f1c9b4a293ac1fcfcd0f5cf5f857fb35bc14d3368b773
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
+Package: miniupnpd
+Version: 2.0.20170421-4
+Depends: libc, iptables, libip4tc2, libuuid1
+Source: feeds/packages/net/miniupnpd
+SourceName: miniupnpd
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1612110662
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: aarch64_cortex-a72
+Installed-Size: 58874
+Filename: miniupnpd_2.0.20170421-4_aarch64_cortex-a72.ipk
+Size: 59844
+SHA256sum: 8040aedf69df3fa5dad4cad3d02cbdba3b47e642b1f40d678a459e2976bd492b
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: nlbwmon
+Version: 2020-04-11.1-34a18876-1
+Depends: libc, libubox20191228, libnl-tiny1, zlib, kmod-nf-conntrack-netlink
+Source: feeds/packages/net/nlbwmon
+SourceName: nlbwmon
+License: ISC
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1612110662
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 21057
+Filename: nlbwmon_2020-04-11.1-34a18876-1_aarch64_cortex-a72.ipk
+Size: 21861
+SHA256sum: 3f3f75adf1ceff879dcd035ec035619f7e45126a0c92b5326772a7b9ee9f9ffd
+Description:  LEDE Traffic Usage Monitor
+
+Package: ntfs-3g
+Version: 2017.3.23-4-fuseint
+Depends: libc, kmod-fuse, libpthread
+Source: feeds/packages/utils/ntfs-3g
+SourceName: ntfs-3g
+License: GPL-2.0-only LGPL-2.1-or-later
+LicenseFiles: COPYING COPYING.LIB
+Section: utils
+SourceDateEpoch: 1612110662
+CPE-ID: cpe:/a:ntfs-3g:ntfs-3g
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 186331
+Filename: ntfs-3g_2017.3.23-4-fuseint_aarch64_cortex-a72.ipk
+Size: 187413
+SHA256sum: f6578511823a36ef1479704ae0c245c2d5f09fd6470fc19180dc9ca2c47841b2
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: openssh-sftp-client
+Version: 8.4p1-4
+Depends: libc, libopenssl1.1, zlib
+Source: feeds/packages/net/openssh
+SourceName: openssh-sftp-client
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+SourceDateEpoch: 1612110662
+CPE-ID: cpe:/a:openssh:openssh
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 67017
+Filename: openssh-sftp-client_8.4p1-4_aarch64_cortex-a72.ipk
+Size: 67852
+SHA256sum: 083e8d6addb53655e246e57ad2235106020741e7e449c1a966d57b3c5c228c97
+Description:  OpenSSH SFTP client.
+
+Package: openssh-sftp-server
+Version: 8.4p1-4
+Depends: libc, libopenssl1.1, zlib
+Source: feeds/packages/net/openssh
+SourceName: openssh-sftp-server
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+SourceDateEpoch: 1612110662
+CPE-ID: cpe:/a:openssh:openssh
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 51037
+Filename: openssh-sftp-server_8.4p1-4_aarch64_cortex-a72.ipk
+Size: 51795
+SHA256sum: 7351b76eeba66f9d9f47be745736c8885ff9b20ee4b606f0d168de4ec766d789
+Description:  OpenSSH SFTP server.
+
+Package: smartmontools
+Version: 7.2-1
+Depends: libc, uclibcxx
+Source: feeds/packages/utils/smartmontools
+SourceName: smartmontools
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1612110662
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 191663
+Filename: smartmontools_7.2-1_aarch64_cortex-a72.ipk
+Size: 192551
+SHA256sum: 6ed57538efc7ee164dfc6e7d6b5f94bab5edce2f3097bf15f7f1f2727ca1391e
+Description:  smartmontools contains utility programs (smartctl) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
+
+Package: vim
+Version: 8.2-2
+Depends: libc, libncurses6
+Source: feeds/packages/utils/vim
+SourceName: vim
+Section: utils
+SourceDateEpoch: 1612110662
+CPE-ID: cpe:/a:vim:vim
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: aarch64_cortex-a72
+Installed-Size: 510494
+Filename: vim_8.2-2_aarch64_cortex-a72.ipk
+Size: 510824
+SHA256sum: 884a45b91667fb7a9c648f036f7178c98639f4dbff6e4b62f7606d6555e188d0
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Tiny build)
+
+Package: wget-ssl
+Version: 1.21.1-1
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget, wget
+Alternatives: 300:/usr/bin/wget:/usr/libexec/wget-ssl, 300:/usr/bin/wget-ssl:/usr/libexec/wget-ssl
+Source: feeds/packages/net/wget
+SourceName: wget-ssl
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1612110662
+CPE-ID: cpe:/a:gnu:wget
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 217224
+Filename: wget-ssl_1.21.1-1_aarch64_cortex-a72.ipk
+Size: 217765
+SHA256sum: 1379e82da5d81e069656629f8b7fe424b51ed231ede6e16d8e2fa737ad1c23a8
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: zsh
+Version: 5.8-1
+Depends: libc, libcap, libncurses6, libncursesw6, libpcre, librt
+Source: feeds/packages/utils/zsh
+SourceName: zsh
+License: ZSH
+LicenseFiles: LICENCE
+Section: utils
+SourceDateEpoch: 1612110662
+CPE-ID: cpe:/a:zsh_project:zsh
+Maintainer: Vadim A. Misbakh-Soloviov <openwrt-zsh@mva.name>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1893422
+Filename: zsh_5.8-1_aarch64_cortex-a72.ipk
+Size: 1890964
+SHA256sum: 1b00456fe5926cc35d5188a1e20bf3342f37e099848691596778afd3c358d609
+Description:  Zsh is a UNIX command interpreter (shell) usable as an interactive
+ login  shell  and  as a shell script command processor. Of the standard
+ shells, zsh most closely resembles ksh but includes many enhancements.
+ Zsh has command line editing, builtin spelling correction, programmable
+ command completion, shell functions (with autoloading), a history
+ mechanism, and a host of other features.
+

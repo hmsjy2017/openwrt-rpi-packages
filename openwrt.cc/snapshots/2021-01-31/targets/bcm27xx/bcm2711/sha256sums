@@ -1,0 +1,6 @@
+aed74621045c5280f5ba6d1f8f15a0812688ce20b6d09e238519d1c587698fd3 *config.buildinfo
+8fcbc410ab1e740933a967285c0b6865c5fbe533fbc035fa78f5f021f5ee510e *openwrt-bcm27xx-bcm2711-rpi-4-ext4-factory.img.gz
+0ee0fc30dc5c9e00a4930f37c8d241d35e67f669243037d36c12137cb74ed981 *openwrt-bcm27xx-bcm2711-rpi-4-ext4-sysupgrade.img.gz
+7f0724339fe445c8d7f1953a78cd806c296faaed954b1700edf392ada155bb01 *openwrt-bcm27xx-bcm2711-rpi-4-squashfs-factory.img.gz
+a26f4d76999aa1ca1e25faa52692db806a5ce73750db354716dfe1bef5401ce6 *openwrt-bcm27xx-bcm2711-rpi-4-squashfs-sysupgrade.img.gz
+2045d8ab2f8d1666ef8a36d69534897bc2c9db150c8c4df03f91285d193a662a *openwrt-bcm27xx-bcm2711-rpi-4.manifest
