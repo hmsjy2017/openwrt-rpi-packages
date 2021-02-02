@@ -16,7 +16,8 @@ jobs:
 
       - name: wget
         run: |
-          wget -r -np -nd robots=off http://openwrt.cc /home/runner/work/openwrt-rpi-packages/openwrt-rpi-packages
+          wget http://openwrt.cc/snapshots/ -r -np -nd robots=off /home/runner/work/openwrt-rpi-packages/openwrt-rpi-packages
+
           cd openwrt.cc
           mv * ../
           
