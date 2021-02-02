@@ -16,7 +16,8 @@ jobs:
 
       - name: wget
         run: |
-          wget http://openwrt.cc/snapshots/ -r -np -nd robots=off 
+          chmod +x wget.sh
+          ./wget.sh
           pwd
       - name: commit
         run: |
