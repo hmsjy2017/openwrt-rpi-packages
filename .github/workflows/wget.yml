@@ -1,0 +1,31 @@
+name: wget
+
+on:
+  push:
+    branches: main
+    
+  schedule:
+    - cron: '0 20 * * *'
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: wget
+        run:
+          wget http://openwrt.cc -r -np -e robots=offc /home/runner/work/openwrt-rpi-packages/openwrt-rpi-packages
+
+      - name: commit
+        run: |
+          git config --global user.email 1462668901@qq.com
+          git config --global user.name hmsjy2017
+          git add .
+          git commit -m "update" -a
+        
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
