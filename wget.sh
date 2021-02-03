@@ -1,3 +1,0 @@
-#!/bin/bash
-wget http://openwrt.cc/snapshots/ -r -np -e robots=off
-pwd

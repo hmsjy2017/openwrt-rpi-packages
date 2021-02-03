@@ -1,0 +1,22 @@
+Package: batctl-default
+Version: 2021.0-1
+Depends: libc, libnl-tiny, librt
+Provides: batctl
+Alternatives: 200:/usr/sbin/batctl:/usr/libexec/batctl-default
+Source: feeds/routing/batctl
+SourceName: batctl-default
+License: GPL-2.0-only ISC MIT
+LicenseFiles: LICENSES/preferred/GPL-2.0 LICENSES/preferred/MIT LICENSES/deprecated/ISC
+Section: net
+Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 43395
+Filename: batctl-default_2021.0-1_aarch64_cortex-a72.ipk
+Size: 44417
+SHA256sum: 404e4cf51f9f436ea1c3dd712e78ebdff1424f49f49ad0b63914a7aaae19239a
+Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+ It is an easier method for configuring batman-adv and provides some
+ additional tools for debugging as well. This package builds
+ version 2021.0 of the user space utility.
+ Standard subcommands for configuration and online debugging are enabled.
+

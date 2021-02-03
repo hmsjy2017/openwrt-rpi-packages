@@ -1,0 +1,4211 @@
+Package: 6in4
+Version: 25-1
+Depends: libc, kmod-sit, uclient-fetch
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1707
+Filename: 6in4_25-1_all.ipk
+Size: 2521
+SHA256sum: 91288ab6730b0b72b14850240b4368e85e95e08550f552be36a0cb7292e487a3
+Description:  Provides support for 6in4 tunnels in /etc/config/network.
+ Refer to http://wiki.openwrt.org/doc/uci/network for
+ configuration details.
+
+Package: UnblockNeteaseMusicGo
+Version: 0.2.7-1
+Depends: libc
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 1559324
+Filename: UnblockNeteaseMusicGo_0.2.7-1_aarch64_cortex-a72.ipk
+Size: 1560411
+SHA256sum: 442e19ef04dfccabd4038b8cb9299e9166105372280c9b5c34b078bbbeeba309
+Description:  Revive Netease Cloud Music (Golang)
+
+Package: UnblockNeteaseMusic
+Version: 0.25.3-5
+Depends: libc, node
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 35732
+Filename: UnblockNeteaseMusic_0.25.3-5_all.ipk
+Size: 36548
+SHA256sum: 301e9debce08ee3ef811d4cbf632021b02924fb80db65527abcd7a12ecaa2fe3
+Description:  Revive Netease Cloud Music (NodeJS)
+
+Package: amule
+Version: 2.3.2-3
+Depends: libc, libpng, libpthread, libncurses6, libreadline8, libwxbase, libupnp, libbfd, libcryptopp
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 1431673
+Filename: amule_2.3.2-3_aarch64_cortex-a72.ipk
+Size: 1428187
+SHA256sum: 1c0ff6ffe5b7bf08e6e0d96dcb10a81ca176a0a35914cb2bcb1093445d8207ac
+Description:  A multi-platform eMule-like ed2k client
+
+Package: ar3k-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 548612
+Filename: ar3k-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 549078
+SHA256sum: 04042dbbba201ffd3ed0c5df2d645836a1c0e8cf830c102b612771d26d510345
+Description:  ath3k firmware
+
+Package: ath9k-htc-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 61890
+Filename: ath9k-htc-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 62273
+SHA256sum: 3be253dd094b2eafc1c08eed9513b43f26561a05a89d144b0cc4b04ffbd2927c
+Description:  AR9271/AR7010 firmware
+
+Package: autocore-arm
+Version: 1-36
+Depends: libc, bcm27xx-userland
+Section: opt
+Architecture: aarch64_cortex-a72
+Installed-Size: 6923
+Filename: autocore-arm_1-36_aarch64_cortex-a72.ipk
+Size: 7669
+SHA256sum: 51431d8d67f93240fc8bd3f55febf1f682099235d0067651ad0bcb92a34ad10a
+Description:  A luci autoconfig hotplug script.
+
+Package: automount
+Version: 1-34
+Depends: libc, block-mount, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas, kmod-fs-vfat, kmod-fs-ext4, kmod-fs-exfat, antfs-mount, libblkid1
+Section: opt
+Architecture: aarch64_cortex-a72
+Installed-Size: 692
+Filename: automount_1-34_aarch64_cortex-a72.ipk
+Size: 1452
+SHA256sum: 9b1fd683281fc183cac911d028e49eddcd7317c0caabafe94a5e915440192189
+Description:  A usb autoconfig hotplug script.
+
+Package: b43legacy-firmware
+Version: 3.130.20.0-1
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 16438
+Filename: b43legacy-firmware_3.130.20.0-1_aarch64_cortex-a72.ipk
+Size: 17041
+SHA256sum: 1921dadb42c08178a6ab7bdb87d16e9077d826eaeb32d9156682af6f69d03876
+Description:  Broadcom bcm43xx b43legacy firmware
+
+Package: baidupcs-web
+Version: 3.7.1-2
+Depends: libc
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 6868891
+Filename: baidupcs-web_3.7.1-2_aarch64_cortex-a72.ipk
+Size: 6857178
+SHA256sum: 50230b300cad61ec0ce502436f5e02cc7a42e8ec2ce1ffa89200613afeb75802
+Description:  BaiduPCS-Web is a web controller for BaiduPCS-Go
+
+Package: blkid
+Version: 2.35.1-2
+Depends: libc, libblkid1, libuuid1
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 42216
+Filename: blkid_2.35.1-2_aarch64_cortex-a72.ipk
+Size: 43116
+SHA256sum: 572471caeec0eb08a09c335dfae5512e2241cd879419820de61b17b86b3b9e15
+Description:  The blkid program is the command-line interface to working with the libblkid
+ library.
+
+Package: bnx2-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 705239
+Filename: bnx2-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 705364
+SHA256sum: b4ef39e3084f1be3c210df3bf25ed92d3206d72cb2fbb5dfc14731b22e1a92b1
+Description:  Broadcom BCM5706/5708/5709/5716 firmware
+
+Package: bnx2x-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 9174156
+Filename: bnx2x-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 9141280
+SHA256sum: 18a03405317e17568af036cf57d5d9f419129c24b590e10abb049cf36c818f4a
+Description:  =QLogic 5771x/578xx firmware
+
+Package: brcmfmac-firmware-usb
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 502997
+Filename: brcmfmac-firmware-usb_20201118-3_aarch64_cortex-a72.ipk
+Size: 503665
+SHA256sum: 2e25f175a5a3b9c8604cdad00bd501469deeeef9631c8d52baeb602957dfa48c
+Description:  Broadcom BCM43xx fullmac USB firmware
+
+Package: brook
+Version: 20210101-1
+Depends: libc
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 3936952
+Filename: brook_20210101-1_aarch64_cortex-a72.ipk
+Size: 3926612
+SHA256sum: 32bdbfc3a8bef06a33b37219caeab413538ff9854b4a7338d210d4cef4893543
+Description:  Brook is a cross-platform proxy software
+
+Package: busybox
+Version: 1.31.1-2
+Depends: libc
+License: GPL-2.0
+Section: base
+CPE-ID: cpe:/a:busybox:busybox
+Essential: yes
+Architecture: aarch64_cortex-a72
+Installed-Size: 233666
+Filename: busybox_1.31.1-2_aarch64_cortex-a72.ipk
+Size: 233949
+SHA256sum: bba2a61937feafb7f47d1349bf78c71413c825832ddc50c90b2c08171a38b883
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: bzip2
+Version: 1.0.8-1
+Depends: libc, libbz2-1.0
+License: bzip2-1.0.8
+Section: utils
+CPE-ID: cpe:/a:bzip:bzip2
+Architecture: aarch64_cortex-a72
+Installed-Size: 12306
+Filename: bzip2_1.0.8-1_aarch64_cortex-a72.ipk
+Size: 13092
+SHA256sum: c2f210be8ee88e0d5b4a4a2689a8365f4bc17142d123e98866bd39e15a8717cf
+Description:  bzip2 is a freely available, patent free, high-quality
+ data compressor. This package provides the binary.
+
+Package: ca-bundle
+Version: 20200601-1
+Depends: libc
+Provides: ca-certs
+Section: base
+Architecture: all
+Installed-Size: 115562
+Filename: ca-bundle_20200601-1_all.ipk
+Size: 116369
+SHA256sum: 8f40e2e702c72c3c85bd8a24396649c134e97d3afb2c82f050891ad4c9475b29
+Description:  System CA certificates as a bundle
+
+Package: ca-certificates
+Version: 20200601-1
+Depends: libc
+Provides: ca-certs
+Section: base
+Architecture: all
+Installed-Size: 125101
+Filename: ca-certificates_20200601-1_all.ipk
+Size: 125824
+SHA256sum: e01a639fb0f847378712f962e9f40079da6346d968af87417d1c99da8fc77d67
+Description:  System CA certificates
+
+Package: carl9170-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 9771
+Filename: carl9170-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 10511
+SHA256sum: 5b826e0df601406bbe935c8d880c690c5bd484663dcb5d97ca71d4b04e8ecd64
+Description:  AR9170 firmware
+
+Package: chat
+Version: 2.4.8-5
+Depends: libc
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: aarch64_cortex-a72
+Installed-Size: 9638
+Filename: chat_2.4.8-5_aarch64_cortex-a72.ipk
+Size: 10439
+SHA256sum: 2df13f2c383c311c2f49cd95d64dea0519f0a8caa6dfead8915fb38a7e1e89d4
+Description:  This package contains an utility to establish conversation with other PPP servers
+ (via a modem).
+
+Package: chinadns-ng
+Version: 1.0-beta.23-1
+Depends: libc, ipset
+License: GPLv3
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 17247
+Filename: chinadns-ng_1.0-beta.23-1_aarch64_cortex-a72.ipk
+Size: 18033
+SHA256sum: 7f056ebf6c46fbf2d8ea1f19a17a9b3d3d26b5ef0b44abbea2a8a2d5fbaee454
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: coremark
+Version: 2020-05-28-7685fd32-15
+Depends: libc
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 8666
+Filename: coremark_2020-05-28-7685fd32-15_aarch64_cortex-a72.ipk
+Size: 9445
+SHA256sum: 3d4b0f5d745e0b241236d6afb09ee388d11998623ae5d3e6284a48d17fdb84c7
+Description:  Embedded Microprocessor Benchmark
+
+Package: curl
+Version: 7.71.0-1
+Depends: libc, libcurl4
+License: MIT
+Section: net
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_cortex-a72
+Installed-Size: 53384
+Filename: curl_7.71.0-1_aarch64_cortex-a72.ipk
+Size: 54190
+SHA256sum: f523c3a06dc8a7f349ee251797407017e652e33c854a1a8c04b79091e0b13220
+Description:  A client-side URL transfer utility
+
+Package: cypress-firmware-43455-sdio
+Version: v5.4.18-2020_0402-3
+Depends: libc
+Conflicts: brcmfmac-firmware-43455-sdio
+Provides: brcmfmac-firmware-43455-sdio
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 428216
+Filename: cypress-firmware-43455-sdio_v5.4.18-2020_0402-3_aarch64_cortex-a72.ipk
+Size: 429117
+SHA256sum: 1e067b76e677abb990b75676909110c4b9b9ee29dff9cb9e6fa996afd8728815
+Description:  CYW43455 FullMac SDIO firmware
+
+Package: cypress-nvram-43455-sdio-rpi-4b
+Version: 2019-09-03-e7b78df2-2
+Depends: libc
+Conflicts: brcmfmac-firmware-43455-sdio-rpi-4b
+Provides: brcmfmac-firmware-43455-sdio-rpi-4b
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 1082
+Filename: cypress-nvram-43455-sdio-rpi-4b_2019-09-03-e7b78df2-2_aarch64_cortex-a72.ipk
+Size: 1890
+SHA256sum: e2498973a726a5ea8c43a236f438607b8e4f9bf2c86fe92a9efc895679cc63ff
+Description:  CYW43455 NVRAM for Raspberry Pi 4B
+
+Package: ddns-scripts_aliyun
+Version: 1.0.3-1
+Depends: libc, ddns-scripts, wget, openssl-util
+License: GPLv2
+Section: net
+Architecture: all
+Installed-Size: 3728
+Filename: ddns-scripts_aliyun_1.0.3-1_all.ipk
+Size: 4795
+SHA256sum: 9d8fa34823490c379711708612f697a15a837c7df7141d291067d4d2c9fcb93c
+Description:  Dynamic DNS Client scripts extension for AliYun.com
+
+Package: ddns-scripts_dnspod
+Version: 1.0.2-1
+Depends: libc, ddns-scripts, wget, ca-certificates
+License: GPLv2
+Section: net
+Architecture: all
+Installed-Size: 2581
+Filename: ddns-scripts_dnspod_1.0.2-1_all.ipk
+Size: 3678
+SHA256sum: b756e413d0c288004ef43e8292d9ae316fcd04c55e61ae172062a6e0b0ad340d
+Description:  Dynamic DNS Client scripts extension for Dnspod.com/Dnspod.cn
+
+Package: default-settings
+Version: 2-9
+Depends: libc, luci-base, luci, luci-compat
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 1941
+Filename: default-settings_2-9_all.ipk
+Size: 2674
+SHA256sum: bfb266e2f6130662933be3045e1b640a4c82ffed06097173779efbf371e45f9e
+Description:  Language Support Packages.
+
+Package: dns2socks
+Version: 2.1-1
+Depends: libc, libpthread
+License: GPL-3.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 11376
+Filename: dns2socks_2.1-1_aarch64_cortex-a72.ipk
+Size: 12165
+SHA256sum: 1cfc991378cbafa1354c74de97753ae9118e82fede01018da6d15c6b8eb2eb82
+Description:  This is a utility to resolve DNS requests via a SOCKS5 tunnel and caches the answers.
+
+Package: dnsmasq-full
+Version: 2.84-1
+Depends: libc, libubus20191227, kmod-ipt-ipset
+Provides: dnsmasq
+License: GPL-2.0
+Section: net
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: aarch64_cortex-a72
+Installed-Size: 135676
+Filename: dnsmasq-full_2.84-1_aarch64_cortex-a72.ipk
+Size: 136441
+SHA256sum: 0bb4a32dadfc7c879d959af5ec6d5c768230e916f014e0c9de6288f5d5e516d5
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
+ and IPset, Conntrack support & NO_ID enabled by default.
+
+Package: dropbear
+Version: 2020.80-1
+Depends: libc
+Alternatives: 100:/usr/bin/ssh:/usr/sbin/dropbear, 100:/usr/bin/scp:/usr/sbin/dropbear
+License: MIT
+Section: net
+CPE-ID: cpe:/a:matt_johnston:dropbear_ssh_server
+Architecture: aarch64_cortex-a72
+Installed-Size: 102022
+Filename: dropbear_2020.80-1_aarch64_cortex-a72.ipk
+Size: 102863
+SHA256sum: 41f8ae61ff0cf762a67bb2b6feaddb50383fc1a55e085991d694bfbd965e1668
+Description:  A small SSH2 server/client designed for small memory environments.
+
+Package: e100-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 839
+Filename: e100-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 1569
+SHA256sum: eef6c7ede519f432c4fd712e4d204d551075363c3e3d5eb74372de3917bfba6f
+Description:  Intel e100
+
+Package: e2fsprogs
+Version: 1.45.6-1
+Depends: libc, libuuid1, libext2fs2
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 186543
+Filename: e2fsprogs_1.45.6-1_aarch64_cortex-a72.ipk
+Size: 187287
+SHA256sum: 4265e41992985f38fcbfd2dcbdb0353d234874e8f4f31443ead2463f6f3c9536
+Description:  This package contains essential ext2 filesystem utilities which consists of
+ e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
+
+Package: edgeport-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 18909
+Filename: edgeport-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 19574
+SHA256sum: 42d2292b60315c5afcbb5615d997166aa5b8faaa8d561e32745d98cee5b80ce4
+Description:  USB Inside Out Edgeport Serial Driver firmware
+
+Package: f2fs-tools
+Version: 1.13.0-1
+Depends: libc, libf2fs6, mkf2fs, f2fsck
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 7625
+Filename: f2fs-tools_1.13.0-1_aarch64_cortex-a72.ipk
+Size: 8413
+SHA256sum: 6a92593636d247b1e95719d5269ab516617b6a5d8d14c7b5c5a6f52712480e71
+Description:  Tools for Flash-Friendly File System (F2FS)
+
+Package: f2fsck
+Version: 1.13.0-1
+Depends: libc, libf2fs6
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 75396
+Filename: f2fsck_1.13.0-1_aarch64_cortex-a72.ipk
+Size: 76193
+SHA256sum: 8797a03529a9a0b31671fabbb896583803e41f4e3fde794df8f664964140bfa8
+Description:  Utility for checking/repairing a Flash-Friendly File System (F2FS)
+
+Package: fdisk
+Version: 2.35.1-2
+Depends: libc, libblkid1, libsmartcols1, libfdisk1, libncursesw6
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 53729
+Filename: fdisk_2.35.1-2_aarch64_cortex-a72.ipk
+Size: 54554
+SHA256sum: b5ca7d2e59dfddce91913426cd55732a44ba99ae9b4c3c3f32edf40fce441042
+Description:  a menu-driven program for creation and manipulation of partition tables
+
+Package: firewall
+Version: 2019-11-22-8174814a-1
+Depends: libc, libubox20191228, libubus20191227, libuci, libip4tc2, libip6tc2, libxtables12, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat, iptables-mod-fullconenat
+License: ISC
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 52664
+Filename: firewall_2019-11-22-8174814a-1_aarch64_cortex-a72.ipk
+Size: 53379
+SHA256sum: 7325bf32a603ae036c2bd63ed4417fedfe6860eb86d58a9f3148ba6d39bc9159
+Description:  This package provides a config-compatible C implementation of the UCI firewall.
+
+Package: frpc
+Version: 0.34.3-1
+Depends: libc
+License: Apache-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 2416008
+Filename: frpc_0.34.3-1_aarch64_cortex-a72.ipk
+Size: 2417377
+SHA256sum: d26bfa6848c50d02940fdfde52cf68e442356b0989294dfd3baf794698a1dba3
+Description:  frp is a fast reverse proxy to help you expose a local server behind a NAT or firewall
+ to the internet. As of now, it supports tcp & udp, as well as http and https protocols,
+ where requests can be forwarded to internal services by domain name.
+ 
+ This package contains the frpc.
+
+Package: frps
+Version: 0.34.3-1
+Depends: libc
+License: Apache-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 3061237
+Filename: frps_0.34.3-1_aarch64_cortex-a72.ipk
+Size: 3062713
+SHA256sum: 15edf36748901cf5cde433160d42ef3fb1ebcb25bd3b8db6d467b8987ac28ec6
+Description:  frp is a fast reverse proxy to help you expose a local server behind a NAT or firewall
+ to the internet. As of now, it supports tcp & udp, as well as http and https protocols,
+ where requests can be forwarded to internal services by domain name.
+ 
+ This package contains the frps.
+
+Package: fstrim
+Version: 2.35.1-2
+Depends: libc, libblkid1, libuuid1, libsmartcols1, libmount1
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 24857
+Filename: fstrim_2.35.1-2_aarch64_cortex-a72.ipk
+Size: 25717
+SHA256sum: 728533e74db346be7849e7050ce0720c4feda33809317ad2c6af51b01869dffb
+Description:  fstrim is used on a mounted filesystem to discard (or "trim") blocks
+ which are not in use by the filesystem.  This is useful for solid-
+ state drives (SSDs) and thinly-provisioned storage.
+
+Package: getrandom
+Version: 2019-12-31-0e34af14-4
+Depends: libc
+License: GPL-2.0
+Section: base
+Architecture: aarch64_cortex-a72
+Installed-Size: 1645
+Filename: getrandom_2019-12-31-0e34af14-4_aarch64_cortex-a72.ipk
+Size: 2402
+SHA256sum: 6d8ce9c8afca4e74d3623a853eb09abae8f4f4b9b0a353881fbffabd0d016a99
+Description:  OpenWrt getrandom system helper
+
+Package: gotop
+Version: 4.1.0-1
+Depends: libc
+License: MIT
+Section: admin
+Architecture: aarch64_cortex-a72
+Installed-Size: 800099
+Filename: gotop_4.1.0-1_aarch64_cortex-a72.ipk
+Size: 801114
+SHA256sum: 6e7e9db91ca4a51487eab0a57fa74496660de675f94fa40a4f0eb354601a5662
+Description:  Another terminal based graphical activity monitor,
+ inspired by gtop and vtop, this time written in Go!
+
+Package: gowebdav
+Version: 0.0.1-1
+Depends: libc
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 1359746
+Filename: gowebdav_0.0.1-1_aarch64_cortex-a72.ipk
+Size: 1360838
+SHA256sum: 98cd535ed865713454f9e45591f3e9b1044b6470e3dd9cf61cda36d09422a8f0
+Description:  A simple WebDav server written in Golang.
+
+Package: hostapd-common
+Version: 2020-06-08-5a8b3662-22
+Depends: libc
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:w1.fi:hostapd
+Architecture: aarch64_cortex-a72
+Installed-Size: 10356
+Filename: hostapd-common_2020-06-08-5a8b3662-22_aarch64_cortex-a72.ipk
+Size: 11137
+SHA256sum: 2cfe0e3af15d310f1d07e0fed02055b76728ad8b6e5d247caa52e3ce3e7ad27d
+Description:  hostapd/wpa_supplicant common support files
+
+Package: ip-full
+Version: 5.7.0-2
+Depends: libc, libnl-tiny, libelf1
+Provides: ip
+Alternatives: 300:/sbin/ip:/usr/libexec/ip-full
+License: GPL-2.0
+Section: net
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Architecture: aarch64_cortex-a72
+Installed-Size: 207601
+Filename: ip-full_5.7.0-2_aarch64_cortex-a72.ipk
+Size: 208318
+SHA256sum: 67ca7895441f1a3e29574a064cc05d42e2bbe22f49aba83c98e929cf1c20aa5b
+Description:  Routing control utility (Full)
+
+Package: iperf
+Version: 2.0.13-2
+Depends: libc, uclibcxx, libpthread
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 45007
+Filename: iperf_2.0.13-2_aarch64_cortex-a72.ipk
+Size: 45799
+SHA256sum: a83ba67c2b0f3a57a586fddde895b3e2d7b9e2c6d6c3a9207e90480f4d36ed7b
+Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
+ performance, allowing the tuning of various parameters and
+ characteristics.
+
+Package: ipset
+Version: 7.4-1
+Depends: libc, kmod-ipt-ipset, libmnl0, libipset13
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 1335
+Filename: ipset_7.4-1_aarch64_cortex-a72.ipk
+Size: 2104
+SHA256sum: f3527dc7ce2f9b38725cdf1fd08ea2da682ea8da4fc799265ad7f3fbeeab3c43
+Description:  IPset administration utility
+
+Package: ipt2socks
+Version: 1.1.3-1
+Depends: libc
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 34643
+Filename: ipt2socks_1.1.3-1_aarch64_cortex-a72.ipk
+Size: 35441
+SHA256sum: 76dfa8b9a59dad8f73cd081939b8536dbe37fdc04615aa072e6ec87516e41f5d
+Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
+
+Package: iptables-mod-fullconenat
+Version: 2019-10-21-0cf3b48f-3
+Depends: libc, iptables, kmod-ipt-fullconenat
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 2476
+Filename: iptables-mod-fullconenat_2019-10-21-0cf3b48f-3_aarch64_cortex-a72.ipk
+Size: 3232
+SHA256sum: 8c95ae6a7afaedbbac4336967b133d2a753e8f77db6856a52a53adb079ebd755
+Description:  FULLCONENAT iptables extension
+
+Package: ipv6helper
+Version: 1.0-2
+Depends: libc, luci-proto-ipv6, wget, ip6tables, libip6tc2, kmod-ipt-nat6, odhcpd-ipv6only, odhcp6c, 6in4
+License: GPLv3
+Section: ipv6
+Architecture: all
+Installed-Size: 411
+Filename: ipv6helper_1.0-2_all.ipk
+Size: 1298
+SHA256sum: 32ef281aa8c52bc959b7e2825af1182f651951b3157b4336c1a2dd3a2f48f56d
+Description:  IPv6 Helper and Dynamic Update he.net of ip
+
+Package: iw
+Version: 5.8-1
+Depends: libc, libnl-tiny
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 43318
+Filename: iw_5.8-1_aarch64_cortex-a72.ipk
+Size: 44047
+SHA256sum: 8e1f358afe05f34797a61f45f668a195148b22f073f1d9a786e6529c730ac7e1
+Description:  cfg80211 interface configuration utility
+
+Package: iwl3945-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 63583
+Filename: iwl3945-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 64214
+SHA256sum: c5b92cfb3486a5961dc74fa34ba79263330063bbe459aa1beebd987ad88ecbf8
+Description:  Intel IWL3945 firmware
+
+Package: iwl4965-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 78628
+Filename: iwl4965-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 79206
+SHA256sum: 85f059620584e91d3cf73215d3b80bf0f3cd56b03c8e2827a53a40649c953ebd
+Description:  Intel IWL4965 firmware
+
+Package: jshn
+Version: 2020-05-25-66195aee-1
+Depends: libc, libjson-c4, libubox20191228, libblobmsg-json
+License: ISC
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 6687
+Filename: jshn_2020-05-25-66195aee-1_aarch64_cortex-a72.ipk
+Size: 7474
+SHA256sum: b63be7a247bc8cbe6318673d3a435fa26436d26923a35854c4dd053e69cb60fd
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libubox20191228, libjson-c4
+License: ISC
+Section: base
+Architecture: aarch64_cortex-a72
+Installed-Size: 10353
+Filename: jsonfilter_2018-02-04-c7e938d6-1_aarch64_cortex-a72.ipk
+Size: 11086
+SHA256sum: ed98acdf7a5baa2d5400d068c4495e297fdd6a8447dbddbc979260c31e4ef2fe
+Description:  OpenWrt JSON filter utility
+
+Package: kcptun-client
+Version: 20210103-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 2324659
+Filename: kcptun-client_20210103-1_aarch64_cortex-a72.ipk
+Size: 2317089
+SHA256sum: ee8ca0bded771f462d597dcf1faf71e2c0538d124ee27b2ac45f97b4a1defab7
+Description:  A Stable & Secure Tunnel Based On KCP with N:M Multiplexing.
+ 
+ This package contains the kcptun client.
+
+Package: libbfd
+Version: 2.27-1
+Depends: libc, zlib
+License: GPL-3.0+
+Section: libs
+CPE-ID: cpe:/a:gnu:binutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 394530
+Filename: libbfd_2.27-1_aarch64_cortex-a72.ipk
+Size: 393138
+SHA256sum: 44c3be963ddf87d1f6de27b76012c1aae4a69f3ea894cc58d6ea0d8eac4ab0cb
+Description:  libbfd
+
+Package: libblkid1
+Version: 2.35.1-2
+Depends: libc, libuuid1
+Provides: libblkid
+License: GPL-2.0
+Section: libs
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 131809
+Filename: libblkid1_2.35.1-2_aarch64_cortex-a72.ipk
+Size: 132732
+SHA256sum: 2ca9aef3b05772359006f190866a9e49e8a9a995afb478df01a7a63d83f048e9
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
+
+Package: libblobmsg-json
+Version: 2020-05-25-66195aee-1
+Depends: libc, libjson-c4, libubox20191228
+License: ISC
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 4016
+Filename: libblobmsg-json_2020-05-25-66195aee-1_aarch64_cortex-a72.ipk
+Size: 4747
+SHA256sum: 77db500199e760108aabc0580458f64e05ebb764630594559bd3a0c94adef80b
+Description:  blobmsg <-> json conversion library
+
+Package: libbz2-1.0
+Version: 1.0.8-1
+Depends: libc
+Provides: libbz2
+License: bzip2-1.0.8
+Section: libs
+CPE-ID: cpe:/a:bzip:bzip2
+Architecture: aarch64_cortex-a72
+Installed-Size: 26269
+Filename: libbz2-1.0_1.0.8-1_aarch64_cortex-a72.ipk
+Size: 27041
+SHA256sum: 261f4a89d015f3423d8e8d78736821480f8044a267f2ae6351a90941c92d1d8a
+Description:  bzip2 is a freely available, patent free, high-quality
+ data compressor. This packages provides libbz2 library.
+
+Package: libcomerr0
+Version: 1.45.6-1
+Depends: libc, libuuid1
+Provides: libcomerr
+License: GPL-2.0
+Section: libs
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 4226
+Filename: libcomerr0_1.45.6-1_aarch64_cortex-a72.ipk
+Size: 4999
+SHA256sum: daa47a8b743acd705f2235c86a47ecc22ffd9d92d3360ecd1ad719b913d0475f
+Description:  This package contains libcom_err, the common error description library
+ bundled with e2fsprogs.
+
+Package: libcryptopp
+Version: 5.6.4-1
+Depends: libc, libpthread, libstdcpp6
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 1257796
+Filename: libcryptopp_5.6.4-1_aarch64_cortex-a72.ipk
+Size: 1235139
+SHA256sum: 783661e52585bcf66509f23006fce8689d49b1db77aa229285cc2ce2497dcfa0
+Description:  Crypto++ is library for creating C++ programs which use cryptographic algorithms
+
+Package: libcurl4
+Version: 7.71.0-1
+Depends: libc, libmbedtls12, ca-bundle
+Provides: libcurl
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_cortex-a72
+Installed-Size: 138879
+Filename: libcurl4_7.71.0-1_aarch64_cortex-a72.ipk
+Size: 139687
+SHA256sum: a0c4e9aa7bba922b7864e5e6c89105cb19ad0e4e65049109ac5113583f03732b
+Description:  A client-side URL transfer library
+
+Package: libelf1
+Version: 0.179-1
+Depends: libc, zlib
+Provides: libelf, libelf1-1
+License: GPL-3.0-or-later
+Section: libs
+CPE-ID: cpe:/a:elfutils_project:elfutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 41067
+Filename: libelf1_0.179-1_aarch64_cortex-a72.ipk
+Size: 41966
+SHA256sum: 97aa13ba078b3461e0c6f9b298554d6313b17d71f1950211aa66f82d9d786663
+Description:  ELF manipulation libraries (libelf)
+
+Package: libertas-sdio-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 348572
+Filename: libertas-sdio-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 349470
+SHA256sum: 0a30c36080fff8c0c6452fbafce78400e754d46142ecd4cd939425cedaf1fff8
+Description:  Marvell 8385/8686/8688 SDIO firmware
+
+Package: libertas-spi-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 92260
+Filename: libertas-spi-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 93079
+SHA256sum: fdbaf29c58c6989123d1c6583b6da1e5ae59d33284d269a84f707ca1129af79f
+Description:  Marvell 8686 SPI firmware
+
+Package: libertas-usb-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 216585
+Filename: libertas-usb-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 217328
+SHA256sum: 28d164ffcba3b1e807c218d2c3fb59cdb6081d7babc16ae8ad6ec72d660764a4
+Description:  Marvell 8388/8682 USB firmware
+
+Package: libevent2-7
+Version: 2.1.11-2
+Depends: libc
+Provides: libevent2
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_cortex-a72
+Installed-Size: 105062
+Filename: libevent2-7_2.1.11-2_aarch64_cortex-a72.ipk
+Size: 106115
+SHA256sum: 67141c5332af8ec37144793d6645806ba4b4259ed2b055c258cef8155df0631f
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent shared library historically
+ containing both the core & extra libraries.
+
+Package: libext2fs2
+Version: 1.45.6-1
+Depends: libc, libuuid1, libblkid1, libss2, libcomerr0
+Provides: libext2fs
+License: GPL-2.0
+Section: libs
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 181427
+Filename: libext2fs2_1.45.6-1_aarch64_cortex-a72.ipk
+Size: 181913
+SHA256sum: 9f25913d83c188fa63260a4f8f699df52cac3347e555156b329401651502677c
+Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+
+Package: libf2fs6
+Version: 1.13.0-1
+Depends: libc, libuuid1
+Provides: libf2fs
+License: GPL-2.0
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 39074
+Filename: libf2fs6_1.13.0-1_aarch64_cortex-a72.ipk
+Size: 39780
+SHA256sum: 7f3e5c6a3bbc0940d1031bf9b02b6abcef404dcdde08e0c66558be0f10414496
+Description:  Library for Flash-Friendly File System (F2FS) tools
+
+Package: libfdisk1
+Version: 2.35.1-2
+Depends: libc, libuuid1, libblkid1
+Provides: libfdisk
+License: GPL-2.0
+Section: libs
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 160387
+Filename: libfdisk1_2.35.1-2_aarch64_cortex-a72.ipk
+Size: 161176
+SHA256sum: af3ecd5243a043f0a7b69f5eef402350885c9edfe6f55f859383a9a1bfaf4a02
+Description:  The libfdisk library is used for manipulating with partition tables.
+
+Package: libgmp10
+Version: 6.1.2-2
+Depends: libc
+Provides: libgmp
+License: GPL-2.0+
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 215084
+Filename: libgmp10_6.1.2-2_aarch64_cortex-a72.ipk
+Size: 215858
+SHA256sum: 8dac32229daa30f0fbdd260055723816162a38c750114de3198041565a28d983
+Description:  GMP is a free library for arbitrary precision arithmetic, operating on
+ signed integers, rational numbers, and floating point numbers.
+
+Package: libiconv-full2
+Version: 1.11.1-4
+Depends: libc
+Provides: libiconv-full
+License: LGPL-2.0
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 13029
+Filename: libiconv-full2_1.11.1-4_aarch64_cortex-a72.ipk
+Size: 13758
+SHA256sum: d2e2f0e2d30be7596cd4360025be65498591ca3de4ab41ebd442c8a9da65f595
+Description:  Character set conversion library
+
+Package: libipset13
+Version: 7.4-1
+Depends: libc, kmod-ipt-ipset, libmnl0
+Provides: libipset
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 47540
+Filename: libipset13_7.4-1_aarch64_cortex-a72.ipk
+Size: 48153
+SHA256sum: feea50633834149bce4ffa159fc4892a2bbe165608d98c9229e86a137a771970
+Description:  IPset administration utility
+
+Package: libjson-c4
+Version: 0.13.1-2
+Depends: libc
+Provides: libjson-c
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:json-c_project:json-c
+Architecture: aarch64_cortex-a72
+Installed-Size: 25394
+Filename: libjson-c4_0.13.1-2_aarch64_cortex-a72.ipk
+Size: 26100
+SHA256sum: 830d235f57923e4219f0b247142b43f385e9110b3ae9b425b8882d4b793fc515
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script
+Version: 2020-05-25-66195aee-1
+Depends: libc, libubox20191228
+License: ISC
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 5555
+Filename: libjson-script_2020-05-25-66195aee-1_aarch64_cortex-a72.ipk
+Size: 6292
+SHA256sum: ab6b4cd3e90a91e8e8619150648ac93f5c838afe673e4834d07943ed07a8430b
+Description:  Minimalistic JSON based scripting engine
+
+Package: libltdl7
+Version: 2.4.6-2
+Depends: libc
+Provides: libltdl
+License: GPL-2.0+
+Section: libs
+CPE-ID: cpe:/a:gnu:libtool
+Architecture: aarch64_cortex-a72
+Installed-Size: 15265
+Filename: libltdl7_2.4.6-2_aarch64_cortex-a72.ipk
+Size: 16000
+SHA256sum: 0d510f67d480ee8285280f89a8d99fba84c6dffb6c0c308af5dbed1ed55b23af
+Description:  A generic dynamic object loading library
+
+Package: liblua5.1.5
+Version: 5.1.5-7
+Depends: libc
+Provides: liblua
+License: MIT
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 78585
+Filename: liblua5.1.5_5.1.5-7_aarch64_cortex-a72.ipk
+Size: 79422
+SHA256sum: cec11b20621ea0cbd0f9d03aca3812e1f29bbe069fefbf3c06198596f445adad
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: liblua5.3-5.3
+Version: 5.3.5-4
+Depends: libc
+Provides: liblua5.3
+License: MIT
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 96703
+Filename: liblua5.3-5.3_5.3.5-4_aarch64_cortex-a72.ipk
+Size: 97381
+SHA256sum: 2878d9efb3f76eaa914a1e9792ed385493e093ddd269af72551ba89946bb48f3
+Description:  
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: liblzo2
+Version: 2.10-2
+Depends: libc
+Provides: liblzo
+License: GPL-2.0+
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 39138
+Filename: liblzo2_2.10-2_aarch64_cortex-a72.ipk
+Size: 39926
+SHA256sum: 73772b4086976462a865829d3f08efa8318d0531ee58cb06a7ab550444e2c20a
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
+Package: libmbedtls12
+Version: 2.16.7-1
+Depends: libc
+Provides: libmbedtls
+License: GPL-2.0-or-later
+Section: libs
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: aarch64_cortex-a72
+Installed-Size: 196983
+Filename: libmbedtls12_2.16.7-1_aarch64_cortex-a72.ipk
+Size: 197485
+SHA256sum: 46e123df4d621b425c6cdf2bf8544ec8f5a84893c8002a1307c2f728bc395a97
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libmnl0
+Version: 1.0.4-2
+Depends: libc
+Provides: libmnl
+License: LGPL-2.1+
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 7277
+Filename: libmnl0_1.0.4-2_aarch64_cortex-a72.ipk
+Size: 8520
+SHA256sum: ebcaa0c936396e29b5b1990034be7e8c7a9ffabc7a89246a01318bdf0436dc7a
+Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
+ There are a lot of common tasks in parsing, validating, constructing of
+ both the Netlink header and TLVs that are repetitive and easy to get wrong.
+ This library aims to provide simple helpers that allows you to re-use code
+ and to avoid re-inventing the wheel. The main features of this library are:
+ .
+ * Small: the shared library requires around 30KB for an x86-based computer.
+ .
+ * Simple: this library avoids complexity and elaborated abstractions that
+ tend to hide Netlink details.
+ .
+ * Easy to use: the library simplifies the work for Netlink-wise developers.
+ It provides functions to make socket handling, message building, validating,
+ parsing and sequence tracking, easier.
+ .
+ * Easy to re-use: you can use the library to build your own abstraction layer
+ on top of this library.
+ .
+ * Decoupling: the interdependency of the main bricks that compose the library
+ is reduced, i.e. the library provides many helpers, but the programmer is not
+ forced to use them.
+
+Package: libmount1
+Version: 2.35.1-2
+Depends: libc, libblkid1
+Provides: libmount
+License: GPL-2.0
+Section: libs
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 144740
+Filename: libmount1_2.35.1-2_aarch64_cortex-a72.ipk
+Size: 145553
+SHA256sum: 402279f90b5450938dfac41f79efa046f0a7301984fa4823d5f2c44077e5c778
+Description:  The libmount library is used to parse /etc/fstab, /etc/mtab and
+ /proc/self/mountinfo files, manage the mtab file, evaluate mount options...
+
+Package: libmsgpack-c
+Version: 3.3.0-1
+Depends: libc
+License: BSL-1.0
+Section: lib
+Architecture: aarch64_cortex-a72
+Installed-Size: 17784
+Filename: libmsgpack-c_3.3.0-1_aarch64_cortex-a72.ipk
+Size: 18476
+SHA256sum: 91c629d74882f97962581288874c2992c276a777740e30156a40aad76985308f
+Description:  MessagePack is an efficient binary serialization format, which lets you exchange data among multiple languages like JSON, except that it's faster and smaller. Small integers are encoded into a single byte and short strings require only one extra byte in addition to the strings themselves.
+
+Package: libncurses6
+Version: 6.2-1
+Depends: libc, terminfo
+Provides: libncursesw, libncurses, libncursesw6
+License: MIT
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 184732
+Filename: libncurses6_6.2-1_aarch64_cortex-a72.ipk
+Size: 183925
+SHA256sum: 2a4e9123dc03fab0017dbdc5ffb62afaa42332d82d0f41064bd66c1bf888e7d1
+Description:  Terminal handling library (Unicode)
+
+Package: libnettle7
+Version: 3.5.1-2
+Depends: libc, libgmp10
+Provides: libnettle
+License: GPL-2.0+
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 257183
+Filename: libnettle7_3.5.1-2_aarch64_cortex-a72.ipk
+Size: 257261
+SHA256sum: 9e9e83a65eb7d823e3a43fb457b8fe40052557dd06f892f1cb9516633538cb19
+Description:  GNU crypto library
+
+Package: libnftnl12
+Version: 1.1.5-1
+Depends: libc, libmnl0
+Provides: libnftnl
+License: GPL-2.0+
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 62178
+Filename: libnftnl12_1.1.5-1_aarch64_cortex-a72.ipk
+Size: 62907
+SHA256sum: e1a842bcb2338bf90f40756c39770f3cf3c4256947ae3ea17c48132ee4650105
+Description:  libnftnl is a userspace library providing a low-level netlink
+ programming interface (API) to the in-kernel nf_tables subsystem.
+
+Package: libnghttp2-14
+Version: 1.41.0-1
+Depends: libc
+Provides: libnghttp2
+License: MIT
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 66851
+Filename: libnghttp2-14_1.41.0-1_aarch64_cortex-a72.ipk
+Size: 65775
+SHA256sum: cdc29e126a666ca3aa08d00589a48b40d794884efd675404b69d149832c70622
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libnl-tiny
+Version: 2019-10-29-0219008c-1
+Depends: libc
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 16864
+Filename: libnl-tiny_2019-10-29-0219008c-1_aarch64_cortex-a72.ipk
+Size: 17578
+SHA256sum: 83b3e9af95fd545a6c0e918d478af497d6293fe8fcb2ecf08b06d81d3238b01a
+Description:  This package contains a stripped down version of libnl
+
+Package: libopenssl-conf
+Version: 1.1.1i-1
+Depends: libc, libopenssl1.1
+License: OpenSSL
+Section: libs
+CPE-ID: cpe:/a:openssl:openssl
+Architecture: aarch64_cortex-a72
+Installed-Size: 4784
+Filename: libopenssl-conf_1.1.1i-1_aarch64_cortex-a72.ipk
+Size: 5772
+SHA256sum: 87a2cc3dd3b9f96372502510cf26ceedd8210ec026ddec8857683e07431262e6
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
+
+Package: libopenssl1.1
+Version: 1.1.1i-1
+Depends: libc, kmod-crypto-user, kmod-cryptodev
+Provides: libopenssl
+License: OpenSSL
+Section: libs
+CPE-ID: cpe:/a:openssl:openssl
+Architecture: aarch64_cortex-a72
+Installed-Size: 1507413
+Filename: libopenssl1.1_1.1.1i-1_aarch64_cortex-a72.ipk
+Size: 1498497
+SHA256sum: 7f52067df5a35e292382cb6a1dbef2625b47f90695474ce01a3cfd495d5c7437
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libpcap1
+Version: 1.9.1-2
+Depends: libc
+Provides: libpcap
+License: BSD-3-Clause
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 101620
+Filename: libpcap1_1.9.1-2_aarch64_cortex-a72.ipk
+Size: 102378
+SHA256sum: 85de74d4ab8ca9c85daf48e11a2edf7b5a70d9c2dbcd4247914fac07e09822c8
+Description:  This package contains a system-independent library for user-level network packet
+ capture.
+
+Package: libpcre
+Version: 8.44-2
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: aarch64_cortex-a72
+Installed-Size: 81052
+Filename: libpcre_8.44-2_aarch64_cortex-a72.ipk
+Size: 81868
+SHA256sum: 8118f0ac63230d30c38d893ac67db195971b6e80252a91bcd1f9b15a796fa11c
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpopt0
+Version: 1.16-2
+Depends: libc
+Provides: libpopt
+License: MIT
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 19485
+Filename: libpopt0_1.16-2_aarch64_cortex-a72.ipk
+Size: 20182
+SHA256sum: dd86081f643fd827d736b52574a8d930e829705e48518ff9e6fbd2f06a3fc493
+Description:  A command line option parsing library
+
+Package: libreadline8
+Version: 8.0-1
+Depends: libc, libncursesw6
+Provides: libreadline
+License: GPL-3.0
+Section: libs
+CPE-ID: cpe:/a:gnu:readline
+Architecture: aarch64_cortex-a72
+Installed-Size: 136055
+Filename: libreadline8_8.0-1_aarch64_cortex-a72.ipk
+Size: 135885
+SHA256sum: 7c3b27039f87bf332c39d9c5820c3bb8f6bb516a5574e76cf09678ade20d56a1
+Description:  The Readline library provides a set of functions for use by applications
+ that allow users to edit command lines as they are typed in. Both Emacs
+ and vi editing modes are available. The Readline library includes
+ additional functions to maintain a list of previously-entered command
+ lines, to recall and perhaps reedit those lines, and perform csh-like
+ history expansion on previous commands.
+
+Package: libsmartcols1
+Version: 2.35.1-2
+Depends: libc, librt
+Provides: libsmartcols
+License: GPL-2.0
+Section: libs
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 89120
+Filename: libsmartcols1_2.35.1-2_aarch64_cortex-a72.ipk
+Size: 89953
+SHA256sum: 02cb1c99a08d3f954bc6b9794347d4d6b5d552a87de7b445183a97c5c82f345a
+Description:  The smartcols library is used to print tables and trees in a pretty way.
+
+Package: libss2
+Version: 1.45.6-1
+Depends: libc, libcomerr0
+Provides: libss
+License: GPL-2.0
+Section: libs
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 9162
+Filename: libss2_1.45.6-1_aarch64_cortex-a72.ipk
+Size: 9949
+SHA256sum: 4d841781215853ee3a7a867591c028e5fbdd3159e85e331196d8cfbb58e8ee1c
+Description:  This pacakge contains libss, a command-line interface parsing library
+ bundled with e2fsprogs.
+
+Package: libsysfs2
+Version: 2.1.0-3
+Depends: libc
+Provides: libsysfs
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 14439
+Filename: libsysfs2_2.1.0-3_aarch64_cortex-a72.ipk
+Size: 15251
+SHA256sum: 580498729bfe69f9efb553de54b00f90839bc6de83ebdb69bbb5be097dc53eee
+Description:  The library's purpose is to provide a consistant and stable interface for
+ querying system device information exposed through sysfs.
+
+Package: libubox20191228
+Version: 2020-05-25-66195aee-1
+Depends: libc
+Provides: libubox
+License: ISC
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 24095
+Filename: libubox20191228_2020-05-25-66195aee-1_aarch64_cortex-a72.ipk
+Size: 24756
+SHA256sum: af02a616561721f2c10ae6369c38eee83354a35f169d394030c992446364aa34
+Description:  Basic utility library
+
+Package: libubus-lua
+Version: 2020-02-05-171469e3-1
+Depends: libc, libubus20191227, liblua5.1.5
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 7466
+Filename: libubus-lua_2020-02-05-171469e3-1_aarch64_cortex-a72.ipk
+Size: 8259
+SHA256sum: 31c18fa0a633861cb6b190706dab792a41ded41d92ef9d2ecd83c1cb2f6139a4
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libubus20191227
+Version: 2020-02-05-171469e3-1
+Depends: libc, libubox20191228
+Provides: libubus
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 11579
+Filename: libubus20191227_2020-02-05-171469e3-1_aarch64_cortex-a72.ipk
+Size: 12344
+SHA256sum: 7bceea643042c40d794ec146b37c211a21f44d74187c8b9a3a9650242c9b8e3a
+Description:  OpenWrt RPC client library
+
+Package: libuci-lua
+Version: 2018-08-11-4c8b4d6e-2
+Depends: libc, libuci, liblua5.1.5
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 7289
+Filename: libuci-lua_2018-08-11-4c8b4d6e-2_aarch64_cortex-a72.ipk
+Size: 8050
+SHA256sum: e826bde407565ac073f7fd30e68a3b6d8165004e86f69dd588be449c67dcc13b
+Description:  Lua plugin for UCI
+
+Package: libuci
+Version: 2018-08-11-4c8b4d6e-2
+Depends: libc, libubox20191228
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 17973
+Filename: libuci_2018-08-11-4c8b4d6e-2_aarch64_cortex-a72.ipk
+Size: 18733
+SHA256sum: 96cd83f0e48bee1df816daba0a940f2c370cd16d517c8ea5c081097c1d8eac87
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libuclient20160123
+Version: 2020-06-17-c6609861-1
+Depends: libc, libubox20191228
+Provides: libuclient
+License: ISC
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 11166
+Filename: libuclient20160123_2020-06-17-c6609861-1_aarch64_cortex-a72.ipk
+Size: 11929
+SHA256sum: 1a1eff09008b568ec669ffe791438fc15a6e7dbe9b4aeb831982af8660f61f59
+Description:  HTTP/1.1 client library
+
+Package: libusb-1.0-0
+Version: 1.0.22-2
+Depends: libc, libpthread, librt
+Provides: libusb-1.0
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 31177
+Filename: libusb-1.0-0_1.0.22-2_aarch64_cortex-a72.ipk
+Size: 31913
+SHA256sum: 5180e1a3793a65ed61a7acb90dd63d2e4ecae714fb61825c4d7f31c2d480c1f1
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
+
+Package: libustream-openssl20200215
+Version: 2020-03-13-5e1bc342-1
+Depends: libc, libubox20191228, libopenssl1.1
+Provides: libustream-openssl
+License: ISC
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 4736
+Filename: libustream-openssl20200215_2020-03-13-5e1bc342-1_aarch64_cortex-a72.ipk
+Size: 5494
+SHA256sum: 2ee514c6725c68b02668aa26147833575fb57b4f938531127da355b6cb299e2f
+Description:  ustream SSL Library (openssl)
+
+Package: libuuid1
+Version: 2.35.1-2
+Depends: libc, librt
+Provides: libuuid
+License: GPL-2.0
+Section: libs
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 12576
+Filename: libuuid1_2.35.1-2_aarch64_cortex-a72.ipk
+Size: 13534
+SHA256sum: e635071a135d41ea544007d4b609c07e76e480a3e7f8798c43b6dda216dd20e5
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: libwolfssl24
+Version: 4.4.0-stable-2
+Depends: libc
+Provides: libcyassl, libwolfssl, libcyassl24
+License: GPL-2.0-or-later
+Section: libs
+CPE-ID: cpe:/a:wolfssl:wolfssl
+Architecture: aarch64_cortex-a72
+Installed-Size: 421055
+Filename: libwolfssl24_4.4.0-stable-2_aarch64_cortex-a72.ipk
+Size: 420236
+SHA256sum: 7901625b43bf1c5d878d7dc82c5cc8c8e499c9c485aecb3152d3120a131693d3
+Description:  wolfSSL (formerly CyaSSL) is an SSL library optimized for small
+ footprint, both on disk and for memory use.
+
+Package: libwxbase
+Version: 2.8.12-1
+Depends: libc, libexpat, libstdcpp6, zlib, libpthread
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 484505
+Filename: libwxbase_2.8.12-1_aarch64_cortex-a72.ipk
+Size: 483684
+SHA256sum: acefb658da9d061e2e9c22d32c74deec626b7adb5a86fcd4719ff7d00350e195
+Description:  wxBase contains most of the non-GUI classes from the wxWindows cross-
+ -platform C++ framework. There are 2 categories: generally useful portable
+ code (date/time handling, command line parsing, regular expression support)
+ and wrappers for the OS objects (files, directories, sockets, threads,
+ etc.) allowing you to write portable programs easily.
+
+Package: logd
+Version: 2019-12-31-0e34af14-4
+Depends: libc, libubox20191228, libubus20191227, libblobmsg-json
+License: GPL-2.0
+Section: base
+Architecture: aarch64_cortex-a72
+Installed-Size: 10940
+Filename: logd_2019-12-31-0e34af14-4_aarch64_cortex-a72.ipk
+Size: 11505
+SHA256sum: f1ae864378ed64a57f62a309696616b485b109c3c4d670939e105ad88d1bb6a6
+Description:  OpenWrt system log implementation
+
+Package: lsblk
+Version: 2.35.1-2
+Depends: libc, libblkid1, libmount1, libsmartcols1
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 49597
+Filename: lsblk_2.35.1-2_aarch64_cortex-a72.ipk
+Size: 50456
+SHA256sum: 4f5cf829a65a37c03bec1210657cdd5abb266825cc887650592589bf26087f83
+Description:  lsblk lists information about all or the specified block devices
+
+Package: lscpu
+Version: 2.35.1-2
+Depends: libc, libsmartcols1
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 34071
+Filename: lscpu_2.35.1-2_aarch64_cortex-a72.ipk
+Size: 34936
+SHA256sum: f93a8bf9c706dc5a93aceac5d123f5b907d9537c289acb61005f28c9bb630df6
+Description:  lscpu displays information about the CPU architecture
+
+Package: lua-maxminddb
+Version: 0.2-1
+Depends: libc, lua, libmaxminddb
+License: MIT
+Section: lang
+Architecture: aarch64_cortex-a72
+Installed-Size: 2641
+Filename: lua-maxminddb_0.2-1_aarch64_cortex-a72.ipk
+Size: 3341
+SHA256sum: 1e4f884f68769e1142c5ddb06d2307d882da26d1598dc4ceea5f8858003099ac
+Description:  libmaxminddb bindings for lua
+
+Package: lua
+Version: 5.1.5-7
+Depends: libc, liblua5.1.5
+License: MIT
+Section: lang
+Architecture: aarch64_cortex-a72
+Installed-Size: 5069
+Filename: lua_5.1.5-7_aarch64_cortex-a72.ipk
+Size: 5918
+SHA256sum: 3ab7cbdd869fc858eca332077db4f546bb979032a2dd796d457031326f3cccbb
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: luci-app-accesscontrol
+Version: 1-11
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 2738
+Filename: luci-app-accesscontrol_1-11_all.ipk
+Size: 3502
+SHA256sum: 983864c50edac4303b25413adc663a3355901741b7149b14477d6fc56d0c17c2
+Description:  LuCI Access Control Configuration
+
+Package: luci-app-adguardhome
+Version: 15
+Depends: libc, wget-ssl
+Section: luci
+Architecture: all
+Installed-Size: 90843
+Filename: luci-app-adguardhome_15_all.ipk
+Size: 91959
+SHA256sum: 73e4d99446e98a04f2009d6d07ee01260f01fc3f48081bf1497ab3e42d1727d6
+Description:  LuCI support for adguardhome
+
+Package: luci-app-airplay2
+Version: 1-10
+Depends: libc, alsa-utils, shairport-sync-openssl
+Section: luci
+Architecture: all
+Installed-Size: 3378
+Filename: luci-app-airplay2_1-10_all.ipk
+Size: 4144
+SHA256sum: fd00a0e523046442e8fe7af019f564b53f062193e9ce23c1476532b0d3352a59
+Description:  Luci for Apple Airplay2 Receiver
+
+Package: luci-app-amule
+Version: git-21.032.12155-9bc05c5-1
+Depends: libc, amule
+Section: luci
+Architecture: all
+Installed-Size: 12841
+Filename: luci-app-amule_git-21.032.12155-9bc05c5-1_all.ipk
+Size: 13615
+SHA256sum: 90de547c024d052ad14d39a4ae8310f282369d2eddb148a34a2280c4cf159e45
+Description:  LuCI support for Amule
+
+Package: luci-app-argon-config
+Version: 0.8-beta
+Depends: libc, luci-compat
+Section: luci
+Architecture: all
+Installed-Size: 4878
+Filename: luci-app-argon-config_0.8-beta_all.ipk
+Size: 5573
+SHA256sum: ed6affe526cac5b9f29aeb2635e2254f3034f54e7bd2d1f55fddbde2656391b7
+Description:  LuCI page for Argon Config
+
+Package: luci-app-arpbind
+Version: 1-3
+Depends: libc, ip-full
+Section: luci
+Architecture: all
+Installed-Size: 1980
+Filename: luci-app-arpbind_1-3_all.ipk
+Size: 2721
+SHA256sum: a7225bddf22ce9dbe12e1c0fb29981b76cbc31f0c95df26e05afb520987179bd
+Description:  ARP Binding
+
+Package: luci-app-autoreboot
+Version: 1.0-8
+Depends: libc, luci
+Section: luci
+Architecture: all
+Installed-Size: 1235
+Filename: luci-app-autoreboot_1.0-8_all.ipk
+Size: 1920
+SHA256sum: 46f255baae48df56960d25ff654a367747db9d73ac08600d6595f45b742c8ca0
+Description:  LuCI support for Scheduled Reboot
+
+Package: luci-app-baidupcs-web
+Version: 1.0-5
+Depends: libc, baidupcs-web, wget, openssl-util
+Section: luci
+Architecture: all
+Installed-Size: 2576
+Filename: luci-app-baidupcs-web_1.0-5_all.ipk
+Size: 3410
+SHA256sum: 361402ca1920d5ff11c5967cf739cb1b031e25e23f1dc915654c5f485e1bde1f
+Description:  LuCI support for BaiduPCS-Go
+
+Package: luci-app-cifs-mount
+Version: 1-7
+Depends: libc, kmod-fs-cifs, kmod-nls-utf8
+Section: luci
+Architecture: all
+Installed-Size: 1857
+Filename: luci-app-cifs-mount_1-7_all.ipk
+Size: 2622
+SHA256sum: 2dc947fdff1d6dea9cb68337badcd9192207b0230f2a2844f9029c00319694cd
+Description:  LuCI for SMB/CIFS Mount
+
+Package: luci-app-diskman
+Version: v0.2.10-beta
+Depends: libc, e2fsprogs, parted, smartmontools, blkid, btrfs-progs, lsblk, mdadm, mdadm, kmod-md-raid456
+License: AGPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 23964
+Filename: luci-app-diskman_v0.2.10-beta_all.ipk
+Size: 24783
+SHA256sum: e8700041d705e4e8240e79ec2446590af84388d5cd667f639e6e69fdce72139f
+Description:  Disk Manager interface for LuCI
+
+Package: luci-app-dockerman
+Version: v0.5.13-leanmod
+Depends: libc, luci-compat, luci-lib-docker, docker-ce, ttyd, fdisk
+License: AGPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 39676
+Filename: luci-app-dockerman_v0.5.13-leanmod_all.ipk
+Size: 40659
+SHA256sum: 3abfa5e810ca8cbb1f2b1359433ea91c1d25f6d8d0be0deb27ff679bf726830b
+Description:  LuCI Support for docker
+
+Package: luci-app-familycloud
+Version: 1-6
+Depends: libc, coreutils, coreutils-nohup, libreadline8, libcurl4, libopenssl1.1, bash, curl, wget, openssl-util, ca-certificates, ca-bundle
+Section: luci
+Architecture: all
+Installed-Size: 4219
+Filename: luci-app-familycloud_1-6_all.ipk
+Size: 5047
+SHA256sum: 13dec31647c71ee00c3d7d6f55facc43c3c6893515882f66b4cd5de8de0ccdff
+Description:  LuCI support for FamilyCloudSpeeder
+
+Package: luci-app-fileassistant
+Version: 1.0-2
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 9011
+Filename: luci-app-fileassistant_1.0-2_all.ipk
+Size: 9723
+SHA256sum: 1822f5ebab49b5f72ed261bd59ebba7ad43d95fdd53d76091f00b5b1fe63a92f
+Description:  LuCI support for Fileassistant
+
+Package: luci-app-filebrowser
+Version: 1.1-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 7246
+Filename: luci-app-filebrowser_1.1-1_all.ipk
+Size: 8055
+SHA256sum: 2a63da7ae39067aefed8112e31be937bea83c45c6cfa00fb06749033d3b1b875
+Description:  LuCI support for FileBrowser
+
+Package: luci-app-filetransfer
+Version: 1-2
+Depends: libc, luci-lib-fs
+Section: luci
+Architecture: all
+Installed-Size: 2547
+Filename: luci-app-filetransfer_1-2_all.ipk
+Size: 3232
+SHA256sum: 5ff2ecf01e59cd511c15d530b2c718b9e3c3ddde35ab23c34718c9e98d373f25
+Description:  LuCI page for IPK upload
+
+Package: luci-app-flowoffload
+Version: 1.0-21
+Depends: libc, kmod-ipt-offload, pdnsd-alt, kmod-tcp-bbr
+Section: luci
+Architecture: all
+Installed-Size: 4362
+Filename: luci-app-flowoffload_1.0-21_all.ipk
+Size: 5119
+SHA256sum: 485e818e3102058032a0734659835a27f979f3c4ad86ed6a639b76762b7f23af
+Description:  LuCI support for Flow Offload
+
+Package: luci-app-frpc
+Version: 1.2-1
+Depends: libc, wget, frpc
+Section: luci
+Architecture: all
+Installed-Size: 7287
+Filename: luci-app-frpc_1.2-1_all.ipk
+Size: 8080
+SHA256sum: f7373a18e4766fcf42c10ccd8c213a52a80198fbdf46e73908d5e4d8fe963c06
+Description:  LuCI for FRPC
+
+Package: luci-app-frps
+Version: 0.0.2-3
+Depends: libc, wget, frps
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 4823
+Filename: luci-app-frps_0.0.2-3_all.ipk
+Size: 5721
+SHA256sum: 538ea10df684eee1d27d59062238b8a7adfd27f09866410169d041a34ed17646
+Description:  LuCI support for Frps
+
+Package: luci-app-gowebdav
+Version: 1.0-1
+Depends: libc, gowebdav
+Section: luci
+Architecture: all
+Installed-Size: 2372
+Filename: luci-app-gowebdav_1.0-1_all.ipk
+Size: 3187
+SHA256sum: bf497ee5288d458c1ba394461fdd832e55530f2515155a5a5f81e2d46e56167e
+Description:  LuCI support for GoWebDav
+
+Package: luci-app-guest-wifi
+Version: 1.0-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 3214
+Filename: luci-app-guest-wifi_1.0-1_all.ipk
+Size: 3925
+SHA256sum: 2e0fdb865f9465e7d4fe532f17985dbcdca201010901c0951293bec2cab150a7
+Description:  luci-app-guest-wifi
+
+Package: luci-app-haproxy-tcp
+Version: 1.4-2
+Depends: libc, haproxy
+Section: luci
+Architecture: all
+Installed-Size: 4311
+Filename: luci-app-haproxy-tcp_1.4-2_all.ipk
+Size: 5097
+SHA256sum: 9438397904f391e36032bd06cb56c6ea82a41c0ec2de5f2b4d81ba2f4102eb84
+Description:  luci for haproxy and shadowsocks
+
+Package: luci-app-ipsec-server
+Version: 1-8-20200513
+Depends: libc, strongswan, strongswan-minimal, strongswan-mod-xauth-generic
+Section: luci
+Architecture: all
+Installed-Size: 3888
+Filename: luci-app-ipsec-server_1-8-20200513_all.ipk
+Size: 4695
+SHA256sum: 5c22357198bfe595215532ed86927707f46a749e576244b9d9abcd10be25d01b
+Description:  LuCI support for IPSec VPN Server
+
+Package: luci-app-jd-dailybonus
+Version: 1.0.3-20210125
+Depends: libc, node, wget, lua, libuci-lua
+Section: luci
+Architecture: all
+Installed-Size: 1069827
+Filename: luci-app-jd-dailybonus_1.0.3-20210125_all.ipk
+Size: 1069977
+SHA256sum: 7f6fa0d819f19f39a741aae80be11429ee6f14125932f0bd883b65cbe0355492
+Description:  Luci for JD dailybonus Script
+
+Package: luci-app-kodexplorer
+Version: 13-1
+Depends: libc, nginx, unzip, zoneinfo-asia, php7, php7-fpm, php7-mod-curl, php7-mod-gd, php7-mod-iconv, php7-mod-json, php7-mod-mbstring, php7-mod-opcache, php7-mod-session, php7-mod-zip, php7-mod-sqlite3, php7-mod-pdo, php7-mod-pdo-sqlite, php7-mod-pdo-mysql
+Section: luci
+Architecture: all
+Installed-Size: 7621
+Filename: luci-app-kodexplorer_13-1_all.ipk
+Size: 8507
+SHA256sum: ad72d6063a3cf85c4e9331339ef6d05d04d25d5ba034b0d92771c99c013db925
+Description:  LuCI support for KodExplorer
+
+Package: luci-app-mentohust
+Version: 1.1.1-0
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 4883
+Filename: luci-app-mentohust_1.1.1-0_all.ipk
+Size: 5604
+SHA256sum: 35146bb51503105c219a318e4be39f7cee731b401e882aa7b23cea5abbd9f348
+Description:  This package contains LuCI configuration pages for 8021xclient.
+
+Package: luci-app-music-remote-center
+Version: 1-6
+Depends: libc, alsa-utils, forked-daapd
+Section: luci
+Architecture: all
+Installed-Size: 2450
+Filename: luci-app-music-remote-center_1-6_all.ipk
+Size: 3222
+SHA256sum: 0373533ad4a0d0d06816a933ef8b0aa92a7a9dbb995421d40050e50bf99977f3
+Description:  Luci for Music Remote Center
+
+Package: luci-app-mwan3helper
+Version: 1-3
+Depends: libc, luci-app-mwan3, pdnsd-alt, dnsmasq-full, ipset
+Section: luci
+Architecture: all
+Installed-Size: 87361
+Filename: luci-app-mwan3helper_1-3_all.ipk
+Size: 86246
+SHA256sum: b6d75756ffbbd67f9de4a9614bd37370ddc45ded9ada4f47e77006fb8e193e3d
+Description:  LuCI support for MWAN3 Helper
+
+Package: luci-app-n2n_v2
+Version: 2.8.0-2
+Depends: libc, n2n-edge, n2n-supernode
+Section: luci
+Architecture: all
+Installed-Size: 2278
+Filename: luci-app-n2n_v2_2.8.0-2_all.ipk
+Size: 3047
+SHA256sum: 242fb010e34868bcc00822b24e316cb9c77ecf2b8ada2c595643a4020c944c12
+Description:  n2n_v2 VPN Configuration module
+
+Package: luci-app-netdata
+Version: 1.0-3
+Depends: libc, netdata
+Section: luci
+Architecture: all
+Installed-Size: 620
+Filename: luci-app-netdata_1.0-3_all.ipk
+Size: 1303
+SHA256sum: 16c6dd324f12fe09086c0972c3ae852dbfc2f6efcc3c30404ff27010bd4cd3df
+Description:  LuCI support for Netdata
+
+Package: luci-app-nfs
+Version: 1.1-1
+Depends: libc, nfs-utils, nfs-kernel-server, nfs-kernel-server-utils, mount-utils
+Section: luci
+Architecture: all
+Installed-Size: 1794
+Filename: luci-app-nfs_1.1-1_all.ipk
+Size: 2561
+SHA256sum: 2928f230393a0abaf2a36ad3997c6a6dd8da8dfb29a51cd8d27d7a4571422177
+Description:  LuCI support for nfs
+
+Package: luci-app-nft-qos
+Version: git-21.032.12155-9bc05c5-1
+Depends: libc, nft-qos
+Section: luci
+Architecture: all
+Installed-Size: 4016
+Filename: luci-app-nft-qos_git-21.032.12155-9bc05c5-1_all.ipk
+Size: 4689
+SHA256sum: 9c6f6b24ed3f7b054ab4ddc71c033e38eec67fe9cffa61b78a75d1473bd9c2f9
+Description:  Qos over Nftables
+
+Package: luci-app-nps
+Version: 1.1-4
+Depends: libc, wget, npc
+Section: luci
+Architecture: all
+Installed-Size: 2556
+Filename: luci-app-nps_1.1-4_all.ipk
+Size: 3298
+SHA256sum: 19164a0ef18891abf99e9a568a90331477ebdf66d7483d36ae26aad8352efda8
+Description:  LuCI for Nps
+
+Package: luci-app-onliner
+Version: 1.1-5
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 8041
+Filename: luci-app-onliner_1.1-5_all.ipk
+Size: 8830
+SHA256sum: caf94e2df6ba1f132297faef2b23477ae6a5e386b6ead2409c331822ea5888cc
+Description:  LuCI support arp online
+
+Package: luci-app-openclash
+Version: 0.41.14-beta
+Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, jsonfilter, ca-certificates, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, ruby, ruby-yaml
+Section: opt
+Architecture: all
+Installed-Size: 2972461
+Filename: luci-app-openclash_0.41.14-beta_all.ipk
+Size: 2804162
+SHA256sum: 1238a485578490899aaa3871450dcb18f6a2fafcbb3ac58238bb7e68088a0f22
+Description:  A LuCI support for clash
+
+Package: luci-app-openvpn-server
+Version: 2.0-18
+Depends: libc, openvpn-openssl, openvpn-easy-rsa, kmod-tun
+Section: luci
+Architecture: all
+Installed-Size: 25599
+Filename: luci-app-openvpn-server_2.0-18_all.ipk
+Size: 26358
+SHA256sum: 9ccdc4de23c3c8ac0ea3c5a9e119adf16d758029a9d78616a67d9d2e653e8407
+Description:  LuCI support for OpenVPN Server
+
+Package: luci-app-passwall
+Version: 4-12
+Depends: libc, libmbedtls12, iptables-mod-tproxy, ip, ipset, coreutils, coreutils-base64, coreutils-nohup, luci-lib-jsonc, curl, ca-certificates, resolveip, unzip, dnsmasq-full, tcping, libuci-lua, ipt2socks, microsocks, pdnsd-alt, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-local, shadowsocks-libev-ss-server, shadowsocksr-libev-alt, shadowsocksr-libev-ssr-local, shadowsocksr-libev-server, xray, trojan-plus, trojan-go, brook, kcptun-client, haproxy, chinadns-ng, dns2socks, v2ray-plugin, simple-obfs
+Section: opt
+Architecture: all
+Installed-Size: 891284
+Filename: luci-app-passwall_4-12_all.ipk
+Size: 891315
+SHA256sum: fddcb412ac575a1f5f14da9d2423ffd30052954c805c2d964065e07b41c22bff
+Description:  LuCI support for PassWall
+
+Package: luci-app-pptp-server
+Version: 1-5-20200608
+Depends: libc, pptpd, kmod-mppe, ppp
+Section: luci
+Architecture: all
+Installed-Size: 4355
+Filename: luci-app-pptp-server_1-5-20200608_all.ipk
+Size: 5154
+SHA256sum: 54037b0642bb504f008d6d597e64d8f852f1a957bde201d5113fcb1a71d7dd66
+Description:  LuCI support for PPTP VPN Server
+
+Package: luci-app-ps3netsrv
+Version: 1-2
+Depends: libc, ps3netsrv
+Section: luci
+Architecture: all
+Installed-Size: 1560
+Filename: luci-app-ps3netsrv_1-2_all.ipk
+Size: 2294
+SHA256sum: cb8a4db9848cdac7ef42df3761c763ba904d61510c1717392946881d76dfd3b7
+Description:  Luci for PS3NETSRV
+
+Package: luci-app-ramfree
+Version: 1.0-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 421
+Filename: luci-app-ramfree_1.0-1_all.ipk
+Size: 1057
+SHA256sum: ee983637316566c00f42f46c68ecd59e1b6577952e7de5f265cdae9756e738ee
+Description:  luci-app-ramfree
+
+Package: luci-app-rclone
+Version: 1.4.1-1
+Depends: libc, rclone, rclone-webui-react, rclone-ng, fuse-utils
+License: GPLv3.0+
+Section: luci
+Architecture: all
+Installed-Size: 3512
+Filename: luci-app-rclone_1.4.1-1_all.ipk
+Size: 4760
+SHA256sum: 46d06558486b0164ebed7d086ae2cbb4853dd9174efaf8d886c74cb0cb8e6ac2
+Description:  LuCI support for Rclone. 
+ Rclone ("rsync for cloud storage") is a command line program to sync root/usr/bin and directories to and from different cloud storage providers.
+ Cloud storage providers:
+ 1Fichier, Alibaba Cloud (Aliyun) Object Storage System (OSS), Amazon Drive, Amazon S3, 
+ Backblaze B2, Box, Ceph, C14, DigitalOcean Spaces, Dreamhost, Dropbox, FTP, 
+ Google Cloud Storage, Google Drive, Google Photos, HTTP, Hubic, Jottacloud, 
+ IBM COS S3, Koofr, Memset Memstore, Mega, Microsoft Azure Blob Storage, 
+ Microsoft OneDrive, Minio, Nextcloud, OVH, OpenDrive, Openstack Swift, 
+ Oracle Cloud Storage, ownCloud, pCloud, premiumize.me, put.io, QingStor, 
+ Rackspace Cloud root/usr/bin, rsync.net, Scaleway, SFTP, Wasabi, WebDAV, 
+ Yandex Disk, The local root/usr/binystem.
+
+Package: luci-app-serverchan
+Version: 1.80-8
+Depends: libc, iputils-arping, curl
+Section: luci
+Architecture: all
+Installed-Size: 19516
+Filename: luci-app-serverchan_1.80-8_all.ipk
+Size: 20294
+SHA256sum: 57a44f0e58ad8a42094b8fbb9e055bc3212b70616e5dfe759b144d63fae0f24b
+Description:  LuCI support for serverchan
+
+Package: luci-app-smartdns
+Version: 1-3
+Depends: libc, smartdns
+Section: luci
+Architecture: all
+Installed-Size: 5386
+Filename: luci-app-smartdns_1-3_all.ipk
+Size: 6112
+SHA256sum: f6c14509ed2921720e06a4b2c65cb64de4d809e8b82e6ddb98b5270f966762b9
+Description:  Luci for smartdns server
+
+Package: luci-app-socat
+Version: git-21.009.28094-037eb0b-3
+Depends: libc, socat
+Section: luci
+Architecture: all
+Installed-Size: 3804
+Filename: luci-app-socat_git-21.009.28094-037eb0b-3_all.ipk
+Size: 4575
+SHA256sum: 4870ec74d1fff3df258c2043a9ecf32db81b603a712a5c195dcb4279424f1c58
+Description:  LuCI support for Socat
+
+Package: luci-app-softethervpn
+Version: 1.0-3
+Depends: libc, zlib, libpthread, librt, libreadline8, libncurses6, libiconv-full2, kmod-tun, libopenssl1.1, softethervpn5-bridge, softethervpn5-client, softethervpn5-server
+Section: luci
+Architecture: all
+Installed-Size: 2956
+Filename: luci-app-softethervpn_1.0-3_all.ipk
+Size: 3769
+SHA256sum: ed825070ed9a4b331ccda0247baa8d29fe8dbeafedcf1456466c5f7d312b6d7f
+Description:  LuCI support for SoftEtherVPN
+
+Package: luci-app-ssr-mudb-server
+Version: 10-1
+Depends: libc, libsodium, luci-lib-jsonc, python3
+Section: luci
+Architecture: all
+Installed-Size: 131916
+Filename: luci-app-ssr-mudb-server_10-1_all.ipk
+Size: 132677
+SHA256sum: d9ca38ac5a15f3119d634f6bbdd7f84f41b3d4540175b9b207e6af71eb73eded
+Description:  LuCI support for SSR Mudb Server
+
+Package: luci-app-ssr-plus
+Version: 183-6
+Depends: libc, shadowsocksr-libev-alt, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, pdnsd-alt, wget-ssl, lua, libuci-lua, microsocks, dns2socks, shadowsocksr-libev-ssr-local, tcping, resolveip, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, simple-obfs, v2ray-plugin, xray, trojan, ipt2socks, redsocks2, kcptun-client, shadowsocksr-libev-server
+Section: luci
+Architecture: all
+Installed-Size: 186489
+Filename: luci-app-ssr-plus_183-6_all.ipk
+Size: 186671
+SHA256sum: 5f175e00448a7a4c5ca1c74a9013bb33ee3141128bd479953e1d39ab42da1064
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-syncdial
+Version: 2.0-25
+Depends: libc, kmod-macvlan, luci-app-mwan3
+Section: luci
+Architecture: all
+Installed-Size: 4918
+Filename: luci-app-syncdial_2.0-25_all.ipk
+Size: 5697
+SHA256sum: fa62e63ec582fa86465624473a0d8c181757440c508967c72999ffcc480c1cc2
+Description:  Virtual WAN config generator
+
+Package: luci-app-syncthing
+Version: 1.0-2
+Depends: libc, syncthing
+Section: luci
+Architecture: all
+Installed-Size: 2073
+Filename: luci-app-syncthing_1.0-2_all.ipk
+Size: 2850
+SHA256sum: fd8f2352fa34ce4d59c59f9937e3a38471cbd0b93a59792bdcd8c1acb98ba35d
+Description:  LuCI support for syncthing
+
+Package: luci-app-ttyd
+Version: 1.0-3
+Depends: libc, ttyd
+Section: luci
+Architecture: all
+Installed-Size: 676
+Filename: luci-app-ttyd_1.0-3_all.ipk
+Size: 1365
+SHA256sum: b9625e0cef3353cd09d596714c4b3b0bee4f0abe456bb3fa07ae476c3452fe8d
+Description:  LuCI support for ttyd
+
+Package: luci-app-unblockmusic
+Version: 2.3.5-10
+Depends: libc, dnsmasq-full, ipset, wget, UnblockNeteaseMusic, UnblockNeteaseMusicGo
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6959
+Filename: luci-app-unblockmusic_2.3.5-10_all.ipk
+Size: 7825
+SHA256sum: 38eb23bfa297e494ae3ef0383d1e5c24c25bb6e1e8516b257eed27da9347f917
+Description:  LuCI support for Unblock NeteaseCloudMusic
+
+Package: luci-app-usb-printer
+Version: 1.0-2
+Depends: libc, p910nd, kmod-usb-printer
+Section: luci
+Architecture: all
+Installed-Size: 3164
+Filename: luci-app-usb-printer_1.0-2_all.ipk
+Size: 3911
+SHA256sum: 5d76e2ced48c22cb8a20ffc2e86e2f80bddf5b609c3a7ecc7f1160517de85ea9
+Description:  USB Printer Share via TCP/IP
+
+Package: luci-app-uugamebooster
+Version: 1.0-8
+Depends: libc, uugamebooster
+Section: luci
+Architecture: all
+Installed-Size: 250733
+Filename: luci-app-uugamebooster_1.0-8_all.ipk
+Size: 251640
+SHA256sum: 4d27693edaf76ea534482bb3a6e9be2bf274c69620c65537597fb229ace875a2
+Description:  LuCI support for UUgamebooster
+
+Package: luci-app-v2ray-server
+Version: 13-1
+Depends: libc, unzip
+Section: luci
+Architecture: all
+Installed-Size: 11726
+Filename: luci-app-v2ray-server_13-1_all.ipk
+Size: 12476
+SHA256sum: c2adb45d755e2cd8bb4757382942f470726b98ed2d75f492f23712ebab53ce54
+Description:  LuCI support for V2ray Server
+
+Package: luci-app-vlmcsd
+Version: 1.0-5
+Depends: libc, vlmcsd
+Section: luci
+Architecture: all
+Installed-Size: 2282
+Filename: luci-app-vlmcsd_1.0-5_all.ipk
+Size: 3037
+SHA256sum: 9d7bdbc7f11275134524497c4773bfac57f81eebb57141732a369c2ef61f2c5d
+Description:  LuCI page for KMS
+
+Package: luci-app-vsftpd
+Version: 1.0-3
+Depends: libc, vsftpd-alt
+Section: luci
+Architecture: all
+Installed-Size: 2874
+Filename: luci-app-vsftpd_1.0-3_all.ipk
+Size: 3622
+SHA256sum: b9912fb9370dcee8326c909aced3b1beda0e8dd83a5eb55b14670bb44d346677
+Description:  LuCI support for VSFTPD
+
+Package: luci-app-vssr
+Version: 1.22-20210119
+Depends: libc, shadowsocksr-libev-alt, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, bash, pdnsd-alt, wget-ssl, lua, luasocket, lua-maxminddb, shadowsocks-libev-ss-local, shadowsocksr-libev-ssr-local, shadowsocks-libev-ss-redir, simple-obfs, v2ray-plugin, v2ray, trojan, ipt2socks, shadowsocksr-libev-server
+Section: luci
+Architecture: all
+Installed-Size: 3125530
+Filename: luci-app-vssr_1.22-20210119_all.ipk
+Size: 2952445
+SHA256sum: f40d86998a14222ed790ca6cf7f472b0e2a685c2a7d639fcbe2da5bcd12e3d9b
+Description:  A New SS/SSR/V2Ray/Trojan LuCI interface
+
+Package: luci-app-webadmin
+Version: 2-1
+Depends: libc, uhttpd
+Section: luci
+Architecture: all
+Installed-Size: 1152
+Filename: luci-app-webadmin_2-1_all.ipk
+Size: 1855
+SHA256sum: 9792cdc8befea9ab30e83cec6ea4f287f7559b9df279672fe8a551af02b8262a
+Description:  LuCI page for Web Admin
+
+Package: luci-app-wrtbwmon
+Version: 1.0-7
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 12099
+Filename: luci-app-wrtbwmon_1.0-7_all.ipk
+Size: 12872
+SHA256sum: 8df6c0fd60e17e05364bfd623621f668d8441d2d004de9a8d1138184bf85c044
+Description:  LuCI support for Wrtbwmon
+
+Package: luci-app-xlnetacc
+Version: 1.0.3-9
+Depends: libc, jshn, wget, openssl-util
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 10259
+Filename: luci-app-xlnetacc_1.0.3-9_all.ipk
+Size: 11105
+SHA256sum: 76063ae6326d6acc471eab1fb67ebafe5545639f915ab7158b6657a9c3c628f1
+Description:  LuCI Support for XLNetAcc.
+
+Package: luci-app-zerotier
+Version: 1.0-20
+Depends: libc, zerotier
+Section: luci
+Architecture: all
+Installed-Size: 3442
+Filename: luci-app-zerotier_1.0-20_all.ipk
+Size: 4173
+SHA256sum: ec0157fda500da33aaf6a7f7adf89bf6fe2f71778fe08d14dfab030aca0cfa6c
+Description:  LuCI for Zerotier
+
+Package: luci-i18n-accesscontrol-zh-cn
+Version: 1-11
+Depends: libc, luci-app-accesscontrol
+Section: luci
+Architecture: all
+Installed-Size: 907
+Filename: luci-i18n-accesscontrol-zh-cn_1-11_all.ipk
+Size: 1724
+SHA256sum: 25fd741be239048bd3ecedaae96c94647448442d71051099710fc7f9d004c9db
+Description:  Translation for luci-app-accesscontrol - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-airplay2-zh-cn
+Version: 1-10
+Depends: libc, luci-app-airplay2
+Section: luci
+Architecture: all
+Installed-Size: 922
+Filename: luci-i18n-airplay2-zh-cn_1-10_all.ipk
+Size: 1747
+SHA256sum: 5c8bf5ecd61033526655a5e2c416f1e46a8c2c60535d196ff6337f206a51d5bb
+Description:  Translation for luci-app-airplay2 - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-amule-zh-cn
+Version: git-21.032.12155-9bc05c5-1
+Depends: libc, luci-app-amule
+Section: luci
+Architecture: all
+Installed-Size: 3621
+Filename: luci-i18n-amule-zh-cn_git-21.032.12155-9bc05c5-1_all.ipk
+Size: 4419
+SHA256sum: be07dfe49e958a88a11d56676c393cd9b56701ef40efa41ca7412059e61339e7
+Description:  Translation for luci-app-amule - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-arpbind-zh-cn
+Version: 1-3
+Depends: libc, luci-app-arpbind
+Section: luci
+Architecture: all
+Installed-Size: 584
+Filename: luci-i18n-arpbind-zh-cn_1-3_all.ipk
+Size: 1388
+SHA256sum: 8e2e757dcd0652b090093bea5bdf0ace6fb3acae2d4e8276cb8a3cb4941f1382
+Description:  Translation for luci-app-arpbind - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-autoreboot-zh-cn
+Version: 1.0-8
+Depends: libc, luci-app-autoreboot
+Section: luci
+Architecture: all
+Installed-Size: 562
+Filename: luci-i18n-autoreboot-zh-cn_1.0-8_all.ipk
+Size: 1365
+SHA256sum: 38deb1c4bc836523a388255b1c57baa1c57c71dcb02cf558430b046b4e4b4f67
+Description:  Translation for luci-app-autoreboot - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-bonding-de
+Version: git-21.032.12155-9bc05c5-1
+Depends: libc, luci-proto-bonding
+Section: luci
+Architecture: all
+Installed-Size: 3740
+Filename: luci-i18n-bonding-de_git-21.032.12155-9bc05c5-1_all.ipk
+Size: 4542
+SHA256sum: dacb69f71ffc52ddb78c4836f9667cf3e49583d98b91e66f86918df698131aed
+Description:  Translation for luci-proto-bonding - Deutsch (German)
+
+Package: luci-i18n-cifs-mount-zh-cn
+Version: 1-7
+Depends: libc, luci-app-cifs-mount
+Section: luci
+Architecture: all
+Installed-Size: 844
+Filename: luci-i18n-cifs-mount-zh-cn_1-7_all.ipk
+Size: 1655
+SHA256sum: 069bf6afad5a84688c9c7da71cabb346c2b59832bc53f234b930bf8b13966059
+Description:  Translation for luci-app-cifs-mount - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-dockerman-zh-cn
+Version: v0.5.13-leanmod
+Depends: libc, luci-app-dockerman
+License: AGPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 4191
+Filename: luci-i18n-dockerman-zh-cn_v0.5.13-leanmod_all.ipk
+Size: 5062
+SHA256sum: 062ad94754ee0c84ea67e846d399b8d41dc5bdd4df166550f72584740e3e42ed
+Description:  Translation for luci-app-dockerman - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-filebrowser-zh-cn
+Version: 1.1-1
+Depends: libc, luci-app-filebrowser
+Section: luci
+Architecture: all
+Installed-Size: 1705
+Filename: luci-i18n-filebrowser-zh-cn_1.1-1_all.ipk
+Size: 2541
+SHA256sum: 01c8717cbe7e10a415ed9557dc7441b7acdc6bb70d1d757463a51cd6c0384120
+Description:  Translation for luci-app-filebrowser - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-filetransfer-zh-cn
+Version: 1-2
+Depends: libc, luci-app-filetransfer
+Section: luci
+Architecture: all
+Installed-Size: 869
+Filename: luci-i18n-filetransfer-zh-cn_1-2_all.ipk
+Size: 1690
+SHA256sum: 0e7869afcb1dcb3241361b93c455e610e9636ed6fe1651b00d8d2fc8040d247d
+Description:  Translation for luci-app-filetransfer - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-flowoffload-zh-cn
+Version: 1.0-21
+Depends: libc, luci-app-flowoffload
+Section: luci
+Architecture: all
+Installed-Size: 1135
+Filename: luci-i18n-flowoffload-zh-cn_1.0-21_all.ipk
+Size: 1953
+SHA256sum: acff964b5673a23d161ad7a7b221a0b0664a516c6e2172166bfefefcf26f92bc
+Description:  Translation for luci-app-flowoffload - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-frpc-zh-cn
+Version: 1.2-1
+Depends: libc, luci-app-frpc
+Section: luci
+Architecture: all
+Installed-Size: 3212
+Filename: luci-i18n-frpc-zh-cn_1.2-1_all.ipk
+Size: 4001
+SHA256sum: cc037ca7a3e343f27a980e340268d181e982ac6b29ccddec5936e948e6991782
+Description:  Translation for luci-app-frpc - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-frps-zh-cn
+Version: 0.0.2-3
+Depends: libc, luci-app-frps
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 2256
+Filename: luci-i18n-frps-zh-cn_0.0.2-3_all.ipk
+Size: 3127
+SHA256sum: cbcdea7706928f4686986d3c180694b32de3d8cdd7f7fa4539a343635696e395
+Description:  Translation for luci-app-frps - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-gowebdav-zh-cn
+Version: 1.0-1
+Depends: libc, luci-app-gowebdav
+Section: luci
+Architecture: all
+Installed-Size: 1090
+Filename: luci-i18n-gowebdav-zh-cn_1.0-1_all.ipk
+Size: 1962
+SHA256sum: 12b80d9ac83021c00956b675eaf524701d6cac61268d7466db8aec8024f63d69
+Description:  Translation for luci-app-gowebdav - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-guest-wifi-zh-cn
+Version: 1.0-1
+Depends: libc, luci-app-guest-wifi
+Section: luci
+Architecture: all
+Installed-Size: 1313
+Filename: luci-i18n-guest-wifi-zh-cn_1.0-1_all.ipk
+Size: 2141
+SHA256sum: 127d3a6c980c2ab2a099e4e619eb9368d481fe176ed8597a4d7183b000df6183
+Description:  Translation for luci-app-guest-wifi - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-haproxy-tcp-zh-cn
+Version: 1.4-2
+Depends: libc, luci-app-haproxy-tcp
+Section: luci
+Architecture: all
+Installed-Size: 699
+Filename: luci-i18n-haproxy-tcp-zh-cn_1.4-2_all.ipk
+Size: 1542
+SHA256sum: 2ea7c2249714c4db58547b5dc95c38cb19328a492e6d4fb8affb8edf3698e9e9
+Description:  Translation for luci-app-haproxy-tcp - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ipsec-server-zh-cn
+Version: 1-8-20200513
+Depends: libc, luci-app-ipsec-server
+Section: luci
+Architecture: all
+Installed-Size: 962
+Filename: luci-i18n-ipsec-server-zh-cn_1-8-20200513_all.ipk
+Size: 1808
+SHA256sum: 1fa3b5f75e07e0ba3fa6cb77432a59d44d0cec7d402b2cd433d0d2ea53d35862
+Description:  Translation for luci-app-ipsec-server - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-kodexplorer-zh-cn
+Version: 13-1
+Depends: libc, luci-app-kodexplorer
+Section: luci
+Architecture: all
+Installed-Size: 1853
+Filename: luci-i18n-kodexplorer-zh-cn_13-1_all.ipk
+Size: 2678
+SHA256sum: f0c9345bb7bd708d4dbdadec05e14d8ea575e10aea4e4df3ea633c91e4e1bc4c
+Description:  Translation for luci-app-kodexplorer - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-minieap-zh-cn
+Version: 2.1-1
+Depends: libc, luci-proto-minieap
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 1228
+Filename: luci-i18n-minieap-zh-cn_2.1-1_all.ipk
+Size: 2104
+SHA256sum: 202107943aedd62e313dd214993671d226301904dfc82e022f99b3c778cc3cdb
+Description:  Translation for luci-proto-minieap - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-music-remote-center-zh-cn
+Version: 1-6
+Depends: libc, luci-app-music-remote-center
+Section: luci
+Architecture: all
+Installed-Size: 970
+Filename: luci-i18n-music-remote-center-zh-cn_1-6_all.ipk
+Size: 1795
+SHA256sum: 40e8d61a325ad1f1b2877f7feefc0c6e13b9a5bf282e73014aa2cb13a9f8c7a7
+Description:  Translation for luci-app-music-remote-center - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-mwan3helper-zh-cn
+Version: 1-3
+Depends: libc, luci-app-mwan3helper
+Section: luci
+Architecture: all
+Installed-Size: 666
+Filename: luci-i18n-mwan3helper-zh-cn_1-3_all.ipk
+Size: 1474
+SHA256sum: 9f9fbe4068a0a2ea99edb270d919ed1eb5bd746032c0b90ef83927d7628c2475
+Description:  Translation for luci-app-mwan3helper - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-n2n_v2-zh-cn
+Version: 2.8.0-2
+Depends: libc, luci-app-n2n_v2
+Section: luci
+Architecture: all
+Installed-Size: 1047
+Filename: luci-i18n-n2n_v2-zh-cn_2.8.0-2_all.ipk
+Size: 1856
+SHA256sum: 84e10a31118cb9936e5d8db82a53747adf5769b40b08290d075f2e7920a3875b
+Description:  Translation for luci-app-n2n_v2 - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-netdata-zh-cn
+Version: 1.0-3
+Depends: libc, luci-app-netdata
+Section: luci
+Architecture: all
+Installed-Size: 421
+Filename: luci-i18n-netdata-zh-cn_1.0-3_all.ipk
+Size: 1223
+SHA256sum: 9a6e1b79eeef91ffb1b6e126c39a56c77da89832d49df8ad591b2b15b57ee8ca
+Description:  Translation for luci-app-netdata - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-nfs-zh-cn
+Version: 1.1-1
+Depends: libc, luci-app-nfs
+Section: luci
+Architecture: all
+Installed-Size: 649
+Filename: luci-i18n-nfs-zh-cn_1.1-1_all.ipk
+Size: 1453
+SHA256sum: a92c17087a562200410a81144ded245210db24f455879f6107cdf7b597b7447c
+Description:  Translation for luci-app-nfs - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-nft-qos-es
+Version: git-21.032.12155-9bc05c5-1
+Depends: libc, luci-app-nft-qos
+Section: luci
+Architecture: all
+Installed-Size: 1777
+Filename: luci-i18n-nft-qos-es_git-21.032.12155-9bc05c5-1_all.ipk
+Size: 2584
+SHA256sum: 55aad27590334a7be751ddda1c51fd2246b2f382b87a65ee25271c8e89ce1dd6
+Description:  Translation for luci-app-nft-qos - Español (Spanish)
+
+Package: luci-i18n-nft-qos-zh-cn
+Version: git-21.032.12155-9bc05c5-1
+Depends: libc, luci-app-nft-qos
+Section: luci
+Architecture: all
+Installed-Size: 1757
+Filename: luci-i18n-nft-qos-zh-cn_git-21.032.12155-9bc05c5-1_all.ipk
+Size: 2593
+SHA256sum: 01903d7d38a2d8377289430e731ec058f92d68da3421c2ef9ce0088302bd0b2b
+Description:  Translation for luci-app-nft-qos - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-nft-qos-zh-tw
+Version: git-21.032.12155-9bc05c5-1
+Depends: libc, luci-app-nft-qos
+Section: luci
+Architecture: all
+Installed-Size: 1749
+Filename: luci-i18n-nft-qos-zh-tw_git-21.032.12155-9bc05c5-1_all.ipk
+Size: 2581
+SHA256sum: ed61cbfe22e2d90ffe061a256eca0882aa15cfdff877efc74db562f17012fcca
+Description:  Translation for luci-app-nft-qos - 繁体中文 (Traditional Chinese)
+
+Package: luci-i18n-nps-zh-cn
+Version: 1.1-4
+Depends: libc, luci-app-nps
+Section: luci
+Architecture: all
+Installed-Size: 1024
+Filename: luci-i18n-nps-zh-cn_1.1-4_all.ipk
+Size: 1840
+SHA256sum: b3c654d15d523699f84edda42c235a6db22a83b245d4dc7e156ddcb9d375c0b3
+Description:  Translation for luci-app-nps - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-openvpn-server-zh-cn
+Version: 2.0-18
+Depends: libc, luci-app-openvpn-server
+Section: luci
+Architecture: all
+Installed-Size: 1094
+Filename: luci-i18n-openvpn-server-zh-cn_2.0-18_all.ipk
+Size: 1911
+SHA256sum: 6d05227dd58d7a39eb7463e947e1d9003fff8cc29f5ed3f994397029756f2187
+Description:  Translation for luci-app-openvpn-server - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-pptp-server-zh-cn
+Version: 1-5-20200608
+Depends: libc, luci-app-pptp-server
+Section: luci
+Architecture: all
+Installed-Size: 1228
+Filename: luci-i18n-pptp-server-zh-cn_1-5-20200608_all.ipk
+Size: 2057
+SHA256sum: e343f9294184be46335587bcdfe8cdc056bd08a7c58eff0664a36fef9f9e0ca4
+Description:  Translation for luci-app-pptp-server - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ps3netsrv-zh-cn
+Version: 1-2
+Depends: libc, luci-app-ps3netsrv
+Section: luci
+Architecture: all
+Installed-Size: 627
+Filename: luci-i18n-ps3netsrv-zh-cn_1-2_all.ipk
+Size: 1437
+SHA256sum: 18a2c141a3c9b80366a6d20cde1a1ac27e66eea530a307568a4283ec2c3594c4
+Description:  Translation for luci-app-ps3netsrv - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ramfree-zh-cn
+Version: 1.0-1
+Depends: libc, luci-app-ramfree
+Section: luci
+Architecture: all
+Installed-Size: 426
+Filename: luci-i18n-ramfree-zh-cn_1.0-1_all.ipk
+Size: 1231
+SHA256sum: 971a9a6c022204fbd787a715d2d75036d227bc5f8eedf2e6e7fc3b76c4d87cbc
+Description:  Translation for luci-app-ramfree - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-rclone-zh-cn
+Version: 1.4.1-1
+Depends: libc, luci-app-rclone
+License: GPLv3.0+
+Section: luci
+Architecture: all
+Installed-Size: 1258
+Filename: luci-i18n-rclone-zh-cn_1.4.1-1_all.ipk
+Size: 2122
+SHA256sum: 0d59205c9cccff24f95561c4651568a6922154de81ec099cead4d0dfb738597f
+Description:  Translation for luci-app-rclone - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-smartdns-zh-cn
+Version: 1-3
+Depends: libc, luci-app-smartdns
+Section: luci
+Architecture: all
+Installed-Size: 3192
+Filename: luci-i18n-smartdns-zh-cn_1-3_all.ipk
+Size: 3968
+SHA256sum: 924e5eedfaa458022934fe2688a89c173f8ecd7efad644a0826e7cfabf85fb32
+Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-socat-zh-cn
+Version: git-21.009.28094-037eb0b-3
+Depends: libc, luci-app-socat
+Section: luci
+Architecture: all
+Installed-Size: 953
+Filename: luci-i18n-socat-zh-cn_git-21.009.28094-037eb0b-3_all.ipk
+Size: 1796
+SHA256sum: 3766e5ebe6c571d797483c3f67b1757b0167d3bbc331ada4eb3f392ea41e494d
+Description:  Translation for luci-app-socat - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-softethervpn-zh-cn
+Version: 1.0-3
+Depends: libc, luci-app-softethervpn
+Section: luci
+Architecture: all
+Installed-Size: 844
+Filename: luci-i18n-softethervpn-zh-cn_1.0-3_all.ipk
+Size: 1673
+SHA256sum: fab385b013b4c558b7b8db9fbd80acdbb2ec4aaf89cf51fdeb988138d74a7d48
+Description:  Translation for luci-app-softethervpn - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ssr-mudb-server-zh-cn
+Version: 10-1
+Depends: libc, luci-app-ssr-mudb-server
+Section: luci
+Architecture: all
+Installed-Size: 2015
+Filename: luci-i18n-ssr-mudb-server-zh-cn_10-1_all.ipk
+Size: 2852
+SHA256sum: 3e6e350014cc3d9cf2fe1cf44d5e1f402ad562620183a1ea531cf409f2836de0
+Description:  Translation for luci-app-ssr-mudb-server - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 183-6
+Depends: libc, luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 6399
+Filename: luci-i18n-ssr-plus-zh-cn_183-6_all.ipk
+Size: 7241
+SHA256sum: 192acaccf918b5d9bdc1008b7017a0916b40a5824f24fac404a658ac1e6ad049
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-syncthing-zh-cn
+Version: 1.0-2
+Depends: libc, luci-app-syncthing
+Section: luci
+Architecture: all
+Installed-Size: 453
+Filename: luci-i18n-syncthing-zh-cn_1.0-2_all.ipk
+Size: 1271
+SHA256sum: 68d653658d8692d093490c4ae70faf9f45f932c1d304821de7571cee01b5c138
+Description:  Translation for luci-app-syncthing - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ttyd-zh-cn
+Version: 1.0-3
+Depends: libc, luci-app-ttyd
+Section: luci
+Architecture: all
+Installed-Size: 422
+Filename: luci-i18n-ttyd-zh-cn_1.0-3_all.ipk
+Size: 1220
+SHA256sum: 8bd44c73cb27c5e9258031ea746d18636aa33bf9c707ee581c5caead0df5a1bb
+Description:  Translation for luci-app-ttyd - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-unblockmusic-zh-cn
+Version: 2.3.5-10
+Depends: libc, luci-app-unblockmusic
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 532
+Filename: luci-i18n-unblockmusic-zh-cn_2.3.5-10_all.ipk
+Size: 1366
+SHA256sum: c00eedc75ef353bc084bcafc6892a58e5cdc27f67a6802004de6b8e9d66e5ee7
+Description:  Translation for luci-app-unblockmusic - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-usb-printer-zh-cn
+Version: 1.0-2
+Depends: libc, luci-app-usb-printer
+Section: luci
+Architecture: all
+Installed-Size: 887
+Filename: luci-i18n-usb-printer-zh-cn_1.0-2_all.ipk
+Size: 1708
+SHA256sum: 5b16e94f45f6f3ef5c66a2ffdeefee90de4a2bf8b317c38bd446af8f08dca5a8
+Description:  Translation for luci-app-usb-printer - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-uugamebooster-zh-cn
+Version: 1.0-8
+Depends: libc, luci-app-uugamebooster
+Section: luci
+Architecture: all
+Installed-Size: 591
+Filename: luci-i18n-uugamebooster-zh-cn_1.0-8_all.ipk
+Size: 1408
+SHA256sum: cf3a429214ab2500736c22a53dcad05a3e47f57f3e5b15b3e08c90d490889788
+Description:  Translation for luci-app-uugamebooster - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-v2ray-server-zh-cn
+Version: 13-1
+Depends: libc, luci-app-v2ray-server
+Section: luci
+Architecture: all
+Installed-Size: 2430
+Filename: luci-i18n-v2ray-server-zh-cn_13-1_all.ipk
+Size: 3257
+SHA256sum: 229e8994478af7627477004a7ba6b7f3713443ffed86a89ed4d5ae2039a8a21b
+Description:  Translation for luci-app-v2ray-server - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-vlmcsd-zh-cn
+Version: 1.0-5
+Depends: libc, luci-app-vlmcsd
+Section: luci
+Architecture: all
+Installed-Size: 805
+Filename: luci-i18n-vlmcsd-zh-cn_1.0-5_all.ipk
+Size: 1609
+SHA256sum: 79e2a435850876046634a5f253d5a7ece923804671cdac9fa47b01d17e4219dc
+Description:  Translation for luci-app-vlmcsd - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-vsftpd-zh-cn
+Version: 1.0-3
+Depends: libc, luci-app-vsftpd
+Section: luci
+Architecture: all
+Installed-Size: 2220
+Filename: luci-i18n-vsftpd-zh-cn_1.0-3_all.ipk
+Size: 3036
+SHA256sum: bc6012a711f6f1365dc14cd3169e893e5c1df7830eaf6462c1ac7db95e6c4c9a
+Description:  Translation for luci-app-vsftpd - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-webadmin-zh-cn
+Version: 2-1
+Depends: libc, luci-app-webadmin
+Section: luci
+Architecture: all
+Installed-Size: 818
+Filename: luci-i18n-webadmin-zh-cn_2-1_all.ipk
+Size: 1630
+SHA256sum: bb576c04b7999f7a0efd9cd4c2647e6db6c446b979c5928f49326daceb1b1193
+Description:  Translation for luci-app-webadmin - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-wrtbwmon-zh-cn
+Version: 1.0-7
+Depends: libc, luci-app-wrtbwmon
+Section: luci
+Architecture: all
+Installed-Size: 974
+Filename: luci-i18n-wrtbwmon-zh-cn_1.0-7_all.ipk
+Size: 1797
+SHA256sum: b097d333d23803339a9f83b12c7b1bf47127fb443d30aac0d8d382a66265e51b
+Description:  Translation for luci-app-wrtbwmon - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-zerotier-zh-cn
+Version: 1.0-20
+Depends: libc, luci-app-zerotier
+Section: luci
+Architecture: all
+Installed-Size: 789
+Filename: luci-i18n-zerotier-zh-cn_1.0-20_all.ipk
+Size: 1601
+SHA256sum: 2015f8bf938821ed3ddf110a9b8391cb74a1b4e2fa7cce8440632300dbb20406
+Description:  Translation for luci-app-zerotier - 简体中文 (Simplified Chinese)
+
+Package: luci-lib-docker
+Version: v0.3.0-beta
+Depends: libc, luci-lib-json
+License: AGPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 3634
+Filename: luci-lib-docker_v0.3.0-beta_all.ipk
+Size: 4439
+SHA256sum: c9df7a91239a4395cafd9d4bf3efc3cfe935411477d560ae4b74b5b3446ab2dc
+Description:  Docker Engine API for LuCI
+
+Package: luci-lib-fs
+Version: 1.0-1
+Depends: libc, luci, luci-lib-nixio
+Section: lang
+Architecture: all
+Installed-Size: 2345
+Filename: luci-lib-fs_1.0-1_all.ipk
+Size: 2994
+SHA256sum: 20d5e8d3ff4812dcb5bfde2c907dd090019d5670fe23b3467048889eb8980bda
+Description:  luci-lib-fs
+
+Package: luci-proto-bonding
+Version: git-21.032.12155-9bc05c5-1
+Depends: libc, proto-bonding
+Section: luci
+Architecture: all
+Installed-Size: 4786
+Filename: luci-proto-bonding_git-21.032.12155-9bc05c5-1_all.ipk
+Size: 5516
+SHA256sum: 87b7a578355e808c9dc3f6e44cd87db26dd1048cd5b972cb20dbcddbbceea1f1
+Description:  Support for Link Aggregation (Channel Bonding)
+
+Package: luci-proto-minieap
+Version: 2.1-1
+Depends: libc
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 2365
+Filename: luci-proto-minieap_2.1-1_all.ipk
+Size: 3130
+SHA256sum: 208d2346c31fadd7999eec5b45bd34b3f20df6a1385ed53dd4850d8f3564680f
+Description:  LuCI support for MiniEAP
+
+Package: luci-theme-argon
+Version: 1.7.0-20200909
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 407134
+Filename: luci-theme-argon_1.7.0-20200909_all.ipk
+Size: 407892
+SHA256sum: bc1173137599e630ccbe9c561d4c347ebe5ae8cc3a364383ef1fe87ee41e8098
+Description:  Argon Theme
+
+Package: luci-udptools
+Version: 1.0.0-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 2647
+Filename: luci-udptools_1.0.0-1_all.ipk
+Size: 3354
+SHA256sum: 5b1a5bcc774262ba45f694b61fbbcc2b003d82ded50d3bc280fb6d15faf5b8b1
+Description:  LuCI for udp2raw and udpspeeder.
+
+Package: mdadm
+Version: 4.1-2
+Depends: libc, libpthread, kmod-md-mod, kmod-md-raid0, kmod-md-raid10, kmod-md-raid1
+Section: utils
+CPE-ID: cpe:/a:mdadm_project:mdadm
+Architecture: aarch64_cortex-a72
+Installed-Size: 216531
+Filename: mdadm_4.1-2_aarch64_cortex-a72.ipk
+Size: 217389
+SHA256sum: 0a860172d63c69d015ce24f00b5dbee30afe0bf4da1dba3a8954334d468ef53c
+Description:  A tool for managing Linux Software RAID arrays.
+ RAID 0, 1 and 10 support included.
+ If you need RAID 4,5 or 6 functionality please
+ install kmod-md-raid456 .
+
+Package: mentohust
+Version: 0.3.1-1
+Depends: libc, libpcap1
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 81594
+Filename: mentohust_0.3.1-1_aarch64_cortex-a72.ipk
+Size: 82460
+SHA256sum: 1b5811c8e0787a18bbda6f21704d799dbae45566ddd77111e5de5079d9ad5f5e
+Description:  A Ruijie Client Daemon,
+ Most usually used in China collages.
+
+Package: microsocks
+Version: 1.0-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 5829
+Filename: microsocks_1.0-1_aarch64_cortex-a72.ipk
+Size: 6530
+SHA256sum: 61a1402d6854ec09453e44b5d4f6229cc4cf26428105471fbc0a13c54650ed5f
+Description:  microsocks is a Tiny Proxy in C.
+
+Package: minieap
+Version: 0.93-1
+Depends: libc
+License: GPLv3
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 105920
+Filename: minieap_0.93-1_aarch64_cortex-a72.ipk
+Size: 105342
+SHA256sum: 9fae8cc027f77683c2965a1a099bfd9dd950fe3c2e0a3a762648adb5a375acb9
+Description:  Extendable 802.1x client with Ruijie v3 (v4) plugin.
+
+Package: mkf2fs
+Version: 1.13.0-1
+Depends: libc, libf2fs6
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 13905
+Filename: mkf2fs_1.13.0-1_aarch64_cortex-a72.ipk
+Size: 14606
+SHA256sum: a22cae01b28346519dc90a0f89d6b57a9054c0f93626649bc1f4627c381cf309
+Description:  Utility for creating a Flash-Friendly File System (F2FS)
+
+Package: mount-utils
+Version: 2.35.1-2
+Depends: libc, librt, libmount1, libsmartcols1
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 50191
+Filename: mount-utils_2.35.1-2_aarch64_cortex-a72.ipk
+Size: 50983
+SHA256sum: d4a8fdbab39927fbbf93aa6721a41f951db050b89b28771f8405277a7050844a
+Description:  contains: mount, umount, findmnt
+
+Package: mt7601u-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 26421
+Filename: mt7601u-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 27132
+SHA256sum: 2d23cade02873f926e3d3afc2a0279412e6d8f8c22edd8783a109af806b57745
+Description:  MediaTek MT7601U firmware
+
+Package: mwifiex-pcie-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 514912
+Filename: mwifiex-pcie-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 515607
+SHA256sum: 40527991112dc162a02474425ba95d40bb46395e9939101f674f676073dcf8bf
+Description:  Marvell 8897 firmware
+
+Package: mwifiex-sdio-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 876728
+Filename: mwifiex-sdio-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 877015
+SHA256sum: 6d107cb259bb7f2438f9d14a21123105ee1e764d5d5fdfa64293d163c4c2a018
+Description:  Marvell 8887/8997 firmware
+
+Package: mwl8k-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 192387
+Filename: mwl8k-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 193243
+SHA256sum: 098eb408cff125331f7575f438fc1367542117eec78727dcd49e8877ef983494
+Description:  Marvell 8366/8687 firmware
+
+Package: n2n-edge
+Version: 2.8.0_git-99e56e9f3c34c49eeb297971d41150b433489120-3
+Depends: libc, kmod-tun, resolveip, libopenssl1.1, libcap, libzstd
+License: GPL3
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 51279
+Filename: n2n-edge_2.8.0_git-99e56e9f3c34c49eeb297971d41150b433489120-3_aarch64_cortex-a72.ipk
+Size: 51979
+SHA256sum: 27baa515274554278eca38bf05e627c0ced5edf256a243a2049ae39491c06012
+Description:  The client node for the N2N infrastructure
+
+Package: n2n-supernode
+Version: 2.8.0_git-99e56e9f3c34c49eeb297971d41150b433489120-3
+Depends: libc, libcap
+License: GPL3
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 25267
+Filename: n2n-supernode_2.8.0_git-99e56e9f3c34c49eeb297971d41150b433489120-3_aarch64_cortex-a72.ipk
+Size: 25995
+SHA256sum: cfafa3d013d7e857a1a910db89c3499fcc260b6d5ee921c5f1384ebcfd525d19
+Description:  The supernode for the N2N infrastructure
+
+Package: netifd
+Version: 2020-09-08-d7b614a8-1
+Depends: libc, libuci, libnl-tiny, libubus20191227, ubus, ubusd, jshn, libubox20191228
+License: GPL-2.0
+Section: base
+Architecture: aarch64_cortex-a72
+Installed-Size: 84659
+Filename: netifd_2020-09-08-d7b614a8-1_aarch64_cortex-a72.ipk
+Size: 85399
+SHA256sum: b8c2c9561c79468f11201c46d92788d713936b5ffff8943bc69002997386ce10
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: nft-qos
+Version: 1.0.6-1
+Depends: libc, nftables, kmod-nft-netdev, kmod-nft-bridge
+License: GPL-2.0
+Section: utils
+Architecture: all
+Installed-Size: 4396
+Filename: nft-qos_1.0.6-1_all.ipk
+Size: 5238
+SHA256sum: 1100ef3025032ab9dbcfa839ae118dc2c6833d3882b0da449931f6540836204b
+Description:  This package provides implementation for qos over nftables.
+ Currently, static/dynamic qos and traffic shaping are supported.
+
+Package: nftables-nojson
+Version: 0.9.3-1
+Depends: libc, kmod-nft-core, libnftnl12
+Provides: nftables
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 219739
+Filename: nftables-nojson_0.9.3-1_aarch64_cortex-a72.ipk
+Size: 219849
+SHA256sum: 4ed0e8f89dfe2e6a01712d3f058b11c1c7c7a0361d2fa2df6582f31bf9cdc48a
+Description:  nftables userspace utility no JSON support
+
+Package: npc
+Version: 0.26.9-1
+Depends: libc
+License: Apache-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 4182633
+Filename: npc_0.26.9-1_aarch64_cortex-a72.ipk
+Size: 4172625
+SHA256sum: 2af21ac3f385d08465a262b02f9e256cc4071cf11ef674697c07548beedd0314
+Description:  npc is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet
+
+Package: odhcp6c
+Version: 2020-03-28-f575351c-16
+Depends: libc, libubox20191228
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 26673
+Filename: odhcp6c_2020-03-28-f575351c-16_aarch64_cortex-a72.ipk
+Size: 27411
+SHA256sum: 2392be2ac0a7d8c26d0b922a76f525dc12e43c364dcf450254681a998574f03f
+Description:  Embedded DHCPv6-client for OpenWrt
+
+Package: odhcpd-ipv6only
+Version: 2020-06-21-5da52992-4
+Depends: libc, libubox20191228, libuci, libubus20191227, libnl-tiny
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 40846
+Filename: odhcpd-ipv6only_2020-06-21-5da52992-4_aarch64_cortex-a72.ipk
+Size: 41941
+SHA256sum: 929c8b3be63e02f22ffbc8ccc4fa4f8ebed230a22d2102830f6734481e5a4a02
+Description:  odhcpd is a daemon for serving and relaying IP management protocols to
+ configure clients and downstream routers. It tries to follow the RFC 6204
+ requirements for IPv6 home routers.
+ 
+ This is a variant providing server services for RA, stateless and stateful
+ DHCPv6,  prefix delegation and can be used to relay RA, DHCPv6 and NDP between
+ routed (non-bridged) interfaces in case no delegated prefixes are available.
+
+Package: openssl-util
+Version: 1.1.1i-1
+Depends: libc, libopenssl1.1, libopenssl-conf
+License: OpenSSL
+Section: utils
+CPE-ID: cpe:/a:openssl:openssl
+Architecture: aarch64_cortex-a72
+Installed-Size: 272231
+Filename: openssl-util_1.1.1i-1_aarch64_cortex-a72.ipk
+Size: 272429
+SHA256sum: 034b592c8c937ca20ad8994689e12442e0664754ecccf66edd19c15db1af02d3
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL command-line utility.
+
+Package: openvpn-easy-rsa
+Version: 3.0.4-1
+Depends: libc, openssl-util
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 17293
+Filename: openvpn-easy-rsa_3.0.4-1_aarch64_cortex-a72.ipk
+Size: 18093
+SHA256sum: bc54baaab15b78c6f4dd0e2ac996dd7a3ec54c6fe5144e6041951c4a4f656ba7
+Description:  CLI utility to build and manage a PKI CA.
+
+Package: openvpn-openssl
+Version: 2.5.0-1
+Depends: libc, kmod-tun, libopenssl1.1
+Provides: openvpn, openvpn-crypto
+License: GPL-2.0
+Section: net
+CPE-ID: cpe:/a:openvpn:openvpn
+Architecture: aarch64_cortex-a72
+Installed-Size: 230952
+Filename: openvpn-openssl_2.5.0-1_aarch64_cortex-a72.ipk
+Size: 231431
+SHA256sum: dfed1846969dd6e6a935e6e46e95af7df8e7b5847ea84dea12e94904692dd514
+Description:  Open source VPN solution using OpenSSL
+
+Package: openwrt-keyring
+Version: 2019-07-25-8080ef34-1
+Depends: libc
+Provides: lede-keyring
+License: GPL-2.0
+Section: base
+Architecture: aarch64_cortex-a72
+Installed-Size: 1320
+Filename: openwrt-keyring_2019-07-25-8080ef34-1_aarch64_cortex-a72.ipk
+Size: 2104
+SHA256sum: 64a5e91d451964708ab405f23394f25c18e4c7fae3d56ce2d6a7cbc055a76349
+Description:  The keyring of with the developer using and gpg public keys.
+
+Package: opkg
+Version: 2020-05-07-f2166a89-1
+Depends: libc, uclient-fetch, libpthread, libubox20191228
+License: GPL-2.0
+Section: base
+Essential: yes
+Architecture: aarch64_cortex-a72
+Installed-Size: 74080
+Filename: opkg_2020-05-07-f2166a89-1_aarch64_cortex-a72.ipk
+Size: 75068
+SHA256sum: 05feade0809e284005acf315f5d5c85d1a04e85aea3ad77e85d032a1cbfdff45
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: p54-pci-firmware
+Version: 1
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 23511
+Filename: p54-pci-firmware_1_aarch64_cortex-a72.ipk
+Size: 24175
+SHA256sum: f224344da8ee8aba5cca21004c7ccccc8fc1a00419034a12aed3e96e6b1a3bbf
+Description:  p54-pci firmware
+
+Package: p54-usb-firmware
+Version: 1
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 23803
+Filename: p54-usb-firmware_1_aarch64_cortex-a72.ipk
+Size: 24469
+SHA256sum: 9f24e2a8b37ccfd7eac3e6d9e0e58a17b0f4d28d2046ae8d51bb2e9c43562ad5
+Description:  p54-usb firmware
+
+Package: parted
+Version: 3.3-1
+Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 607942
+Filename: parted_3.3-1_aarch64_cortex-a72.ipk
+Size: 607982
+SHA256sum: 23da035a212040444b94dd86ca3716b23c094dfbc25e050c69481f72ea5b89d2
+Description:  parted Partition editor
+ http://www.gnu.org/software/parted/index.shtml
+
+Package: partx-utils
+Version: 2.35.1-2
+Depends: libc, libblkid1, libsmartcols1
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 48127
+Filename: partx-utils_2.35.1-2_aarch64_cortex-a72.ipk
+Size: 49008
+SHA256sum: 5286c523d8241cdd8e4579e5a0551fe106665b60c76333ece3a61791298e3603
+Description:  contains partx, addpart, delpart
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-a8e46ccba7b0fa2230d6c42ab6dcd92926f6c21d
+Depends: libc, libpthread
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 94311
+Filename: pdnsd-alt_1.2.9b-par-a8e46ccba7b0fa2230d6c42ab6dcd92926f6c21d_aarch64_cortex-a72.ipk
+Size: 95262
+SHA256sum: 88f07650d8eead97f38876a6a84fb979fbef716205bde273c644b1e7e78d579f
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: ppp-mod-pppoe
+Version: 2.4.8-5
+Depends: libc, kmod-pppoe
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: aarch64_cortex-a72
+Installed-Size: 11211
+Filename: ppp-mod-pppoe_2.4.8-5_aarch64_cortex-a72.ipk
+Size: 12028
+SHA256sum: 744added8dea2c8bb2dc0cd335e54d04cbe0bfae4ce3aff58f40b9eb0e5973a9
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp-mod-pppol2tp
+Version: 2.4.8-5
+Depends: libc, kmod-pppol2tp
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: aarch64_cortex-a72
+Installed-Size: 4812
+Filename: ppp-mod-pppol2tp_2.4.8-5_aarch64_cortex-a72.ipk
+Size: 5595
+SHA256sum: a9b0d9f28a064032e45e85be36e044dda8cd4ec01382840a5082cc6e770b4ba7
+Description:  This package contains a PPPoL2TP (PPP over L2TP) plugin for ppp.
+
+Package: ppp-mod-pptp
+Version: 2.4.8-5
+Depends: libc, kmod-pptp, kmod-mppe, resolveip
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: aarch64_cortex-a72
+Installed-Size: 18502
+Filename: ppp-mod-pptp_2.4.8-5_aarch64_cortex-a72.ipk
+Size: 19257
+SHA256sum: 4f4f7b2cd462bfa0647d77adf570e59cd76c67c80bf58a2cd8a0f06ac6ee4f83
+Description:  This package contains a PPtP plugin for ppp.
+
+Package: ppp
+Version: 2.4.8-5
+Depends: libc, kmod-ppp, libpthread, shellsync, kmod-mppe
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: aarch64_cortex-a72
+Installed-Size: 138373
+Filename: ppp_2.4.8-5_aarch64_cortex-a72.ipk
+Size: 138996
+SHA256sum: a52cbd6d2ae9c20cde8880d07de6904b0c6921bacb2e1f309a0b19d325e3682b
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: prism54-firmware
+Version: 1
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 80227
+Filename: prism54-firmware_1_aarch64_cortex-a72.ipk
+Size: 81026
+SHA256sum: b41ce4d5ff6ac1d4020d587896fbeb3077fe3919a2264d4d9b358911b54135e8
+Description:  prism54 firmware
+
+Package: procd
+Version: 2020-05-28-b9b39e20-2
+Depends: libc, ubusd, ubus, libjson-script, ubox, libubox20191228, libubus20191227, libblobmsg-json, libjson-c4
+License: GPL-2.0
+Section: base
+Architecture: aarch64_cortex-a72
+Installed-Size: 52110
+Filename: procd_2020-05-28-b9b39e20-2_aarch64_cortex-a72.ipk
+Size: 52895
+SHA256sum: 4685a1fe541d64fc087339b45f80c3453dd40c213aa0c725c2030348a3b169ab
+Description:  OpenWrt system process manager
+
+Package: ps3netsrv
+Version: 20190630-1
+Depends: libc, libpthread, libstdcpp6
+License: GPLv3
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 95661
+Filename: ps3netsrv_20190630-1_aarch64_cortex-a72.ipk
+Size: 96540
+SHA256sum: 30efd61e42f5e530623e4a04c2ec6feed0b45df460888e8a3ca933cb72c18eca
+Description:  ps3netsrv allows you to stream games and ISOs over the network to your CFW PlayStation(R) 3 system.
+ This may be useful if you have a modified PS3, and your router has storage options.
+
+Package: r8169-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 27265
+Filename: r8169-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 27979
+SHA256sum: b718dc7b4999bdc1480d7488003a69ff7abf1ef9ef57124632f6778a7ab47732
+Description:  RealTek RTL8169 firmware
+
+Package: rclone-ng
+Version: 0.5.0-1
+Depends: libc
+License: GPLv3
+Section: net
+Architecture: all
+Installed-Size: 4637284
+Filename: rclone-ng_0.5.0-1_all.ipk
+Size: 4631775
+SHA256sum: 47357fd2fdd19c7ad41a2cbe73bed2183cbe59ef727a33dd2d7d4724f0036108
+Description:  An angular web application for rclone
+
+Package: rclone-webui-react
+Version: 0.1.0-1
+Depends: libc
+License: GPLv3
+Section: net
+Architecture: all
+Installed-Size: 4367064
+Filename: rclone-webui-react_0.1.0-1_all.ipk
+Size: 4364268
+SHA256sum: 500e73af5ab294a3eaed2d29c5efaf4ddba669dfcb05f0c05410e02dfdb678a6
+Description:  A full fledged UI for the rclone cloud sync tool.
+
+Package: rclone
+Version: 1.53.0-1
+Depends: libc
+License: GPLv3
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 11136253
+Filename: rclone_1.53.0-1_aarch64_cortex-a72.ipk
+Size: 11091315
+SHA256sum: e2d433e413df0aa1134c90806f0dbe76688e88d61e59db6ccedbdd4e888fb3ea
+Description:  Rclone ("rsync for cloud storage") is a command line program to sync root/usr/bin and directories to and from different cloud storage providers.
+ Cloud storage providers:
+ 1Fichier, Alibaba Cloud (Aliyun) Object Storage System (OSS), Amazon Drive, Amazon S3, 
+ Backblaze B2, Box, Ceph, C14, DigitalOcean Spaces, Dreamhost, Dropbox, FTP, 
+ Google Cloud Storage, Google Drive, Google Photos, HTTP, Hubic, Jottacloud, 
+ IBM COS S3, Koofr, Memset Memstore, Mega, Microsoft Azure Blob Storage, 
+ Microsoft OneDrive, Minio, Nextcloud, OVH, OpenDrive, Openstack Swift, 
+ Oracle Cloud Storage, ownCloud, pCloud, premiumize.me, put.io, QingStor, 
+ Rackspace Cloud root/usr/bin, rsync.net, Scaleway, SFTP, Wasabi, WebDAV, 
+ Yandex Disk, The local root/usr/binystem.
+
+Package: redsocks2
+Version: 0.67-4
+Depends: libc, libevent2-7, libopenssl1.1
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 57376
+Filename: redsocks2_0.67-4_aarch64_cortex-a72.ipk
+Size: 58312
+SHA256sum: eda607f4d5d025096eae853afea7e14420391898c57cd0e38c448f2de1362cc7
+Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
+
+Package: relayd
+Version: 2020-04-25-f4d759be-1
+Depends: libc, libubox20191228
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 11060
+Filename: relayd_2020-04-25-f4d759be-1_aarch64_cortex-a72.ipk
+Size: 11824
+SHA256sum: aaf6b534c8fd184e25d38c5352f28e799880ede6d26fcacf0c777d1bd93defeb
+Description:  Transparent routing / relay daemon
+
+Package: resize2fs
+Version: 1.45.6-1
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 22899
+Filename: resize2fs_1.45.6-1_aarch64_cortex-a72.ipk
+Size: 23655
+SHA256sum: 7c50f776b9de51ca645b1eb9af2afd55b277d6b49e7dc3ca4002caa7fc7fc6c4
+Description:  Ext2 Filesystem resize utility
+
+Package: resolveip
+Version: 2
+Depends: libc
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 1797
+Filename: resolveip_2_aarch64_cortex-a72.ipk
+Size: 2689
+SHA256sum: ec3b50ce70363080b89e5c9d7d3721f41bc85d67d1fbf1a92f187866a4ca62ce
+Description:  This package contains the small resolveip utility which
+ can be used by scripts to turn host names into numeric
+ IP addresses. It supports IPv4 and IPv6 resolving and
+ has a configurable timeout to guarantee a certain maximum
+ runtime in case of slow or defunct DNS servers.
+
+Package: rpcd
+Version: 2020-05-26-078bb57e-1
+Depends: libc, libubus20191227, libubox20191228, libuci, libblobmsg-json, libjson-c4
+License: ISC
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 25511
+Filename: rpcd_2020-05-26-078bb57e-1_aarch64_cortex-a72.ipk
+Size: 26334
+SHA256sum: 09ac6b9d47745badd37c454de79d6a6ec4cc9c58e01034eeb6459517b1eb6765
+Description:  This package provides the UBUS RPC backend server to expose various
+ functionality to frontend programs via JSON-RPC.
+
+Package: rs9113-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 84660
+Filename: rs9113-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 85253
+SHA256sum: faa2b14b936a17fe184aeff6959387c1871e1871ad08195bb6372e88aa565fd5
+Description:  RedPine Signals rs9113 firmware
+
+Package: rt2800-pci-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 3968
+Filename: rt2800-pci-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 4690
+SHA256sum: 3a0678e980e08f6bf76a7d268ebe29b3b75166e8d0efe91611ca139fdb25742a
+Description:  Ralink RT28xx/3xxx PCI/SoC firmware
+
+Package: rt2800-usb-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 2939
+Filename: rt2800-usb-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 3652
+SHA256sum: f72297a7ba94a6da6877cdf4b6d824516ca6c89f42fec4ae8f9e6b062a04953b
+Description:  Ralink RT28xx/3xxx USB firmware
+
+Package: rt61-pci-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 6502
+Filename: rt61-pci-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 7215
+SHA256sum: 34af09f36a970a0a4d4fe9990bf54584074bf0eb8e7d30da80f5c5de9a61b958
+Description:  Ralink RT2561 firmware
+
+Package: rt73-usb-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 1319
+Filename: rt73-usb-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 2044
+SHA256sum: ff73ab632d669a4c388acde7b238bbbe2adc3239b5c6529ba3bc4e4124a326f8
+Description:  Ralink RT2573 firmware
+
+Package: rtl8188eu-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 8296
+Filename: rtl8188eu-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 9055
+SHA256sum: d98bb475f479cd3eefab347c2075077642658fbe862253b78a883c143dc09f1c
+Description:  RealTek RTL8188EU firmware
+
+Package: rtl8192ce-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 20761
+Filename: rtl8192ce-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 21471
+SHA256sum: 7b6e394a02b52a3a96302063122c48c17c706332b0787455d9c21cd661ad91c8
+Description:  RealTek RTL8192CE firmware
+
+Package: rtl8192cu-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 18712
+Filename: rtl8192cu-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 19465
+SHA256sum: 097b4c524e18b00ef5c45af60f5f27662333c0e4ea62572585390f54e3773c3a
+Description:  RealTek RTL8192CU firmware
+
+Package: rtl8192de-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 13531
+Filename: rtl8192de-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 14257
+SHA256sum: cdb2b0dd8a33205a69e8aa23d72c89363e0a4a788a05057d73f86ee9dcce60cb
+Description:  RealTek RTL8192DE firmware
+
+Package: rtl8192eu-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 17872
+Filename: rtl8192eu-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 18608
+SHA256sum: 723691869d77fea5cb6a2ffc05271c8f6842789ae5a00e2be2ce08edda7d4b7c
+Description:  RealTek RTL8192EU firmware
+
+Package: rtl8192se-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 36780
+Filename: rtl8192se-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 37495
+SHA256sum: d452885f7963af2724c2640061a443809968557ac81c61ce99ee0b6e121da547
+Description:  RealTek RTL8192SE firmware
+
+Package: rtl8192su-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 63231
+Filename: rtl8192su-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 64005
+SHA256sum: 64eb6b9e3f67d7b59b11d377bc85c130c839bb6f5938b0ebf31f6ec0672ddb47
+Description:  RealTek RTL8192SU firmware
+
+Package: rtl8723au-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 27993
+Filename: rtl8723au-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 28704
+SHA256sum: 0f24b28a86871929e6824d5a1104cc8a4db72b408f4c4be961e440df93d27a9f
+Description:  RealTek RTL8723AU firmware
+
+Package: rtl8723bu-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 21391
+Filename: rtl8723bu-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 22108
+SHA256sum: 24917aeedf8be74b137491703e613b46635d425679f4ccfe381566ca3edbdb7b
+Description:  RealTek RTL8723BU firmware
+
+Package: rtl8821ae-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 23997
+Filename: rtl8821ae-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 24685
+SHA256sum: bca4623ed0c4eb0df5074d8e1b82bbfa5c4b1162fdd75b40d5138f9f3578df89
+Description:  RealTek RTL8821AE firmware
+
+Package: samba36-server
+Version: 3.6.25-15
+Depends: libc
+License: GPL-3.0
+Section: net
+CPE-ID: cpe:/a:samba:samba
+Architecture: aarch64_cortex-a72
+Installed-Size: 979693
+Filename: samba36-server_3.6.25-15_aarch64_cortex-a72.ipk
+Size: 964941
+SHA256sum: 4d77e5760e438b139fe75a3bc22720307fd61f7f17ff0504f78e184e7251da09
+Description:  The Samba software suite is a collection of programs that implements the
+ SMB protocol for UNIX systems, allowing you to serve files and printers to
+ Windows, NT, OS/2 and DOS clients. This protocol is sometimes also referred
+ to as the LanManager or Netbios protocol.
+
+Package: shadowsocksr-libev-alt
+Version: 2.5.6-5
+Depends: libc, libopenssl1.1, libpthread, libpcre, zlib
+License: GPLv3
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 96074
+Filename: shadowsocksr-libev-alt_2.5.6-5_aarch64_cortex-a72.ipk
+Size: 96597
+SHA256sum: 32ec070e01ccf3f7557888423f435f3abc33dd5787392e63db738c9410369a80
+Description:  Lightweight Secured Socks5 Proxy
+
+Package: shadowsocksr-libev-server
+Version: 2.5.6-5
+Depends: libc, libopenssl1.1, libpthread, libpcre, zlib
+License: GPLv3
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 115679
+Filename: shadowsocksr-libev-server_2.5.6-5_aarch64_cortex-a72.ipk
+Size: 116332
+SHA256sum: 65fdf8fc1498b88f9b40b0991f9e1e1aeb238591f3d85f6ab378ebe18e99df72
+Description:  Lightweight Secured Socks5 Proxy
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-5
+Depends: libc, libopenssl1.1, libpthread, libpcre, zlib
+License: GPLv3
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 104269
+Filename: shadowsocksr-libev-ssr-local_2.5.6-5_aarch64_cortex-a72.ipk
+Size: 104974
+SHA256sum: e3e2504411c8f2103f6a6b93f5458d69328871d19f6bafcbd2f0f9a8004ab8fc
+Description:  Lightweight Secured Socks5 Proxy
+
+Package: shellsync
+Version: 0.2-2
+Depends: libc, libpthread, kmod-macvlan
+Section: opt
+Architecture: aarch64_cortex-a72
+Installed-Size: 1950
+Filename: shellsync_0.2-2_aarch64_cortex-a72.ipk
+Size: 2661
+SHA256sum: c5cca08ee2c92a35273e17f737dd1e7d8fd668c95cee2a094548be80448c5083
+Description:  A tool to sync different shell scripts.Based on syncppp patch by morfast.
+
+Package: simple-obfs
+Version: 0.0.5-5
+Depends: libc, libpthread, libev
+License: GPLv3
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 31233
+Filename: simple-obfs_0.0.5-5_aarch64_cortex-a72.ipk
+Size: 31946
+SHA256sum: 125a144011326f9c73381cb83277efa0783de964304ddb58e9dd129d0c315d80
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: softethervpn5-bridge
+Version: 5.01.9671-1
+Depends: libc, softethervpn5-libs
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 1945
+Filename: softethervpn5-bridge_5.01.9671-1_aarch64_cortex-a72.ipk
+Size: 2984
+SHA256sum: 9b191fa43d1a13374abf49be5db2611808630698632f693f5fe1fdb364d0254f
+Description:  SoftEther VPN supports SSL-VPN, OpenVPN, L2TP, EtherIP, L2TPv3 and IPsec as a single VPN software.
+ SoftEther VPN is not only an alternative VPN server to existing VPN products (OpenVPN, IPsec and MS-SSTP),
+ but has also original strong SSL-VPN protocol to penetrate any kinds of firewalls.
+ Guide: https://wordpress.tirlins.com/2015/03/setting-up-softether-vpn-on-openwrt/
+ 
+ Provides the vpnbridge (daemon).
+
+Package: softethervpn5-client
+Version: 5.01.9671-1
+Depends: libc, softethervpn5-libs
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 1870
+Filename: softethervpn5-client_5.01.9671-1_aarch64_cortex-a72.ipk
+Size: 2904
+SHA256sum: 5743f014b49eb967b9c9f41f1e1f6d896e5fc837088b40b1ad095d4ddbffd256
+Description:  SoftEther VPN supports SSL-VPN, OpenVPN, L2TP, EtherIP, L2TPv3 and IPsec as a single VPN software.
+ SoftEther VPN is not only an alternative VPN server to existing VPN products (OpenVPN, IPsec and MS-SSTP),
+ but has also original strong SSL-VPN protocol to penetrate any kinds of firewalls.
+ Guide: https://wordpress.tirlins.com/2015/03/setting-up-softether-vpn-on-openwrt/
+ 
+ Provides the vpnclient.
+
+Package: softethervpn5-libs
+Version: 5.01.9671-1
+Depends: libc, libpthread, librt, libreadline8, libopenssl1.1, libncurses6, kmod-tun, zlib
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 3607777
+Filename: softethervpn5-libs_5.01.9671-1_aarch64_cortex-a72.ipk
+Size: 3605763
+SHA256sum: fcd56839fc08e1c22d567fa51509c979be58ab21d1b16ef556fb572d6aee8b04
+Description:  softethervpn5 v5.01.9671 libs
+
+Package: softethervpn5-server
+Version: 5.01.9671-1
+Depends: libc, softethervpn5-libs
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 1941
+Filename: softethervpn5-server_5.01.9671-1_aarch64_cortex-a72.ipk
+Size: 2982
+SHA256sum: 6f0a8f067bf0ea98c49b29c6060d48b21bab20c4bea803710055c5d6dd59c217
+Description:  SoftEther VPN supports SSL-VPN, OpenVPN, L2TP, EtherIP, L2TPv3 and IPsec as a single VPN software.
+ SoftEther VPN is not only an alternative VPN server to existing VPN products (OpenVPN, IPsec and MS-SSTP),
+ but has also original strong SSL-VPN protocol to penetrate any kinds of firewalls.
+ Guide: https://wordpress.tirlins.com/2015/03/setting-up-softether-vpn-on-openwrt/
+ 
+ Provides the vpnserver (daemon).
+
+Package: tc
+Version: 5.7.0-2
+Depends: libc, kmod-sched-core, libxtables12, libelf1
+License: GPL-2.0
+Section: net
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Architecture: aarch64_cortex-a72
+Installed-Size: 177408
+Filename: tc_5.7.0-2_aarch64_cortex-a72.ipk
+Size: 178137
+SHA256sum: fded25f62710ae43a628b88d3a40dbf84c193dd3a2cf0ca0ddc04474b84ad216
+Description:  Traffic control utility
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 3813
+Filename: tcping_0.3-1_aarch64_cortex-a72.ipk
+Size: 4486
+SHA256sum: ee7a77a66757f1e0b87a17fdaba2ad2874bd4765aed40124992c50ba26ad7d96
+Description:  tcping measures the latency of a tcp-connection
+
+Package: terminfo
+Version: 6.2-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 6291
+Filename: terminfo_6.2-1_aarch64_cortex-a72.ipk
+Size: 6952
+SHA256sum: 78b63904a8eb1719140fde71437be279d479fbe07b2db84ff950520284f00695
+Description:  Terminal Info Database (ncurses)
+
+Package: tmate
+Version: 2.4.0-cbec43f-1
+Depends: libc, libpthread, libevent2-7, libssh, libmsgpack-c, libncurses6
+License: ISC
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 259943
+Filename: tmate_2.4.0-cbec43f-1_aarch64_cortex-a72.ipk
+Size: 259739
+SHA256sum: 0d3c632ad8c9bc6e5f9dffdd9dde0e8e5683e0a8b6a3c7856f71a4bc05c291ea
+Description:  Tmate is a fork of tmux. It provides an instant pairing solution.
+
+Package: trojan-go
+Version: 0.8.2-2
+Depends: libc
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 3105150
+Filename: trojan-go_0.8.2-2_aarch64_cortex-a72.ipk
+Size: 3106477
+SHA256sum: 0b8afdb83517c6402fb8d288000c4efae9c252de7cc56fb31c72ecf449147de9
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+License: GPL-3.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 365887
+Filename: trojan-plus_10.0.3-2_aarch64_cortex-a72.ipk
+Size: 366680
+SHA256sum: 4725849cf74ab586fda5ca6adcda45d1bfd20308db565cdd17624030d1299a33
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan
+Version: 1.16.0-1
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
+License: GPL-3.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 260750
+Filename: trojan_1.16.0-1_aarch64_cortex-a72.ipk
+Size: 261485
+SHA256sum: 539a0e4bc0ddc93ed48e89684562bc1998599bc85b5f41f8d7ca08b5bdb0e31e
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: ubox
+Version: 2019-12-31-0e34af14-4
+Depends: libc, libubox20191228, ubusd, ubus, libubus20191227, libuci
+Alternatives: 100:/sbin/rmmod:/sbin/kmodloader, 100:/sbin/insmod:/sbin/kmodloader, 100:/sbin/lsmod:/sbin/kmodloader, 100:/sbin/modinfo:/sbin/kmodloader, 100:/sbin/modprobe:/sbin/kmodloader
+License: GPL-2.0
+Section: base
+Architecture: aarch64_cortex-a72
+Installed-Size: 16937
+Filename: ubox_2019-12-31-0e34af14-4_aarch64_cortex-a72.ipk
+Size: 17691
+SHA256sum: 883c527e3a2a2945616ad8b64d208f4a99c2722c0670abcc632a502361345348
+Description:  OpenWrt system helper toolbox
+
+Package: ubus
+Version: 2020-02-05-171469e3-1
+Depends: libc, libubus20191227, libblobmsg-json, ubusd
+License: LGPL-2.1
+Section: base
+Architecture: aarch64_cortex-a72
+Installed-Size: 6573
+Filename: ubus_2020-02-05-171469e3-1_aarch64_cortex-a72.ipk
+Size: 7380
+SHA256sum: b040dc803f4ed45840b463a297cc3da724df5f564b6b1dfc31e29f536364eb82
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2020-02-05-171469e3-1
+Depends: libc, libubox20191228, libblobmsg-json
+License: LGPL-2.1
+Section: base
+Architecture: aarch64_cortex-a72
+Installed-Size: 13157
+Filename: ubusd_2020-02-05-171469e3-1_aarch64_cortex-a72.ipk
+Size: 13879
+SHA256sum: 6fdcd9225d901e16d3d54036030990e5c0bd2a2273ed3c6322eb702b76a8b876
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2018-08-11-4c8b4d6e-2
+Depends: libc, libuci
+License: LGPL-2.1
+Section: base
+Architecture: aarch64_cortex-a72
+Installed-Size: 7247
+Filename: uci_2018-08-11-4c8b4d6e-2_aarch64_cortex-a72.ipk
+Size: 8014
+SHA256sum: f277e23ec9e5ebd8cbceaa3c08fb2f16c13b4892b0e9ecb9833e99ef52eecc07
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uclibcxx
+Version: 0.2.5-3
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 67316
+Filename: uclibcxx_0.2.5-3_aarch64_cortex-a72.ipk
+Size: 67874
+SHA256sum: c68a449131ff63b4c8d22c9a7c67a9a7bfb1be3e9e9b3ba9df9c46c2f73ea636
+Description:  C++ library for embedded systems
+
+Package: uclient-fetch
+Version: 2020-06-17-c6609861-1
+Depends: libc, libuclient20160123
+Provides: wget
+Alternatives: 200:/usr/bin/wget:/bin/uclient-fetch
+License: ISC
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 7508
+Filename: uclient-fetch_2020-06-17-c6609861-1_aarch64_cortex-a72.ipk
+Size: 8256
+SHA256sum: 2a1e5b622b2fdc9cda7a87774fffd93770e648474a340839e1e0dc9d40d49356
+Description:  Tiny wget replacement using libuclient
+
+Package: udp2raw-tunnel
+Version: 20200818.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 126932
+Filename: udp2raw-tunnel_20200818.0-1_aarch64_cortex-a72.ipk
+Size: 127341
+SHA256sum: 871681b6c67149ee16c6c1d00d3d76e7ea71397ee6bcbed42c9adfcab9173009
+Description:  udp2raw-tunnel is a tunnel which turns UDP Traffic into Encrypted FakeTCP/UDP/ICMP Traffic by using Raw Socket.
+
+Package: udpspeeder
+Version: 20200818.1-1
+Depends: libc, libstdcpp6, librt
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 76497
+Filename: udpspeeder_20200818.1-1_aarch64_cortex-a72.ipk
+Size: 77334
+SHA256sum: 2414fbdb57c6342849ca05f944290784e8f7f580cd328e8f65b005b6aa052f1c
+Description:  A Tunnel which Improves your Network Quality on a High-latency Lossy Link by using Forward Error Correction,for All Traffics(TCP/UDP/ICMP)
+
+Package: uhttpd-mod-ubus
+Version: 2020-06-03-939c281c-2
+Depends: libc, uhttpd, libubus20191227, libblobmsg-json
+License: ISC
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 6420
+Filename: uhttpd-mod-ubus_2020-06-03-939c281c-2_aarch64_cortex-a72.ipk
+Size: 7270
+SHA256sum: 9516ce2a4e7b2d5049ec65f17594450446b0d4dd0bcfd1db304bbb79645963d8
+Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
+ session.* namespace and procedures.
+
+Package: uhttpd
+Version: 2020-06-03-939c281c-2
+Depends: libc, libubox20191228, libblobmsg-json, libjson-script, libjson-c4
+License: ISC
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 30745
+Filename: uhttpd_2020-06-03-939c281c-2_aarch64_cortex-a72.ipk
+Size: 31662
+SHA256sum: f3a1cb55c2133405fa6be6f0876e45b11fba5a1934b41896b83aaed32ae48e4b
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
+Package: urandom-seed
+Version: 1.0-2
+Depends: libc, getrandom
+License: GPL-2.0-only
+Section: base
+Architecture: aarch64_cortex-a72
+Installed-Size: 837
+Filename: urandom-seed_1.0-2_aarch64_cortex-a72.ipk
+Size: 1564
+SHA256sum: c2b843516c74776176ed3e45d3b8021c249a200938cdf3307dc84ca552595004
+Description:  /etc/urandom.seed handling for OpenWrt
+
+Package: urngd
+Version: 2020-01-21-c7f7b6b6-1
+Depends: libc, libubox20191228
+License: GPL-2.0 BSD-3-Clause
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 5004
+Filename: urngd_2020-01-21-c7f7b6b6-1_aarch64_cortex-a72.ipk
+Size: 5972
+SHA256sum: 7aafd650dabf75abd94e2e75aa703028c7c312b210bcf9e5b2f45c2b298dcf3e
+Description:  urngd is OpenWrt's micro non-physical true random number generator based on
+ timing jitter.
+ 
+ Using the Jitter RNG core, the rngd provides an entropy source that feeds into
+ the Linux /dev/random device if its entropy runs low. It updates the
+ /dev/random entropy estimator such that the newly provided entropy unblocks
+ /dev/random.
+ 
+ The seeding of /dev/random also ensures that /dev/urandom benefits from
+ entropy. Especially during boot time, when the entropy of Linux is low, the
+ Jitter RNGd provides a source of sufficient entropy.
+
+Package: usb-modeswitch
+Version: 2017-12-19-f40f84c2-2
+Depends: libc, libubox20191228, libblobmsg-json, libusb-1.0-0
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 13678
+Filename: usb-modeswitch_2017-12-19-f40f84c2-2_aarch64_cortex-a72.ipk
+Size: 14446
+SHA256sum: 18c8e6a2bddc14589fdfd78c8b93e229248d18ad6384cbfd38e50bea5ad92f94
+Description:  USB mode switching utility
+
+Package: usbutils
+Version: 007-10
+Depends: libc, libusb-1.0-0, librt, libpthread
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 247194
+Filename: usbutils_007-10_aarch64_cortex-a72.ipk
+Size: 247679
+SHA256sum: 8623da8ecadfa07f5a2c5bb2068d53082b3b08818a0b9a1d879af05b14e97f3e
+Description:  USB devices listing utilities
+
+Package: usign
+Version: 2020-05-23-f1f65026-1
+Depends: libc, libubox20191228
+License: ISC
+Section: base
+Architecture: aarch64_cortex-a72
+Installed-Size: 11668
+Filename: usign_2020-05-23-f1f65026-1_aarch64_cortex-a72.ipk
+Size: 12423
+SHA256sum: 42bf7d1ee73e317f190fe13dd60e781949b4cec6318cbf4bf2d40f827f2a7545
+Description:  OpenWrt signature verification utility
+
+Package: uugamebooster
+Version: v2.7.2-5
+Depends: libc, kmod-tun
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 1339030
+Filename: uugamebooster_v2.7.2-5_aarch64_cortex-a72.ipk
+Size: 1336777
+SHA256sum: 72b71377ade1b73bfe98a89df32fc33400531bf6874aa664baac98e8caabce5a
+Description:  NetEase's UU Game Booster Accelerates Triple-A Gameplay and Market
+
+Package: v2ray-plugin
+Version: 1.8.0-1
+Depends: libc, ca-certificates
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 2565362
+Filename: v2ray-plugin_1.8.0-1_aarch64_cortex-a72.ipk
+Size: 2566644
+SHA256sum: 1a949705faf20d85813517e318c082b4bdabd47bfcac9323cb0a1917cd54bdd7
+Description:  Yet another SIP003 plugin for shadowsocks, based on v2ray
+
+Package: v2ray
+Version: 4.34.0-1
+Depends: libc, ca-certificates
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 5929278
+Filename: v2ray_4.34.0-1_aarch64_cortex-a72.ipk
+Size: 5911769
+SHA256sum: 6860074adae7cf6eaacbc38e9c90d1a0a6c3179a08899a1f7747a09c9c8a4722
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This package contains v2ray, v2ctl, geoip.dat and geosite.dat.
+
+Package: vlmcsd
+Version: svn1113-1
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 23736
+Filename: vlmcsd_svn1113-1_aarch64_cortex-a72.ipk
+Size: 24415
+SHA256sum: 6f1f40094db1b6a4d21763ef0d509a306de7a92cd8d49f39aff4980ed083504a
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: vsftpd-alt
+Version: 3.0.3-7
+Depends: libc, libuci
+License: GPLv2
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 53372
+Filename: vsftpd-alt_3.0.3-7_aarch64_cortex-a72.ipk
+Size: 54080
+SHA256sum: 43bbb246b1db3009d3660bfeb48a608666f3b12905595ac155a8cf1b7a5587d5
+Description:  A fast and secure FTP server (with aio support)
+
+Package: wget
+Version: 1.20.3-4
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget, wget-ssl
+Alternatives: 300:/usr/bin/wget:/usr/bin/wget-ssl
+License: GPL-3.0-or-later
+Section: net
+CPE-ID: cpe:/a:gnu:wget
+Architecture: aarch64_cortex-a72
+Installed-Size: 214288
+Filename: wget_1.20.3-4_aarch64_cortex-a72.ipk
+Size: 214890
+SHA256sum: e5ef32446767c11e9e4f2de42dfb1d641544a66464ffff468f4cc16887c2f533
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: whereis
+Version: 2.35.1-2
+Depends: libc, librt
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 9485
+Filename: whereis_2.35.1-2_aarch64_cortex-a72.ipk
+Size: 10303
+SHA256sum: 6278ec9cbc010f0aad6e53b034ba90962d72348f8d2a9bbf28e2eab65c34796a
+Description:  whereis locates source/binary and manuals sections for specified files
+
+Package: wil6210-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 254950
+Filename: wil6210-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 255765
+SHA256sum: 10b22c6b4a17bea6cf0734e20f3686a62b9f78d4f611ad488d629a791ea77b4c
+Description:  wil6210 firmware
+
+Package: wireguard-tools
+Version: 1.0.20200827-1
+Depends: libc, ip
+License: GPL-2.0
+Section: opt
+Architecture: aarch64_cortex-a72
+Installed-Size: 42552
+Filename: wireguard-tools_1.0.20200827-1_aarch64_cortex-a72.ipk
+Size: 43391
+SHA256sum: bf431bc738e88ba156dead7a3b482d299dbdc154cf005b8a19b1ff1cef1e5cfa
+Description:  
+ 
+ This package provides the userspace control program for WireGuard,
+ `wg(8)`, a netifd protocol helper, and a re-resolve watchdog script.
+
+Package: wireless-regdb
+Version: 2020.11.20-1
+Depends: libc
+Section: firmware
+Architecture: all
+Installed-Size: 1954
+Filename: wireless-regdb_2020.11.20-1_all.ipk
+Size: 2677
+SHA256sum: f90d8e686048d809ecdc8ba06995416b77bb459cd1b6993405e745fc24d11ec2
+Description:  Wireless Regulatory Database
+
+Package: wl12xx-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 1175105
+Filename: wl12xx-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 1175103
+SHA256sum: e8976a7e8ebb2d327b464f7647048f6d1abc1edbceeb85a26133eac3befbc7b9
+Description:  TI WL12xx firmware
+
+Package: wl18xx-firmware
+Version: 20201118-3
+Depends: libc
+Section: firmware
+Architecture: aarch64_cortex-a72
+Installed-Size: 343336
+Filename: wl18xx-firmware_20201118-3_aarch64_cortex-a72.ipk
+Size: 343933
+SHA256sum: 12318cc26d817418bdbc27545ca4b171fe9102e7cd8d0318f54d6f527130bd7b
+Description:  TI WL18xx firmware
+
+Package: wol
+Version: 0.7.1-3
+Depends: libc
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 9573
+Filename: wol_0.7.1-3_aarch64_cortex-a72.ipk
+Size: 10305
+SHA256sum: cb318edde79ac1a7425302205158c11c4794fca4ea3988777977d58f7d89a746
+Description:  wol implements Wake On LAN functionality in a small program.
+ It wakes up hardware that is Magic Packet compliant.
+
+Package: wpad-basic-wolfssl
+Version: 2020-06-08-5a8b3662-22
+Depends: libc, libnl-tiny, hostapd-common, libubus20191227, libwolfssl24
+Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-mini, hostapd-openssl, hostapd-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad-basic-openssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad-basic-openssl
+Provides: hostapd, wpa-supplicant
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:w1.fi:hostapd
+Architecture: aarch64_cortex-a72
+Installed-Size: 412782
+Filename: wpad-basic-wolfssl_2020-06-08-5a8b3662-22_aarch64_cortex-a72.ipk
+Size: 413603
+SHA256sum: 6d12a9a3bb9cffd9811ec68d6d2eb730c4c6c8486d4d0fa6c2a9d46520948a1b
+Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
+
+Package: wwan
+Version: 2019-04-29-5
+Depends: libc
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 10000
+Filename: wwan_2019-04-29-5_aarch64_cortex-a72.ipk
+Size: 9845
+SHA256sum: 3503221c0e14e1a72b4f20f0b2c45fe50ff6febb85725d557a2ec4655ce45c61
+Description:  Generic OpenWrt 3G/4G proto handler
+
+Package: xray
+Version: 1.2.4-1
+Depends: libc, ca-certificates
+License: MPL
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 4135609
+Filename: xray_1.2.4-1_aarch64_cortex-a72.ipk
+Size: 4137193
+SHA256sum: e1da56543d175911cc79a18a53dfef17ac74a98e11d2ac3d4cdbaa4766d98769
+Description:  Project X originates from XTLS protocol, provides a set of network tools such as Xray-core and Xray-flutter.
+ It secures your network connections and thus protects your privacy.
+ 
+ This package contains Xray, geoip.dat and geosite.dat.
+
+Package: zlib
+Version: 1.2.11-3
+Depends: libc
+License: Zlib
+Section: libs
+CPE-ID: cpe:/a:gnu:zlib
+Architecture: aarch64_cortex-a72
+Installed-Size: 43298
+Filename: zlib_1.2.11-3_aarch64_cortex-a72.ipk
+Size: 44087
+SHA256sum: e0ce9b967bf6a162cd9244ef3335f31fd93185d2a97b7db2c11d1dfc930564ef
+Description:  zlib is a lossless data-compression library.
+ This package includes the shared library.
+

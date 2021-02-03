@@ -1,0 +1,4512 @@
+Package: alsa-lib
+Version: 1.2.2-1
+Depends: libc, kmod-sound-core, libpthread, librt
+Source: feeds/packages/libs/alsa-lib
+SourceName: alsa-lib
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>, Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 394896
+Filename: alsa-lib_1.2.2-1_aarch64_cortex-a72.ipk
+Size: 394125
+SHA256sum: 2c06a85aa571e0e4e77a2c95ee7be9e7df0213d4b4a717d9daad33c76295fe7c
+Description:  This is the library package for alsa, needed by some userspace programs.
+ You must have enabled the ALSA support in the kernel.
+
+Package: alsa-utils
+Version: 1.2.2-1
+Depends: libc, alsa-lib, libncursesw6, libpthread
+Source: feeds/packages/sound/alsa-utils
+SourceName: alsa-utils
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: sound
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 134394
+Filename: alsa-utils_1.2.2-1_aarch64_cortex-a72.ipk
+Size: 134308
+SHA256sum: bc28d1be225525537103d520db2fc948fe408544174316101d447fe6ae326013
+Description:  ALSA (Advanced Linux Sound Architecture) utilities
+
+Package: antfs-mount
+Version: 1
+Depends: libc, kmod-fs-antfs
+Source: feeds/packages/utils/antfs-mount
+SourceName: antfs-mount
+Section: utils
+Architecture: all
+Installed-Size: 184
+Filename: antfs-mount_1_all.ipk
+Size: 856
+SHA256sum: 4f186c98a7e3d9e30d0ca55cabfac4096f466c0b5888a1f29ac818c44bdf6bfb
+Description:  NTFS mount script for AVM NTFS driver
+
+Package: aria2
+Version: 1.35.0-3
+Depends: libc, zlib, libstdcpp6, libopenssl1.1
+Source: feeds/packages/net/aria2
+SourceName: aria2
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Require-User: aria2=6800:aria2=6800
+CPE-ID: cpe:/a:tatsuhiro_tsujikawa:aria2
+Maintainer: Imre Kaloz <kaloz@openwrt.org>, Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 593473
+Filename: aria2_1.35.0-3_aarch64_cortex-a72.ipk
+Size: 593695
+SHA256sum: ddb900f4d3c24481b9102147ef8512cf2a2f558479a336b213689d59e3793cb3
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility
+
+Package: ariang
+Version: 1.1.6-1
+Depends: libc, aria2, uhttpd
+Source: feeds/packages/net/ariang
+SourceName: ariang
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: all
+Installed-Size: 989083
+Filename: ariang_1.1.6-1_all.ipk
+Size: 989599
+SHA256sum: d23dc0203683cb628688d0bfc873bced3bdcdcf85a9daf037a7c1ac2284bd14c
+Description:  AriaNg is a web frontend making aria2 easier to use. AriaNg is written in pure html & javascript, thus it does not need any compilers or runtime environment.
+
+Package: avahi-dbus-daemon
+Version: 0.8-6
+Depends: libc, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Source: feeds/packages/libs/avahi
+SourceName: avahi-dbus-daemon
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: net
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 41171
+Filename: avahi-dbus-daemon_0.8-6_aarch64_cortex-a72.ipk
+Size: 42349
+SHA256sum: 245e4f816049c935fb8cc6e2dd90ba82fecc90e11c18244a10373ba84c42ef52
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: bash
+Version: 5.0-4
+Depends: libc, libncurses6, libreadline8
+Source: feeds/packages/utils/bash
+SourceName: bash
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+CPE-ID: cpe:/a:gnu:bash
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 349968
+Filename: bash_5.0-4_aarch64_cortex-a72.ipk
+Size: 350354
+SHA256sum: b0ea4799e9c6a40469d869554cda825bfdd653fc8312f70d7b66e46440333b7c
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: bind-client
+Version: 9.16.4-2
+Depends: libc, bind-libs
+Source: feeds/packages/net/bind
+SourceName: bind-client
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+CPE-ID: cpe:/a:isc:bind
+Maintainer: Noah Meyerhans <frodo@morgul.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 21693
+Filename: bind-client_9.16.4-2_aarch64_cortex-a72.ipk
+Size: 22437
+SHA256sum: 9cae55de08e09dbde776cf86d008356accb835e3f6ecd2498ddaef045f9cf730
+Description:  bind dynamic DNS client
+
+Package: bind-dig
+Version: 9.16.4-2
+Depends: libc, bind-libs
+Source: feeds/packages/net/bind
+SourceName: bind-dig
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+CPE-ID: cpe:/a:isc:bind
+Maintainer: Noah Meyerhans <frodo@morgul.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 49559
+Filename: bind-dig_9.16.4-2_aarch64_cortex-a72.ipk
+Size: 50400
+SHA256sum: cd5edb2b84e0184a5844f33934b769e44f46a191481299c5714644d9addd4667
+Description:  bind DNS excavation tool
+
+Package: bind-host
+Version: 9.16.4-2
+Depends: libc, bind-libs
+Source: feeds/packages/net/bind
+SourceName: bind-host
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+CPE-ID: cpe:/a:isc:bind
+Maintainer: Noah Meyerhans <frodo@morgul.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 39569
+Filename: bind-host_9.16.4-2_aarch64_cortex-a72.ipk
+Size: 40373
+SHA256sum: de566c1a1a47264f9256b77a062da5752822431ea012f360ad526f501913dc71
+Description:  bind simple DNS client
+
+Package: bind-libs
+Version: 9.16.4-2
+Depends: libc, libopenssl1.1, zlib, libpthread, libatomic1, libuv1
+Source: feeds/packages/net/bind
+SourceName: bind-libs
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: libs
+CPE-ID: cpe:/a:isc:bind
+Maintainer: Noah Meyerhans <frodo@morgul.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1161666
+Filename: bind-libs_9.16.4-2_aarch64_cortex-a72.ipk
+Size: 1160342
+SHA256sum: 0c8676cbb1c7aaea819821f56a40a210a99a418169defe893b7f9a577a22e70f
+Description:  bind shared libraries
+
+Package: boost-date_time
+Version: 1.73.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-date_time
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1007
+Filename: boost-date_time_1.73.0-1_aarch64_cortex-a72.ipk
+Size: 1821
+SHA256sum: eb64c970754f91b97339bc25beb88f29289223b386ca550ef9d5bccb898e94bc
+Description:  This package contains the Boost date_time library.
+
+Package: boost-program_options
+Version: 1.73.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-program_options
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 81856
+Filename: boost-program_options_1.73.0-1_aarch64_cortex-a72.ipk
+Size: 82710
+SHA256sum: c92cd849977bc504f5bdad7b6503caf50eb1fa620eb2537ed1c23cf577373264
+Description:  This package contains the Boost program_options library.
+
+Package: boost-system
+Version: 1.73.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-system
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 990
+Filename: boost-system_1.73.0-1_aarch64_cortex-a72.ipk
+Size: 1800
+SHA256sum: 3135a0948744bbb3faea61c54861246e985df3d5a519dd06fc7ae9af13cd6f47
+Description:  This package contains the Boost system library.
+
+Package: boost
+Version: 1.73.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 105
+Filename: boost_1.73.0-1_aarch64_cortex-a72.ipk
+Size: 1260
+SHA256sum: aaab206a48993955cd4a38018c932e5e12b488810ac25426cab9c0ac9786bed1
+Description:  This package provides the Boost v1.73.0 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - chrono
+ - container
+ - context
+ - contract
+ - coroutine and coroutine2 (Coroutine is deprecated - use Coroutine2)
+ - date_time
+ - exception
+ - filesystem
+ - fiber
+ - graph
+ - - graph-parallel
+ - iostreams
+ - locale (Requires kernel being compiled with full language support)
+ - log
+ - math
+ - program_options
+ - python3
+ - random
+ - regex
+ - serialization and wserialization
+ - stackstrace
+ - system
+ - thread
+ - timer
+ - type_erasure
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_72_0/
+
+Package: bsdtar
+Version: 3.4.3-1
+Depends: libc, libarchive
+Source: feeds/packages/libs/libarchive
+SourceName: bsdtar
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: utils
+CPE-ID: cpe:/a:libarchive:libarchive
+Maintainer: Johannes Morgenroth <morgenroth@ibr.cs.tu-bs.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 23775
+Filename: bsdtar_3.4.3-1_aarch64_cortex-a72.ipk
+Size: 24531
+SHA256sum: ad15d952c2bedf547a7291e260687ede6faf4f33a05bd66e123bd991c2ea0bc7
+Description:  Reads a variety of formats including tar, pax, zip, xar, lha, ar,
+ cab, mtree, rar, warc, 7z and ISO images. Writes tar, pax, zip,
+ xar, ar, ISO, mtree and shar archives. Automatically handles
+ archives compressed with gzip, bzip2, lzip, xz, lzma or compress.
+
+Package: btrfs-progs
+Version: 5.6-1
+Depends: libc, libattr, libuuid1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs
+Source: feeds/packages/utils/btrfs-progs
+SourceName: btrfs-progs
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Karel Kočí <karel.koci@nic.cz>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1062114
+Filename: btrfs-progs_5.6-1_aarch64_cortex-a72.ipk
+Size: 1062626
+SHA256sum: 6ff38d5b4d8b327f9e26ef89e2e728f09df6903ef177fde90ea86f142ac21ce3
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
+Package: cgroupfs-mount
+Version: 2020-06-26-05494281-1
+Depends: libc, mount-utils
+Source: feeds/packages/utils/cgroupfs-mount
+SourceName: cgroupfs-mount
+Section: utils
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1240
+Filename: cgroupfs-mount_2020-06-26-05494281-1_aarch64_cortex-a72.ipk
+Size: 2046
+SHA256sum: 2a1fb5d3fc9d6e230798f56336f7c09ef1282ef291c96f4b01640d135961d67e
+Description:  Simple scripts to properly mount the cgroupfs hierarchy, especially structured for Debian packaging
+
+Package: confuse
+Version: 3.2.2-1
+Depends: libc
+Source: feeds/packages/libs/confuse
+SourceName: confuse
+License: ISC
+Section: libs
+CPE-ID: cpe:/a:libconfuse_project:libconfuse
+Architecture: aarch64_cortex-a72
+Installed-Size: 20111
+Filename: confuse_3.2.2-1_aarch64_cortex-a72.ipk
+Size: 21142
+SHA256sum: c2e685ce31b09f374014aedf49aad45a7b4c9dd24765eb1493b46e9136ada1b6
+Description:  libConfuse is a configuration file parser library, licensed under the
+ terms of the ISC license, and written in C. It supports sections and
+ (lists of) values (strings, integers, floats, booleans or other
+ sections), as well as some other features (such as single/double-quoted
+ strings, environment variable expansion, functions and nested include
+ statements). It makes it very easy to add configuration file capability
+ to a program using a simple API.
+ 
+ The goal of libConfuse is not to be the configuration file parser
+ library with a gazillion of features. Instead, it aims to be easy to use
+ and quick to integrate with your code. libConfuse was called libcfg
+ before, but was changed to not confuse with other similar libraries.
+
+Package: containerd
+Version: 1.2.13-1
+Depends: libc, btrfs-progs, runc, libseccomp
+Source: feeds/packages/utils/containerd
+SourceName: containerd
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 20934238
+Filename: containerd_1.2.13-1_aarch64_cortex-a72.ipk
+Size: 20660586
+SHA256sum: 8c9421eca45f5918984adc30b22fcd78b478d082dcc25ffcb2059bff477cbb8b
+Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
+
+Package: coreutils-base64
+Version: 8.32-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/bin/gnu-base64
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base64
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 22816
+Filename: coreutils-base64_8.32-1_aarch64_cortex-a72.ipk
+Size: 23578
+SHA256sum: 1533cc96f901bdb895c59de6947d1b5e2d19454369c4dc75a4015a7ce009a5b7
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-nohup
+Version: 8.32-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nohup:/usr/bin/gnu-nohup
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nohup
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 21324
+Filename: coreutils-nohup_8.32-1_aarch64_cortex-a72.ipk
+Size: 22074
+SHA256sum: 067ac06e90042ccfd81872017b8e9fcab23828a017cc24230b87111e86288654
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils
+Version: 8.32-1
+Depends: libc
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 105
+Filename: coreutils_8.32-1_aarch64_cortex-a72.ipk
+Size: 979
+SHA256sum: b71ce4aaa5f2d23793fc028443c5fd3edd4693258bbade414a10033e5887e1a2
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: dbus
+Version: 1.13.12-1
+Depends: libc, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+SourceName: dbus
+License: AFL-2.1
+Section: utils
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: aarch64_cortex-a72
+Installed-Size: 119427
+Filename: dbus_1.13.12-1_aarch64_cortex-a72.ipk
+Size: 120097
+SHA256sum: bc1e6a62684aaa7fda6899eddc3f7ef77a3e66ba04a3d576da369215709d26cb
+Description:  Simple interprocess messaging system (daemon)
+
+Package: ddns-scripts
+Version: 2.7.8-3
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 14583
+Filename: ddns-scripts_2.7.8-3_all.ipk
+Size: 15650
+SHA256sum: 2e244a89a53023da08fe6dda76a66731fdfb4f96545c33549820edc1d70fb9d3
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: ddns-scripts_cloudflare.com-v4
+Version: 2.7.8-3
+Depends: ddns-scripts, curl
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts_cloudflare.com-v4
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 3046
+Filename: ddns-scripts_cloudflare.com-v4_2.7.8-3_all.ipk
+Size: 4150
+SHA256sum: f12582cca0330e6e9ae4d41110acc46c96cdcd4572f0103d170f4620d2e11ddd
+Description:  Dynamic DNS Client scripts extension for CloudFlare.com API-v4 (require/install cURL)
+
+Package: ddns-scripts_freedns_42_pl
+Version: 2.7.8-3
+Depends: ddns-scripts, curl
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts_freedns_42_pl
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1996
+Filename: ddns-scripts_freedns_42_pl_2.7.8-3_all.ipk
+Size: 3046
+SHA256sum: 04815b9db2a1c5abfb2fb3042111a97d4be655057c39e3ee1c97c07fc13a3aef
+Description:  Dynamic DNS Client scripts extension for freedns.42.pl
+
+Package: ddns-scripts_godaddy.com-v1
+Version: 2.7.8-3
+Depends: ddns-scripts, curl
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts_godaddy.com-v1
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 2766
+Filename: ddns-scripts_godaddy.com-v1_2.7.8-3_all.ipk
+Size: 3854
+SHA256sum: d5d4079262f9bae25e610a6954f6e75533c659a1d8ff95c72ad5f4f8a5eb6a6a
+Description:  Dynamic DNS Client scripts extension for GoDaddy.com (require/install cURL)
+
+Package: ddns-scripts_no-ip_com
+Version: 2.7.8-3
+Depends: ddns-scripts
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts_no-ip_com
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1799
+Filename: ddns-scripts_no-ip_com_2.7.8-3_all.ipk
+Size: 2873
+SHA256sum: 0a9384cbddd5e79a9aa403ec2e6c2c9d35a0b9bc38f1b532e56d7f63beb4c9e7
+Description:  Dynamic DNS Client scripts extension for No-IP.com
+
+Package: ddns-scripts_nsupdate
+Version: 2.7.8-3
+Depends: ddns-scripts, bind-client
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts_nsupdate
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1796
+Filename: ddns-scripts_nsupdate_2.7.8-3_all.ipk
+Size: 2894
+SHA256sum: 3b312be776e7756d3bd73db77323972c4cf613bd5d2a3d3e2fe3de747b1d5e08
+Description:  Dynamic DNS Client scripts extension for direct updates using Bind nsupdate
+
+Package: ddns-scripts_route53-v1
+Version: 2.7.8-3
+Depends: ddns-scripts, curl, openssl-util
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts_route53-v1
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 2631
+Filename: ddns-scripts_route53-v1_2.7.8-3_all.ipk
+Size: 3858
+SHA256sum: 0e693a7a7b47cdb2cbfb3eca6b7d9b8e1020302e6648e62aa19a975a070d751b
+Description:  Dynamic DNS Client scripts extension for Amazon AWS Route53. Note: You
+ must also install ca-certificate or ca-bundle.
+ It requires:
+ "option username" to be a valid AWS access key id
+ "option password" to be the matching AWS secret key id
+ "option domain" to contain the hosted zone ID
+
+Package: docker-ce
+Version: 19.03.12-2
+Depends: libc, btrfs-progs, ca-certificates, cgroupfs-mount, containerd, libdevmapper, libnetwork, tini, libseccomp, iptables-mod-extra, kmod-br-netfilter, kmod-ikconfig, kmod-nf-conntrack-netlink, kmod-nf-ipvs, kmod-veth
+Source: feeds/packages/utils/docker-ce
+SourceName: docker-ce
+License: Apache-2.0
+LicenseFiles: components/cli/LICENSE components/engine/LICENSE
+Section: utils
+Require-User: docker:docker
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 26069001
+Filename: docker-ce_19.03.12-2_aarch64_cortex-a72.ipk
+Size: 25948365
+SHA256sum: fc94a1f37ac8bb845b327da5d499f4e9256ae885e5a5e8624e42fc0addd4cd30
+Description:  Docker Engine is used by millions enables containerized applications
+ to run anywhere consistently on any infrastructure.
+
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Source: feeds/packages/net/etherwake
+SourceName: etherwake
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5291
+Filename: etherwake_1.09-5_aarch64_cortex-a72.ipk
+Size: 6211
+SHA256sum: d2b12ba26978385ffead574f5eeaae0f89477d09900ec578e76d2f6656ca2e8d
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: fdk-aac
+Version: 2.0.1-3
+Depends: libc
+Source: feeds/packages/sound/fdk-aac
+SourceName: fdk-aac
+License: Fraunhofer-FDK-AAC-for-Android
+LicenseFiles: NOTICE
+Section: sound
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 311704
+Filename: fdk-aac_2.0.1-3_aarch64_cortex-a72.ipk
+Size: 312140
+SHA256sum: a29441276c3449479644070221122abd5df7f3c1f87fcba5cc8f3c2a23cd4c53
+Description:  Port of the Fraunhofer FDK AAC Codec Library for Android
+
+Package: forked-daapd
+Version: 27.1-6
+Depends: libc, libgpg-error, libgcrypt, libgdbm, zlib, libexpat, libunistring, libevent2-7, libdaemon, libantlr3c, confuse, libopus, alsa-lib, libffmpeg-full, mxml, libavahi-client, sqlite3-cli, libplist, libcurl4, libjson-c4, libprotobuf-c, libgnutls, libsodium, libwebsockets-full
+Source: feeds/packages/sound/forked-daapd
+SourceName: forked-daapd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: sound
+Maintainer: Espen Jürgensen <espenjurgensen+openwrt@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 3779727
+Filename: forked-daapd_27.1-6_aarch64_cortex-a72.ipk
+Size: 3779355
+SHA256sum: b638283994f5ebe67f6621d753a97ebb2809a22caeb5bd418fcc8366add6afca
+Description:  forked-daapd is a Linux/FreeBSD DAAP (iTunes), MPD (Music Player Daemon) and
+ RSP (Roku) media server. It has support for AirPlay speakers, Chromecast,
+ Apple Remote (and compatibles), MPD clients, internet radio and LastFM. It
+ does not support AirPlay/Chromecast video.
+
+Package: fuse-utils
+Version: 2.9.9-1
+Depends: libc, libfuse1
+Source: feeds/packages/utils/fuse
+SourceName: fuse-utils
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+CPE-ID: cpe:/a:fuse_project:fuse
+Architecture: aarch64_cortex-a72
+Installed-Size: 15254
+Filename: fuse-utils_2.9.9-1_aarch64_cortex-a72.ipk
+Size: 15821
+SHA256sum: a4e069c31a23af2f9a8510d63bcf9713701947179c71f457172ef9aaa815e478
+Description:  FUSE (Filesystem in UserSpacE)
+ This package contains the FUSE utilities.
+ - fusermount
+ - ulockmgr_server
+
+Package: glib2
+Version: 2.58.3-5
+Depends: libc, zlib, libpthread, libffi, libattr
+Source: feeds/packages/libs/glib2
+SourceName: glib2
+Section: libs
+CPE-ID: cpe:/a:gnome:glib
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1064711
+Filename: glib2_2.58.3-5_aarch64_cortex-a72.ipk
+Size: 1061242
+SHA256sum: a9a9b9b3216856a88b305a9f6e6356d1ec4d90067f0188a22a7e48854b36d481
+Description:  The GLib library of C routines
+
+Package: gpioctl-sysfs
+Version: 0.0.7-1
+Depends: libc, libugpio
+Source: feeds/packages/libs/libugpio
+SourceName: gpioctl-sysfs
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LESSER
+Section: utils
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1899
+Filename: gpioctl-sysfs_0.0.7-1_aarch64_cortex-a72.ipk
+Size: 2671
+SHA256sum: 244796e0cf00b260539cf826e70face9159d5c3e37e8a218384e793d47607815
+Description:  Tool for controlling gpio pins using the sysfs api provided by the kernel.
+
+Package: gpiod-tools
+Version: 1.4.1-2
+Depends: libc, libgpiod
+Source: feeds/packages/libs/libgpiod
+SourceName: gpiod-tools
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 13265
+Filename: gpiod-tools_1.4.1-2_aarch64_cortex-a72.ipk
+Size: 13947
+SHA256sum: 3b482415df533c244369fbb3a8567c4778e09c6cc0fb626c9e66622186453e35
+Description:  Tools for interacting with the linux GPIO character device
+ (gpiod stands for GPIO device).
+
+Package: gzip
+Version: 1.10-3
+Depends: libc
+Alternatives: 300:/bin/gunzip:/usr/libexec/gunzip-gnu, 300:/bin/gzip:/usr/libexec/gzip-gnu, 300:/bin/zcat:/usr/libexec/zcat-gnu
+Source: feeds/packages/utils/gzip
+SourceName: gzip
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:gzip
+Maintainer: Christian Beier <dontmind@freeshell.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 42966
+Filename: gzip_1.10-3_aarch64_cortex-a72.ipk
+Size: 43827
+SHA256sum: 180ee110aabee5de5701bafff1acdc58c326fd8227416112a65db63498fb184d
+Description:  gzip (GNU zip) is a compression utility designed to be a replacement for compress.
+
+Package: haproxy
+Version: 2.2.8-1
+Depends: libc, libpcre, libltdl7, zlib, libpthread, liblua5.3-5.3, libopenssl1.1, libncurses6, libreadline8, libatomic1
+Source: feeds/packages/net/haproxy
+SourceName: haproxy
+License: GPL-2.0-only
+LicenseFiles: LICENSE
+Section: net
+CPE-ID: cpe:/a:haproxy:haproxy
+Maintainer: Thomas Heil <heil@terminal-consulting.de>, Christian Lachner <gladiac@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 857484
+Filename: haproxy_2.2.8-1_aarch64_cortex-a72.ipk
+Size: 856697
+SHA256sum: 9125fbfb530b0f7d7c439b9c30893305fabcc8458319b7577844283b57971682
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built with SSL and LUA support.
+
+Package: hd-idle
+Version: 1.05-2
+Depends: libc
+Source: feeds/packages/utils/hd-idle
+SourceName: hd-idle
+License: GPL-2.0
+Section: utils
+Maintainer: Lim Guo Wei <limguowei@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 4912
+Filename: hd-idle_1.05-2_aarch64_cortex-a72.ipk
+Size: 5700
+SHA256sum: dd3b5197e855ff9b6e75e856d1f6d6f83374c618fc47ed64dbeeddd0e70f31b0
+Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
+
+Package: htop
+Version: 3.0.5-1
+Depends: libc, libncurses6
+Source: feeds/packages/admin/htop
+SourceName: htop
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: admin
+CPE-ID: cpe:/a:htop:htop
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 87350
+Filename: htop_3.0.5-1_aarch64_cortex-a72.ipk
+Size: 88122
+SHA256sum: 83ff44e166e8f9d63bac806613e2ab1dcf0bcfd89ccb864cf8efaf00cb4e4f8d
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: i2c-tools
+Version: 4.1-4
+Depends: libc, libi2c
+Source: feeds/packages/utils/i2c-tools
+SourceName: i2c-tools
+License: GPL-2.0-or-later LGPL-2.1-or-later
+LicenseFiles: COPYING COPYING.LGPL
+Section: utils
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 21205
+Filename: i2c-tools_4.1-4_aarch64_cortex-a72.ipk
+Size: 21779
+SHA256sum: cc9091a8787ff9a61b418bd191ed55a366b00555b28f3d807fbf3e781e054350
+Description:  This package contains an heterogeneous set of I2C tools for Linux. These tools
+ were originally part of the lm-sensors package.
+
+Package: iputils-arping
+Version: 20101006-1
+Depends: libc, libsysfs2
+Source: feeds/packages/net/iputils
+SourceName: iputils-arping
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:skbuff:iputils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 6198
+Filename: iputils-arping_20101006-1_aarch64_cortex-a72.ipk
+Size: 7007
+SHA256sum: 84f80f8724609ed5a11bb74cfa73c470ccb65d859a1695fc45f05309fe6c9bda
+Description:  Program arping from iputils.
+ Sends ARP REQUEST to a neighbour host.
+
+Package: irqbalance
+Version: 1.6.0-10
+Depends: libc
+Source: feeds/packages/utils/irqbalance
+SourceName: irqbalance
+License: GPLv2
+Section: utils
+Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: aarch64_cortex-a72
+Installed-Size: 59907
+Filename: irqbalance_1.6.0-10_aarch64_cortex-a72.ipk
+Size: 60792
+SHA256sum: e64d9ac2c3801267489230e821a2a25762cc06e141d70bd70e279aa95731b4bf
+Description:  The purpose of irqbalance is to distribute hardware interrupts across
+ processors/cores on a multiprocessor/multicore system in order to
+ increase performance.
+
+Package: lame-lib
+Version: 3.100-1
+Depends: libc
+Source: feeds/packages/sound/lame
+SourceName: lame-lib
+License: LGPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: sound
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 128653
+Filename: lame-lib_3.100-1_aarch64_cortex-a72.ipk
+Size: 129410
+SHA256sum: bbb16719ecadc95842b770c3e8aaaec343c8389c823f452155bfc852ddfd6f88
+Description:  lame mp3 encoder libs
+
+Package: libantlr3c
+Version: 3.4-1
+Depends: libc
+Source: feeds/packages/libs/libantlr3c
+SourceName: libantlr3c
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Espen Jürgensen <espenjurgensen+openwrt@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 44192
+Filename: libantlr3c_3.4-1_aarch64_cortex-a72.ipk
+Size: 45052
+SHA256sum: f34a3e2c260cfe6e41f6ab7edbd46eb4a2934f4f000898c20b285a8a4c896ece
+Description:  ANother Tool for Language Recognition, is a language tool that provides a framework for constructing recognizers,
+ interpreters, compilers, and translators from grammatical descriptions containing actions in a variety of target languages.
+
+Package: libao
+Version: 1.2.0-1
+Depends: libc, alsa-lib
+Source: feeds/packages/libs/libao
+SourceName: libao
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 22993
+Filename: libao_1.2.0-1_aarch64_cortex-a72.ipk
+Size: 23784
+SHA256sum: 7591aaaab6a64292f30e6c5848386cf789b04e3e3319d69247ac8781214bcd4e
+Description:  Libao is a cross-platform audio library that allows programs to
+ output audio using a simple API on a wide variety of platforms.
+
+Package: libarchive
+Version: 3.4.3-1
+Depends: libc, zlib, liblzma, libbz2-1.0, libexpat, libopenssl1.1
+Source: feeds/packages/libs/libarchive
+SourceName: libarchive
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:libarchive:libarchive
+Maintainer: Johannes Morgenroth <morgenroth@ibr.cs.tu-bs.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 298504
+Filename: libarchive_3.4.3-1_aarch64_cortex-a72.ipk
+Size: 298669
+SHA256sum: 1cbf501f2f1bb68fbdec95f4aa8e73ac7824c285a7ea73ec460a45dff6ffcd2b
+Description:  Multi-format archive and compression library
+
+Package: libattr
+Version: 2.4.48-2
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 6880
+Filename: libattr_2.4.48-2_aarch64_cortex-a72.ipk
+Size: 7671
+SHA256sum: 68607152f2d62e70f6ca4d6370ff648786f2f5d244aa254bbcfc96b47b8a2dcb
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libavahi-client
+Version: 0.8-6
+Depends: libc, avahi-dbus-daemon
+Source: feeds/packages/libs/avahi
+SourceName: libavahi-client
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 19333
+Filename: libavahi-client_0.8-6_aarch64_cortex-a72.ipk
+Size: 20497
+SHA256sum: 11d70671ea3b9374dfa251a82e9c5f7ee487904972600be8cff7ce4f26189cf6
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-compat-libdnssd
+Version: 0.8-6
+Depends: libc, libavahi-client
+Source: feeds/packages/libs/avahi
+SourceName: libavahi-compat-libdnssd
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 11199
+Filename: libavahi-compat-libdnssd_0.8-6_aarch64_cortex-a72.ipk
+Size: 12332
+SHA256sum: 719d177fb60719e69481db86899e6edffa804a63d49923ceb7313d664760e32a
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-compat-libdnssd library.
+ It also automatically adds the required libavahi-client package.
+ For more information please see the avahi documentation.
+
+Package: libavahi-dbus-support
+Version: 0.8-6
+Depends: libc, dbus
+Provides: libavahi
+Source: feeds/packages/libs/avahi
+SourceName: libavahi-dbus-support
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 82182
+Filename: libavahi-dbus-support_0.8-6_aarch64_cortex-a72.ipk
+Size: 83497
+SHA256sum: 3e5aa865f435dd06ba5f7c5034a807d6884f51c52618db057ed8578e6bce3558
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
+
+Package: libcap-bin
+Version: 2.36-1
+Depends: libc, libcap
+Source: feeds/packages/libs/libcap
+SourceName: libcap-bin
+License: GPL-2.0-only
+LicenseFiles: License
+Section: libs
+Maintainer: Paul Wassi <p.wassi@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 12823
+Filename: libcap-bin_2.36-1_aarch64_cortex-a72.ipk
+Size: 13556
+SHA256sum: 65c242ab2841bb4ff139a464762dbe2168d4f45510cca92f6c38ad393dc13047
+Description:  Linux capabilities
+ .
+ This package contains the libcap utilities.
+
+Package: libcap
+Version: 2.36-1
+Depends: libc
+Source: feeds/packages/libs/libcap
+SourceName: libcap
+License: GPL-2.0-only
+LicenseFiles: License
+Section: libs
+Maintainer: Paul Wassi <p.wassi@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 12189
+Filename: libcap_2.36-1_aarch64_cortex-a72.ipk
+Size: 12898
+SHA256sum: 789de97adb67d60240bd80b1e418dd66b6e625857591d187b499536f32f55546
+Description:  Linux capabilities library library
+
+Package: libcares
+Version: 1.16.1-1
+Depends: libc
+Source: feeds/packages/libs/c-ares
+SourceName: libcares
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 37899
+Filename: libcares_1.16.1-1_aarch64_cortex-a72.ipk
+Size: 38860
+SHA256sum: b02c4ead9cc00c3e1ffa4db36d2e30f67a3d1260f259a342f8455100773da080
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libconfig11
+Version: 1.7.2-3
+Depends: libc
+Provides: libconfig
+Source: feeds/packages/libs/libconfig
+SourceName: libconfig
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a72
+Installed-Size: 18321
+Filename: libconfig11_1.7.2-3_aarch64_cortex-a72.ipk
+Size: 19375
+SHA256sum: c10d607762d7a8654c4aa4e90246c96a42c2688aa1a1aa8abb8dcf433d492567
+Description:  Libconfig is a simple library for manipulating structured configuration
+ files. This file format is more compact and more readable than XML. And
+ unlike XML, it is type-aware, so it is not necessary to do string
+ parsing in application code.
+ 
+ Libconfig is very compact -- just 38K for the stripped C shared
+ library (less than one-fourth the size of the expat XML parser library)
+ and 66K for the stripped C++ shared library. This makes it well-suited
+ for memory-constrained systems like handheld devices.
+
+Package: libdaemon
+Version: 0.14-5
+Depends: libc
+Source: feeds/packages/libs/libdaemon
+SourceName: libdaemon
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 9549
+Filename: libdaemon_0.14-5_aarch64_cortex-a72.ipk
+Size: 10607
+SHA256sum: 21d569f28d0da408e4277740b2dcf78b61b4941679afe43aa714cf09af5bc744
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdb47
+Version: 4.7.25.4.NC-5
+Depends: libc, libxml2
+Provides: libdb47-full
+Source: feeds/packages/libs/db47
+SourceName: libdb47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 552002
+Filename: libdb47_4.7.25.4.NC-5_aarch64_cortex-a72.ipk
+Size: 551914
+SHA256sum: 5b84490da25d773409f18f45aa02f5d4ed732892044c2b1d6d259cb25226f467
+Description:  Berkeley DB library (4.7).
+
+Package: libdbus
+Version: 1.13.12-1
+Depends: libc, libpthread
+Source: feeds/packages/utils/dbus
+SourceName: libdbus
+License: AFL-2.1
+Section: utils
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: aarch64_cortex-a72
+Installed-Size: 132369
+Filename: libdbus_1.13.12-1_aarch64_cortex-a72.ipk
+Size: 133047
+SHA256sum: 43e8f5eef2c616d91b78f12eec9cb32446e2368e80fcd616c38416a675c16cff
+Description:  Simple interprocess messaging system (library)
+
+Package: libdevmapper
+Version: 2.03.09-1
+Depends: libc, kmod-dm, libpthread, libuuid1, librt, libblkid1
+Source: feeds/packages/utils/lvm2
+SourceName: libdevmapper
+License: GPL-2.0 LGPL-2.1
+LicenseFiles: COPYING COPYING.lib
+Section: libs
+CPE-ID: cpe:/a:heinz_mauelshagen:lvm2
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 149896
+Filename: libdevmapper_2.03.09-1_aarch64_cortex-a72.ipk
+Size: 150880
+SHA256sum: 7dca88413fe164846be4637837fcc5ec2abb5beb756c2658aff21d9abf2fc4a0
+Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
+ volume management. It is required by LVM2 and EVMS.
+
+Package: libedit
+Version: 20191231-3.1-1
+Depends: libc, libncurses6
+Source: feeds/packages/libs/libedit
+SourceName: libedit
+License: BSD-3-Clause
+Section: libs
+Maintainer: Daniel Salzman <daniel.salzman@nic.cz>
+Architecture: aarch64_cortex-a72
+Installed-Size: 77125
+Filename: libedit_20191231-3.1-1_aarch64_cortex-a72.ipk
+Size: 77877
+SHA256sum: 7ea72680466f0dfa333c0884a57f14745b3fc8bda9926253f93925efc27ae1d6
+Description:  Generic line editing, history, and tokenization functions similar to GNU Readline.
+
+Package: libev
+Version: 4.31-1
+Depends: libc
+Source: feeds/packages/libs/libev
+SourceName: libev
+License: BSD-2-Clause
+Section: libs
+Maintainer: Karl Palsson <karlp@tweak.net.au>
+Architecture: aarch64_cortex-a72
+Installed-Size: 25589
+Filename: libev_4.31-1_aarch64_cortex-a72.ipk
+Size: 26291
+SHA256sum: 5ddf11b9fa8abd0c99136639979cc0bb40212bf008b7e4460080235b86983f61
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libevdev
+Version: 1.9.0-2
+Depends: libc
+Source: feeds/packages/libs/libevdev
+SourceName: libevdev
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 31219
+Filename: libevdev_1.9.0-2_aarch64_cortex-a72.ipk
+Size: 31671
+SHA256sum: bbb3dc89dd5e324a8368763611bcec2a6cdea9548fe8ea671bac8d9cec058207
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: libexif
+Version: 0.6.21-1
+Depends: libc
+Source: feeds/packages/libs/libexif
+SourceName: libexif
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:libexif:libexif
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 73582
+Filename: libexif_0.6.21-1_aarch64_cortex-a72.ipk
+Size: 73799
+SHA256sum: 7f72206f9ad8d8a2f2227d833642baedf8becd54d44c910732a211738427674a
+Description:  libexif is a library for parsing, editing, and saving EXIF data. It is
+ intended to replace lots of redundant implementations in command-line
+ utilities and programs with GUIs.
+
+Package: libexpat
+Version: 2.2.9-1
+Depends: libc
+Source: feeds/packages/libs/expat
+SourceName: libexpat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:libexpat:expat
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 50968
+Filename: libexpat_2.2.9-1_aarch64_cortex-a72.ipk
+Size: 51725
+SHA256sum: f0137e33270ff05fb06a30621ca8b50d5219b8039f1aa4688a9f2bf2c9b8a99b
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.3-2
+Depends: libc
+Source: feeds/packages/libs/libffi
+SourceName: libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 13889
+Filename: libffi_3.3-2_aarch64_cortex-a72.ipk
+Size: 14881
+SHA256sum: a8b24729ab83150b5864efa10d0b43f3469bb21b3feffb182f66f14f6efe53e7
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libffmpeg-full
+Version: 4.3-1
+Depends: libc, libpthread, libpthread, zlib, libbz2-1.0, alsa-lib, libgnutls, libopus, lame-lib, fdk-aac
+Provides: libffmpeg
+Source: feeds/packages/multimedia/ffmpeg
+SourceName: libffmpeg-full
+License: LGPL-2.1-or-later GPL-2.0-or-later LGPL-3.0-or-later
+LicenseFiles: COPYING.GPLv2 COPYING.GPLv3 COPYING.LGPLv2.1 COPYING.LGPLv3
+Section: libs
+CPE-ID: cpe:/a:ffmpeg:ffmpeg
+Maintainer: Ted Hess <thess@kitschensync.net>, Ian Leonard <antonlacon@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 6091432
+Filename: libffmpeg-full_4.3-1_aarch64_cortex-a72.ipk
+Size: 6066424
+SHA256sum: 283f8ec0f98edf0f52559d97ea4b256dbf7d065d74a161d2509839e7cae60226
+Description:  FFmpeg is a a software package that can record, convert and stream digital
+ audio and video in numerous formats.
+ 
+ FFmpeg licensing / patent issues are complex. It is the reponsibility of the
+ user to understand any requirements in this regard with its usage. See:
+ https://ffmpeg.org/legal.html for further information.
+ .
+ This package contains full-featured FFmpeg shared libraries.
+
+Package: libflac
+Version: 1.3.3-1
+Depends: libc
+Source: feeds/packages/libs/flac
+SourceName: libflac
+License: GFDL-1.2 GPL-2 LGPL-2.1 BSD-3-Clause
+LicenseFiles: README COPYING.FDL COPYING.GPL COPYING.LGPL COPYING.Xiph
+Section: libs
+CPE-ID: cpe:/a:flac_project:flac
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 80933
+Filename: libflac_1.3.3-1_aarch64_cortex-a72.ipk
+Size: 81497
+SHA256sum: 67182aacecf8bf1b5cc0d2bf062bb233254064c2dae5c47b21a2522c7b47e93d
+Description:  Free Lossless Audio Codec library
+
+Package: libfreetype
+Version: 2.10.2-1
+Depends: libc, zlib, libpng
+Source: feeds/packages/libs/freetype
+SourceName: libfreetype
+License: FTL GPL-2.0-only MIT ZLIB GPL-3.0-or-later
+LicenseFiles: docs/LICENSE.TXT docs/FTL.TXT docs/GPLv2.TXT src/bdf/README src/pcf/README src/gzip/zlib.h builds/unix/config.sub builds/unix/config.guess builds/unix/libtool 
+Section: libs
+CPE-ID: cpe:/a:freetype:freetype2
+Maintainer: Val Kulkov <val.kulkov@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 314235
+Filename: libfreetype_2.10.2-1_aarch64_cortex-a72.ipk
+Size: 315085
+SHA256sum: eac0dbc566c30e65fdecb785043bcffd1ff6ba81ceff18a755f50b76dbbfca7f
+Description:  The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.
+
+Package: libfuse1
+Version: 2.9.9-1
+Depends: libc, kmod-fuse, libpthread
+Provides: libfuse
+Source: feeds/packages/utils/fuse
+SourceName: libfuse
+License: LGPL-2.1-only
+LicenseFiles: COPYING.LIB
+Section: libs
+CPE-ID: cpe:/a:fuse_project:fuse
+Architecture: aarch64_cortex-a72
+Installed-Size: 69867
+Filename: libfuse1_2.9.9-1_aarch64_cortex-a72.ipk
+Size: 70514
+SHA256sum: 2d9fd606b04667657435c01bd1f46d98bb7be4e988e1b161e63d9e32ee4649c2
+Description:  FUSE (Filesystem in UserSpacE)
+ This package contains the FUSE shared libraries, needed by other programs.
+ - libfuse
+ - libulockmgr
+
+Package: libgcrypt
+Version: 1.8.5-1
+Depends: libc, libgpg-error
+Source: feeds/packages/libs/libgcrypt
+SourceName: libgcrypt
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+CPE-ID: cpe:/a:gnupg:libgcrypt
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 366573
+Filename: libgcrypt_1.8.5-1_aarch64_cortex-a72.ipk
+Size: 366629
+SHA256sum: 4397dccf92995b38a50c54277926abaaf0510cbdef5d5a04097d48b99844cfb8
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
+Package: libgd-full
+Version: 2.3.0-3
+Depends: libc, libjpeg, libpng, libwebp, libtiff5, libfreetype
+Source: feeds/packages/libs/libgd
+SourceName: libgd-full
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:libgd:libgd
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 108582
+Filename: libgd-full_2.3.0-3_aarch64_cortex-a72.ipk
+Size: 108809
+SHA256sum: 5193bafed1a5429813ecc06e71ce03f4824269b9b66adcaca577eeb281b82395
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+ .
+ This variant of the libgd package is compiled will all features enabled.
+
+Package: libgdbm
+Version: 1.18.1-2
+Depends: libc
+Source: feeds/packages/libs/gdbm
+SourceName: libgdbm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 22686
+Filename: libgdbm_1.18.1-2_aarch64_cortex-a72.ipk
+Size: 23460
+SHA256sum: 60760146191c5d57f3335f0f4ab5418ef9d48d69dec16ee9f5e653d1d8bcda34
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libgnutls
+Version: 3.6.14-1
+Depends: libc, libnettle7, libgmp10, libatomic1
+Source: feeds/packages/libs/gnutls
+SourceName: libgnutls
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 750617
+Filename: libgnutls_3.6.14-1_aarch64_cortex-a72.ipk
+Size: 749604
+SHA256sum: c8985df03eef5ccf9d16b285c01601d8033c16ba580c74cbe21fc10d73a50aa9
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libgpg-error
+Version: 1.37-1
+Depends: libc
+Source: feeds/packages/libs/libgpg-error
+SourceName: libgpg-error
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 53028
+Filename: libgpg-error_1.37-1_aarch64_cortex-a72.ipk
+Size: 53913
+SHA256sum: 5f8f2b743c445757911de41b5702d899f4d9880bd92a2555970edb4fa81985d6
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
+
+Package: libgpiod
+Version: 1.4.1-2
+Depends: libc
+Source: feeds/packages/libs/libgpiod
+SourceName: libgpiod
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 10647
+Filename: libgpiod_1.4.1-2_aarch64_cortex-a72.ipk
+Size: 11414
+SHA256sum: 87bfb3b81282097e533c0a5761a3ed2c61a402785e6b0cf03c56be0a65621af1
+Description:  C library for interacting with the linux GPIO character device
+ (gpiod stands for GPIO device).
+
+Package: libhttp-parser
+Version: 2.9.4-1
+Depends: libc
+Source: feeds/packages/libs/libhttp-parser
+SourceName: libhttp-parser
+License: MIT
+LicenseFiles: LICENSE-MIT
+Section: libs
+Maintainer: Ramanathan Sivagurunathan <ramzthecoder@gmail.com>, Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 13463
+Filename: libhttp-parser_2.9.4-1_aarch64_cortex-a72.ipk
+Size: 14445
+SHA256sum: 0fc8ed534ce0df037d54550d4dfaff42565c36a64829243ed7ba6b6b1340d72a
+Description:  A parser for HTTP messages written in C. It parses both requests and responses.
+ The parser is designed to be used in performance HTTP applications.
+ It does not make any syscalls nor allocations, it does not buffer data,
+ it can be interrupted at anytime. Depending on your architecture,
+ it only requires about 40 bytes of data per message stream
+ (in a web server that is per connection).
+
+Package: libi2c
+Version: 4.1-4
+Depends: libc
+Source: feeds/packages/utils/i2c-tools
+SourceName: libi2c
+License: GPL-2.0-or-later LGPL-2.1-or-later
+LicenseFiles: COPYING COPYING.LGPL
+Section: libs
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2182
+Filename: libi2c_4.1-4_aarch64_cortex-a72.ipk
+Size: 2940
+SHA256sum: 06746f62a51ed5a044aea1bb3282827e59cc8ab3c00bd80d38232164f306eb74
+Description:  This package contains i2c functionality needed by i2c-tools.
+
+Package: libid3tag
+Version: 0.15.1b-4
+Depends: libc, zlib
+Source: feeds/packages/libs/libid3tag
+SourceName: libid3tag
+License: GPL-2
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:media-libs:libid3tag
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 30529
+Filename: libid3tag_0.15.1b-4_aarch64_cortex-a72.ipk
+Size: 31150
+SHA256sum: afe006d5e37988831de502a64e5bea37cc6b73a8a1892c219a73b3d0020b0974
+Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
+ ID3v1 and the various versions of ID3v2.
+
+Package: libimobiledevice-utils
+Version: 1.3.0-1
+Depends: libc, libimobiledevice
+Source: feeds/packages/libs/libimobiledevice
+SourceName: libimobiledevice-utils
+License: GPL-2.0-or-later
+LicenseFiles: COPYING.LESSER
+Section: utils
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 105736
+Filename: libimobiledevice-utils_1.3.0-1_aarch64_cortex-a72.ipk
+Size: 106031
+SHA256sum: ad48a5dcaf3db46c04e721d09bff954d20c78bab7a86d49a85a8f5761255969f
+Description:  libimobiledevice is a software library that talks the protocols to support
+ iPhone®, iPod Touch®, iPad® and Apple TV® devices.
+ This package contains the libimobiledevice utilities.
+
+Package: libimobiledevice
+Version: 1.3.0-1
+Depends: libc, libplist, libusbmuxd, libopenssl1.1
+Source: feeds/packages/libs/libimobiledevice
+SourceName: libimobiledevice
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LESSER
+Section: libs
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 58826
+Filename: libimobiledevice_1.3.0-1_aarch64_cortex-a72.ipk
+Size: 59693
+SHA256sum: c38dd7d2dbc0eb7d14fff321ef812169253802151aa19828cc93e9c132146fd5
+Description:  libimobiledevice is a software library that talks the protocols to support
+ iPhone®, iPod Touch®, iPad® and Apple TV® devices.
+
+Package: libjpeg-turbo
+Version: 2.0.5-1
+Depends: libc
+Provides: libjpeg
+Source: feeds/packages/libs/libjpeg-turbo
+SourceName: libjpeg-turbo
+License: BSD-3-Clause IJG zlib
+LicenseFiles: LICENSE.md
+Section: libs
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 95698
+Filename: libjpeg-turbo_2.0.5-1_aarch64_cortex-a72.ipk
+Size: 96300
+SHA256sum: 17f7f72937cd53283eb4357929f6c1e1f46defd9e891b77da7f3144901993fe9
+Description:  libjpeg-turbo is a speed focused fork of libjpeg.
+
+Package: libkeyutils1
+Version: 1.6.1-1
+Depends: libc
+Provides: libkeyutils
+Source: feeds/packages/libs/keyutils
+SourceName: libkeyutils
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE.LGPL
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 5728
+Filename: libkeyutils1_1.6.1-1_aarch64_cortex-a72.ipk
+Size: 6462
+SHA256sum: 29a4d538e3777ab7efafaf9d5e83dc6641129940746140c63b900c5cfff82829
+Description:  Key utilities library
+
+Package: liblzma
+Version: 5.2.5-1
+Depends: libc, libpthread
+Source: feeds/packages/utils/xz
+SourceName: liblzma
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: aarch64_cortex-a72
+Installed-Size: 54421
+Filename: liblzma_5.2.5-1_aarch64_cortex-a72.ipk
+Size: 55241
+SHA256sum: 67c7b4e21a5522dba5774d9ceaa3ffb8acc25c1be5d705f0ff31a3e86e84e550
+Description:  liblzma library from XZ Utils
+
+Package: libmaxminddb
+Version: 1.4.2-1
+Depends: libc
+Source: feeds/packages/libs/libmaxminddb
+SourceName: libmaxminddb
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Jan Pavlinec <jan.pavlinec@nic.cz>
+Architecture: aarch64_cortex-a72
+Installed-Size: 14701
+Filename: libmaxminddb_1.4.2-1_aarch64_cortex-a72.ipk
+Size: 15397
+SHA256sum: 6cfebe50e30416204cb8057ecb2fa990c2f4a1bb5751ccf2704db7a9c9c6f9bb
+Description:  The libmaxminddb library provides functions for working MaxMind DB files.
+
+Package: libmbim
+Version: 1.24.0-1
+Depends: libc, glib2
+Source: feeds/packages/libs/libmbim
+SourceName: libmbim
+License: LGPL-2.0-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+Maintainer: Nicholas Smith <nicholas.smith@telcoantennas.com.au>
+Architecture: aarch64_cortex-a72
+Installed-Size: 108988
+Filename: libmbim_1.24.0-1_aarch64_cortex-a72.ipk
+Size: 109632
+SHA256sum: 077d1d3c6a71076923e844186d77f799cbf4c1ed3d6d0f09702a4051478bb2f9
+Description:  Helper library to talk to MBIM enabled modems.
+ Add mbim-utils for extra utilities.
+
+Package: libminiupnpc
+Version: 2.1.20191224-1
+Depends: libc
+Source: feeds/packages/net/miniupnpc
+SourceName: libminiupnpc
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+CPE-ID: cpe:/a:miniupnp_project:miniupnp
+Architecture: aarch64_cortex-a72
+Installed-Size: 23376
+Filename: libminiupnpc_2.1.20191224-1_aarch64_cortex-a72.ipk
+Size: 24104
+SHA256sum: 4cac6337feea3552e1961717a2170b12c22d75acbefb7ff61f5119f3bd98275f
+Description:  Lightweight UPnP library
+
+Package: libnatpmp1
+Version: 20150609-3
+Depends: libc
+Provides: libnatpmp
+Source: feeds/packages/libs/libnatpmp
+SourceName: libnatpmp
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 3648
+Filename: libnatpmp1_20150609-3_aarch64_cortex-a72.ipk
+Size: 4531
+SHA256sum: 5333af6ca9ef9a448a9000d9ca1cc17bb1f49310f8d3f20ac3f9c4a13b6803ac
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libnetwork
+Version: 2020-06-17-026aabaa-1
+Depends: libc
+Source: feeds/packages/utils/libnetwork
+SourceName: libnetwork
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 6668247
+Filename: libnetwork_2020-06-17-026aabaa-1_aarch64_cortex-a72.ipk
+Size: 6640813
+SHA256sum: 1002dfe98b6d9060724fd1bf323f0e0020ac6c1b772cb4ae2e365acfc96968bd
+Description:  Libnetwork provides a native Go implementation for connecting containers.
+ The goal of libnetwork is to deliver a robust Container Network Model that provides a consistent programming interface and the required network abstractions for applications.
+
+Package: libogg0
+Version: 1.3.4-1
+Depends: libc
+Provides: libogg
+Source: feeds/packages/libs/libogg
+SourceName: libogg
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 17863
+Filename: libogg0_1.3.4-1_aarch64_cortex-a72.ipk
+Size: 18771
+SHA256sum: d3c24d4d8c1fa14937bdcec48c2ffe95c297a7402849750e8ab5ee8d12074bf0
+Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
+ compressed bitstream into a more robust, useful form.  For example,
+ the Ogg bitstream makes seeking, time stamping and error recovery
+ possible, as well as mixing several sepearate, concurrent media
+ streams into a single physical bitstream.
+
+Package: libopus
+Version: 1.3.1-3
+Depends: libc
+Source: feeds/packages/libs/opus
+SourceName: libopus
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:opus-codec:opus
+Maintainer: Ted Hess <thess@kitchensync.net>, Ian Leonard <antonlacon@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 183005
+Filename: libopus_1.3.1-3_aarch64_cortex-a72.ipk
+Size: 184012
+SHA256sum: 2953df05b6f51af92ff18dddf522a095abc418f23b0088efddf900493a7b0835
+Description:  Opus is a totally open, royalty-free, highly versatile audio codec. Opus is
+ unmatched for interactive speech and music transmission over the Internet, but
+ is also intended for storage and streaming applications.
+
+Package: libpcre2
+Version: 10.35-1
+Depends: libc
+Source: feeds/packages/libs/pcre2
+SourceName: libpcre2
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Maintainer: Shane Peelar <lookatyouhacker@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 110210
+Filename: libpcre2_10.35-1_aarch64_cortex-a72.ipk
+Size: 110985
+SHA256sum: be9c01e4d91a4543a2baf8347ee899180aa73eda94100fda878b5296a8657a44
+Description:  A Perl Compatible Regular Expression library
+
+Package: libplist
+Version: 2.2.0-2
+Depends: libc, libxml2
+Source: feeds/packages/libs/libplist
+SourceName: libplist
+Section: libs
+CPE-ID: cpe:/a:libimobiledevice:libplist
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 23430
+Filename: libplist_2.2.0-2_aarch64_cortex-a72.ipk
+Size: 24179
+SHA256sum: de09e3abafc0d888a06b75fb3f0a484f0e23431829dcb75a31ad9386387ac94c
+Description:  A library to handle Apple Property List format whereas it's binary or XML
+
+Package: libpng
+Version: 1.6.37-7
+Depends: libc, zlib
+Source: feeds/packages/libs/libpng
+SourceName: libpng
+License: Libpng GPL-2.0-or-later BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:libpng:libpng
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 99809
+Filename: libpng_1.6.37-7_aarch64_cortex-a72.ipk
+Size: 100588
+SHA256sum: eb1503b90063e25fac2d96662c8d8ad1b97fa1628eb014e70a9409bbeec5c60e
+Description:  A PNG format files handling library
+
+Package: libprotobuf-c
+Version: 1.3.3-2
+Depends: libc
+Source: feeds/packages/libs/protobuf-c
+SourceName: libprotobuf-c
+License: BSD-2-Clause
+LicenseFiles: LICENSE
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 10523
+Filename: libprotobuf-c_1.3.3-2_aarch64_cortex-a72.ipk
+Size: 11347
+SHA256sum: ef4d09022d0a100d8ac875e085050ade10fc06d924ebcb57a5bfc44ca64f0db1
+Description:  Runtime library to use Google Protocol Buffers from C applications.
+ Protocol Buffers are a way of encoding structured data in an efficient yet
+ extensible format. Google uses Protocol Buffers for almost all of its
+ internal RPC protocols and file formats.
+
+Package: libqmi
+Version: 1.26.0-1
+Depends: libc, libmbim
+Source: feeds/packages/libs/libqmi
+SourceName: libqmi
+License: LGPL-2.0-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+Maintainer: Nicholas Smith <nicholas.smith@telcoantennas.com.au>
+Architecture: aarch64_cortex-a72
+Installed-Size: 623669
+Filename: libqmi_1.26.0-1_aarch64_cortex-a72.ipk
+Size: 620039
+SHA256sum: ba2e7f25646ef05a2f142572777bc5b00ca15d1802ede1e73806a1e74f361b8c
+Description:  Helper library talk to QMI enabled modems.
+ Add qmi-utils for extra utilities.
+
+Package: libruby2.7
+Version: 2.7.1-1
+Depends: libc, libpthread, librt, libgmp10, zlib
+Provides: libruby
+Source: feeds/packages/lang/ruby
+SourceName: libruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1159433
+Filename: libruby2.7_2.7.1-1_aarch64_cortex-a72.ipk
+Size: 1155013
+SHA256sum: 63b93a6e474bf80529a9132da8e5e49c03ca4eb47a50338ec09cdd71c33d4510
+Description:  Ruby scripting language (shared library)
+
+Package: libseccomp
+Version: 2.4.2-2
+Depends: libc
+Source: feeds/packages/libs/libseccomp
+SourceName: libseccomp
+Section: libs
+CPE-ID: cpe:/a:libseccomp_project:libseccomp
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 67486
+Filename: libseccomp_2.4.2-2_aarch64_cortex-a72.ipk
+Size: 45377
+SHA256sum: 663907f5ba24526c0b665265cd249e2a78c7daf4f39778c925a1874ba6b9b245
+Description:  This package contains the seccomp library.
+
+Package: libsodium
+Version: 1.0.18-1
+Depends: libc
+Source: feeds/packages/libs/libsodium
+SourceName: libsodium
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 106194
+Filename: libsodium_1.0.18-1_aarch64_cortex-a72.ipk
+Size: 107417
+SHA256sum: 45c398bceb0a370b124e049819d77561fe70413101f0028f93efeb9c17962c0e
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsoxr
+Version: 0.1.3-2
+Depends: libc, libpthread
+Source: feeds/packages/libs/libsoxr
+SourceName: libsoxr
+License: LGPL-2.1
+LicenseFiles: LICENCE
+Section: libs
+CPE-ID: cpe:/a:sox:sox
+Maintainer: Ted Hess <thess@kitschensync.net>, Mike Brady <mikebrady@eircom.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 50042
+Filename: libsoxr_0.1.3-2_aarch64_cortex-a72.ipk
+Size: 50380
+SHA256sum: 19bec15da7051efaff13a8879b248028c58d7f0a35b2b643cb1c8cc6e62c8c84
+Description:  The SoX Resampler library
+ High quality, one-dimensional sample-rate conversion library
+
+Package: libsqlite3-0
+Version: 3320100-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+Source: feeds/packages/libs/sqlite3
+SourceName: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+CPE-ID: cpe:/a:sqlite:sqlite
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 504166
+Filename: libsqlite3-0_3320100-1_aarch64_cortex-a72.ipk
+Size: 504817
+SHA256sum: 554f23fe1fdc099e1858aedd44cdacbb48cf7b2b2cb6cc018974b197b9cd9d38
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libssh
+Version: 0.9.5-1
+Depends: libc, libpthread, librt, zlib, libopenssl1.1
+Source: feeds/packages/libs/libssh
+SourceName: libssh
+License: LGPL-2.1-or-later BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:libssh:libssh
+Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
+Architecture: aarch64_cortex-a72
+Installed-Size: 170753
+Filename: libssh_0.9.5-1_aarch64_cortex-a72.ipk
+Size: 171611
+SHA256sum: 5402d2e7bc275ecb233598c981f3259ff8abc440f807a28c19899355396f0dab
+Description:  libssh is a mulitplatform C library implementing the SSHv2 and SSHv1 protocol
+ for client and server implementations.
+
+Package: libtasn1
+Version: 4.16.0-1
+Depends: libc
+Source: feeds/packages/libs/libtasn1
+SourceName: libtasn1
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+CPE-ID: cpe:/a:gnu:libtasn1
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 32651
+Filename: libtasn1_4.16.0-1_aarch64_cortex-a72.ipk
+Size: 33460
+SHA256sum: c12bf6fc4a086c7f178c5f2a005a1395cb66d2465a99e21ab8c87e593a4a9436
+Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
+ Distinguish Encoding Rules (DER) manipulation.
+
+Package: libtiff5
+Version: 4.1.0-2
+Depends: libc, zlib, libjpeg
+Provides: libtiff
+Source: feeds/packages/libs/tiff
+SourceName: libtiff
+License: BSD-3-Clause
+LicenseFiles: COPYRIGHT
+Section: libs
+CPE-ID: cpe:/a:libtiff:libtiff
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a72
+Installed-Size: 134336
+Filename: libtiff5_4.1.0-2_aarch64_cortex-a72.ipk
+Size: 134648
+SHA256sum: 613dfc60cb9f99a9b90b91ff52c94efaefddf74f68f950a99b689a6ef5a80771
+Description:  TIFF library
+
+Package: libtirpc
+Version: 1.2.6-2
+Depends: libc, libpthread
+Source: feeds/packages/libs/libtirpc
+SourceName: libtirpc
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 66591
+Filename: libtirpc_1.2.6-2_aarch64_cortex-a72.ipk
+Size: 67364
+SHA256sum: 85b26fb20073423046e7bc48645a8198db54090898d59144b1b151fcc7cbeb63
+Description:  Library TI RPC for RPC bindings
+
+Package: libudev-fbsd
+Version: 2017-12-16-fa190fdf-1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+Source: feeds/packages/libs/libudev-fbsd
+SourceName: libudev-fbsd
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 6228
+Filename: libudev-fbsd_2017-12-16-fa190fdf-1_aarch64_cortex-a72.ipk
+Size: 7073
+SHA256sum: d80b39de14bf1cfb54b07a3e3423d4c0d5ecb751448b4500fe2e76caefea0741
+Description:  small udev shim for FreeBSD/devd (and other non-systemd)
+
+Package: libugpio
+Version: 0.0.7-1
+Depends: libc
+Source: feeds/packages/libs/libugpio
+SourceName: libugpio
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LESSER
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5303
+Filename: libugpio_0.0.7-1_aarch64_cortex-a72.ipk
+Size: 6098
+SHA256sum: ebb2889940bca65f33707c1daeae937807e00c1f7a7cc54e8e9c09af36b74cfa
+Description:  libugpio is a library to ease the use of linux kernel's sysfs
+ gpio interface from C programs and/or other libraries.
+
+Package: libunistring
+Version: 0.9.10-1
+Depends: libc
+Source: feeds/packages/libs/libunistring
+SourceName: libunistring
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Espen Jürgensen <espenjurgensen+openwrt@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 596417
+Filename: libunistring_0.9.10-1_aarch64_cortex-a72.ipk
+Size: 586492
+SHA256sum: 515799b611daaa5ec852fae4016e6c2489b3b570ddbb7846effd9f5e6527407f
+Description:  This library provides functions for manipulating Unicode strings and for manipulating C strings according to the Unicode standard.
+
+Package: libupnp
+Version: 1.12.1-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/libupnp
+SourceName: libupnp
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:libupnp_project:libupnp
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 103288
+Filename: libupnp_1.12.1-1_aarch64_cortex-a72.ipk
+Size: 104073
+SHA256sum: 55c672fd27aadbbc2703c5747d5f7919935c1b35fa667c470833cbc425ea155a
+Description:  The portable SDK for UPnP Devices (libupnp) provides developers with an API and
+ open source code for building control points, devices, and bridges that are
+ compliant with Version 1.0 of the  Universal Plug and Play Device Architecture
+ Specification.
+
+Package: libusbmuxd-utils
+Version: 2.0.2-1
+Depends: libc, libusbmuxd
+Source: feeds/packages/libs/libusbmuxd
+SourceName: libusbmuxd-utils
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+CPE-ID: cpe:/a:libimobiledevice:libusbmuxd
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 11810
+Filename: libusbmuxd-utils_2.0.2-1_aarch64_cortex-a72.ipk
+Size: 12718
+SHA256sum: 0b99b3d9e9fac12da76620fa75afe69930ffee75379cafafdb2f3d38c0742afb
+Description:  This daemon is in charge of multiplexing connections over USB to an iPhone or
+ iPod touch. To users, it means you can sync your music, contacts, photos, etc.
+ over USB. To developers, it means you can connect to any listening localhost
+ socket on the device. usbmuxd is not used for tethering data transfer, which
+ uses a dedicated USB interface as a virtual network device.
+ This package contains the libusbmuxd utilities.
+
+Package: libusbmuxd
+Version: 2.0.2-1
+Depends: libc, libplist, libpthread, libxml2, zlib
+Source: feeds/packages/libs/libusbmuxd
+SourceName: libusbmuxd
+Section: libs
+CPE-ID: cpe:/a:libimobiledevice:libusbmuxd
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 16891
+Filename: libusbmuxd_2.0.2-1_aarch64_cortex-a72.ipk
+Size: 17888
+SHA256sum: 5b6e6180b001144d96247451f625676396b7ff75f4d577ddce2c73e897222386
+Description:  This daemon is in charge of multiplexing connections over USB to an iPhone or
+ iPod touch. To users, it means you can sync your music, contacts, photos, etc.
+ over USB. To developers, it means you can connect to any listening localhost
+ socket on the device. usbmuxd is not used for tethering data transfer, which
+ uses a dedicated USB interface as a virtual network device.
+ This package contains the libusbmuxd shared library.
+
+Package: libuv1
+Version: 1.34.2-1
+Depends: libc, libpthread, librt
+Provides: libuv
+Source: feeds/packages/libs/libuv
+SourceName: libuv
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+CPE-ID: cpe:/a:libuv_project:libuv
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: aarch64_cortex-a72
+Installed-Size: 65517
+Filename: libuv1_1.34.2-1_aarch64_cortex-a72.ipk
+Size: 66235
+SHA256sum: 4c4d8f5c03e9099db80e8b2ca01cb720e71815420a048bedad4a51d9de95ca80
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libvorbis
+Version: 1.3.6-1
+Depends: libc, libogg0
+Source: feeds/packages/libs/libvorbis
+SourceName: libvorbis
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:xiph.org:libvorbis
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 197508
+Filename: libvorbis_1.3.6-1_aarch64_cortex-a72.ipk
+Size: 197411
+SHA256sum: 08ef5377d06e81c63fe37c70b718e627e94db473aecc5e68747204d6bd6fa396
+Description:  Vorbis is a general purpose audio and music encoding format
+ contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond
+ MPEG audio layer 3. Unlike the MPEG sponsored formats (and other
+ proprietary formats such as RealAudio G2 and Windows' flavor of the
+ month), the Vorbis CODEC specification belongs to the public domain.
+ All the technical details are published and documented, and any
+ software entity may make full use of the format without license
+ fee, royalty or patent concerns.
+
+Package: libwebp
+Version: 1.1.0-2
+Depends: libc
+Source: feeds/packages/libs/libwebp
+SourceName: libwebp
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 159914
+Filename: libwebp_1.1.0-2_aarch64_cortex-a72.ipk
+Size: 160615
+SHA256sum: c76ddb961ccb399841e683f468616decb27ea6d55dbad46ac576206cfeed2dbe
+Description:  The libwebp package contains a library for the WebP format.
+
+Package: libwebsockets-full
+Version: 3.2.1-1
+Depends: libc, zlib, libcap, libopenssl1.1, libuv1
+Provides: libwebsockets
+Source: feeds/packages/libs/libwebsockets
+SourceName: libwebsockets-full
+License: LGPL-2.1+exception
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 151405
+Filename: libwebsockets-full_3.2.1-1_aarch64_cortex-a72.ipk
+Size: 152141
+SHA256sum: 92fa68095353b950eafebaea9e2ad4c3f0bced4a30109a896e28de7dc7f27ea3
+Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
+
+Package: libwrap
+Version: 7.6-2
+Depends: libc
+Source: feeds/packages/libs/tcp_wrappers
+SourceName: libwrap
+License: BSD
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 12743
+Filename: libwrap_7.6-2_aarch64_cortex-a72.ipk
+Size: 13455
+SHA256sum: ebc50fd9c005ccd04c30a83638b38627173d4bb34cee86289123be421b0315be
+Description:  Security wrapper library for TCP services
+
+Package: libxml2
+Version: 2.9.10-1
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+SourceName: libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 498529
+Filename: libxml2_2.9.10-1_aarch64_cortex-a72.ipk
+Size: 497750
+SHA256sum: 3aeef629da375d34e35f0a2c69920f11bcca3d6b4d72b54c3201ba555fd42fba
+Description:  A library for manipulating XML and HTML resources.
+
+Package: libyaml
+Version: 0.2.5-1
+Depends: libc
+Source: feeds/packages/libs/yaml
+SourceName: libyaml
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:pyyaml_project:pyyaml
+Architecture: aarch64_cortex-a72
+Installed-Size: 40979
+Filename: libyaml_0.2.5-1_aarch64_cortex-a72.ipk
+Size: 41806
+SHA256sum: a45a28f0601c02fc06b230bc67e0aac489131815f1cb629ed6a2791051d4ae84
+Description:  Fast YAML 1.1 parser and emitter library
+
+Package: libzip-gnutls
+Version: 1.7.1-1
+Depends: libc, zlib, libgnutls
+Provides: libzip
+Source: feeds/packages/libs/libzip
+SourceName: libzip-gnutls
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 46736
+Filename: libzip-gnutls_1.7.1-1_aarch64_cortex-a72.ipk
+Size: 47526
+SHA256sum: dfeacc100a09f345e61ccf0357501997aff72f9013d136cd48c6f18432715266
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzstd
+Version: 1.4.5-2
+Depends: libc
+Source: feeds/packages/utils/zstd
+SourceName: libzstd
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 347068
+Filename: libzstd_1.4.5-2_aarch64_cortex-a72.ipk
+Size: 347232
+SHA256sum: 3cab80c28284ca6e9820dfa4cf6e181b37b8d53ebafd4ee7a1e0a91ecae38ef0
+Description:  Zstandard - Fast real-time compression algorithm.
+ This package provides libzstd library.
+
+Package: luasocket
+Version: 2019-04-21-733af884-1
+Depends: libc, lua
+Source: feeds/packages/lang/luasocket
+SourceName: luasocket
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 61962
+Filename: luasocket_2019-04-21-733af884-1_aarch64_cortex-a72.ipk
+Size: 62908
+SHA256sum: 12e9bf01cdefa34c5950ad83f05e60b6815c4b6490fb8014bce2aaa5c5f4146d
+Description:  LuaSocket is the most comprehensive networking support
+ library for the Lua language. It provides easy access to
+ TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.
+
+Package: minidlna
+Version: 2019-12-09-0763719f-7
+Depends: libc, libpthread, libexif, libjpeg, libsqlite3-0, libffmpeg, libid3tag, libflac, libvorbis, libuuid1
+Source: feeds/packages/multimedia/minidlna
+SourceName: minidlna
+License: GPL-2.0-or-later BSD-3-Clause
+LicenseFiles: COPYING LICENCE.miniupnpd
+Section: multimedia
+Require-User: minidlna:minidlna
+Architecture: aarch64_cortex-a72
+Installed-Size: 133085
+Filename: minidlna_2019-12-09-0763719f-7_aarch64_cortex-a72.ipk
+Size: 133917
+SHA256sum: 80117a6687ebdd0cc7d05cafd34fd4a36fb027e292396f30e2a9ffdbd9ca0480
+Description:  MiniDLNA (aka ReadyDLNA) is server software with the aim of
+ being fully compliant with DLNA/UPnP-AV clients.
+
+Package: miniupnpd
+Version: 2.0.20170421-2
+Depends: libc, iptables, libip4tc2, libuuid1
+Source: feeds/packages/net/miniupnpd
+SourceName: miniupnpd
+License: BSD-3-Clause
+Section: net
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: aarch64_cortex-a72
+Installed-Size: 58879
+Filename: miniupnpd_2.0.20170421-2_aarch64_cortex-a72.ipk
+Size: 59842
+SHA256sum: 01034e0daa18987c42aede7e96aae87f00a0850d839aba27dacab7a939468436
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: mjpg-streamer
+Version: 2019-05-24-1
+Depends: libc, libpthread, libjpeg
+Source: feeds/packages/multimedia/mjpg-streamer
+SourceName: mjpg-streamer
+License: GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: multimedia
+Maintainer: Roger D <rogerdammit@gmail.com>, Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 7358
+Filename: mjpg-streamer_2019-05-24-1_aarch64_cortex-a72.ipk
+Size: 8230
+SHA256sum: 73f8300bf6ee67dedd908d6b950a3261f7082a8cf7fd1785f91b14e08e5fea53
+Description:  Streaming application for Linux-UVC compatible webcams
+
+Package: mwan3
+Version: 2.8.8-2
+Depends: libc, ip, ipset, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+Source: feeds/packages/net/mwan3
+SourceName: mwan3
+License: GPL-2.0
+Section: net
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 13234
+Filename: mwan3_2.8.8-2_all.ipk
+Size: 14225
+SHA256sum: 7efb1ffea04017d0463cbb7111fa412497b4e7d41a990fcce98a2c1ac5c46a15
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: mxml
+Version: 3.1-1
+Depends: libc, zlib
+Source: feeds/packages/libs/mxml
+SourceName: mxml
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Espen Jürgensen <espenjurgensen+openwrt@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 21543
+Filename: mxml_3.1-1_aarch64_cortex-a72.ipk
+Size: 22173
+SHA256sum: e64f94eb08e643f2648a2287be19bc4a2da61a3e200e2a78b373f7361e9a2baf
+Description:  A small xml library.
+
+Package: nano
+Version: 4.9.3-1
+Depends: libc, libncurses6
+Source: feeds/packages/utils/nano
+SourceName: nano
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+CPE-ID: cpe:/a:gnu:nano
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: aarch64_cortex-a72
+Installed-Size: 73756
+Filename: nano_4.9.3-1_aarch64_cortex-a72.ipk
+Size: 74524
+SHA256sum: b303620a6a1bdddb43179af2bb1c7fd6e798f49bff1e33d2cb6114fcdc9a8283
+Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: netdata
+Version: 1.23.2-1
+Depends: libc, zlib, libuuid1, libuv1, libmnl0, libjson-c4
+Source: feeds/packages/admin/netdata
+SourceName: netdata
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: admin
+CPE-ID: cpe:/a:my-netdata:netdata
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Daniel Engberg <daniel.engberg.lists@pyret.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1866628
+Filename: netdata_1.23.2-1_aarch64_cortex-a72.ipk
+Size: 1865627
+SHA256sum: 7f69c9d19471cb3204186401e056d39978ed9fba0b7f548ae00993ca8a032168
+Description:  netdata is a highly optimized Linux daemon providing real-time performance
+ monitoring for Linux systems, applications and SNMP devices over the web.
+ 
+ If you want to use Python plugins install python3, python3-yaml and
+ python3-urllib3
+
+Package: nfs-kernel-server-utils
+Version: 2.3.4-2
+Depends: libc, nfs-kernel-server
+Source: feeds/packages/net/nfs-kernel-server
+SourceName: nfs-kernel-server-utils
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 13975
+Filename: nfs-kernel-server-utils_2.3.4-2_aarch64_cortex-a72.ipk
+Size: 14607
+SHA256sum: 8886a6b803c77009d109dd83917eba8202c81db64a9974c5e9ae0eb71987176f
+Description:  NFS server utils
+
+Package: nfs-kernel-server
+Version: 2.3.4-2
+Depends: libc, libwrap, libblkid1, libuuid1, libtirpc, kmod-fs-nfsd, kmod-fs-nfs, kmod-fs-nfs-v4, rpcbind, nfs-utils-libs, libkeyutils1, libdevmapper
+Source: feeds/packages/net/nfs-kernel-server
+SourceName: nfs-kernel-server
+Section: net
+Require-User: nfs:nfs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 166782
+Filename: nfs-kernel-server_2.3.4-2_aarch64_cortex-a72.ipk
+Size: 167210
+SHA256sum: aab5b530be08d51196e2dc2734b9a0cb6a22ac8fcd01ff57430816b8302e7dec
+Description:  Kernel NFS server support
+
+Package: nfs-utils-libs
+Version: 2.3.4-2
+Depends: libc, libwrap, libblkid1, libuuid1, libtirpc, libkeyutils1, libdevmapper
+Source: feeds/packages/net/nfs-kernel-server
+SourceName: nfs-utils-libs
+Section: utils
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 17545
+Filename: nfs-utils-libs_2.3.4-2_aarch64_cortex-a72.ipk
+Size: 18325
+SHA256sum: b019ebc6ce9f011a64cfd71265f72bfdd43c33e4abe69dcea5a7936ce2792c39
+Description:  Libraries provided by nfs-utils
+
+Package: nfs-utils
+Version: 2.3.4-2
+Depends: libc, libwrap, libblkid1, libuuid1, libtirpc, libkeyutils1, libdevmapper
+Source: feeds/packages/net/nfs-kernel-server
+SourceName: nfs-utils
+Section: utils
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 55154
+Filename: nfs-utils_2.3.4-2_aarch64_cortex-a72.ipk
+Size: 55852
+SHA256sum: 82647a06e764c53193235267f16cc326ccedb97c359968e2d63cadbedd6bc375
+Description:  Updated mount.nfs command - allows mounting nfs4 volumes
+
+Package: nginx-util
+Version: 1.4-1
+Depends: libc, libstdcpp6, libubus20191227, libubox20191228, libpthread
+Conflicts: nginx-ssl-util-nopcre, nginx-ssl-util
+Source: feeds/packages/net/nginx-util
+SourceName: nginx-util
+Section: net
+Maintainer: Peter Stadler <peter.stadler@student.uibk.ac.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 16911
+Filename: nginx-util_1.4-1_aarch64_cortex-a72.ipk
+Size: 17705
+SHA256sum: 3e0a0a05f2993c3ce5cc340b275cf96c98cf30ed0954ff3d1f13216edab71dc9
+Description:  Utility that builds dynamically LAN listen directives for Nginx.
+
+Package: nginx
+Version: 1.19.0-1
+Depends: libc, libpcre, zlib, libpthread, libubus20191227, libblobmsg-json, libjson-c4, nginx-util
+Source: feeds/packages/net/nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+CPE-ID: cpe:/a:nginx:nginx
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 372016
+Filename: nginx_1.19.0-1_aarch64_cortex-a72.ipk
+Size: 352932
+SHA256sum: a3481dddf1e09bc72d46025cbd4c07b7cdfe187cb4f80da8b59186c0b1dec69b
+Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. (Some module require SSL module enable to show up in config menu)
+
+Package: nlbwmon
+Version: 2020-04-11.1-34a18876-2
+Depends: libc, libubox20191228, libnl-tiny, zlib, kmod-nf-conntrack-netlink
+Source: feeds/packages/net/nlbwmon
+SourceName: nlbwmon
+License: ISC
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 21064
+Filename: nlbwmon_2020-04-11.1-34a18876-2_aarch64_cortex-a72.ipk
+Size: 21855
+SHA256sum: 85b836e5a0eff6dc219154b7ba64ea4c8d5ea64ba0ed4d702cb861468eb01eb3
+Description:  LEDE Traffic Usage Monitor
+
+Package: node-npm
+Version: v12.18.4-1
+Depends: libc, node
+Source: feeds/packages/lang/node
+SourceName: node-npm
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:nodejs:node.js
+Maintainer: John Crispin <blogic@openwrt.org>, Adrian Panella <ianchi74@outlook.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5913062
+Filename: node-npm_v12.18.4-1_aarch64_cortex-a72.ipk
+Size: 5908368
+SHA256sum: 2553bb71dab7b4001cd6ca3dc407348678e4c3bf5e3e6df5b7a10b0265580769
+Description:  NPM is the package manager for NodeJS
+
+Package: node
+Version: v12.18.4-1
+Depends: libc, libstdcpp6, libopenssl1.1, zlib, libnghttp2-14, libuv1, libhttp-parser, libcares, libatomic1
+Source: feeds/packages/lang/node
+SourceName: node
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:nodejs:node.js
+Maintainer: John Crispin <blogic@openwrt.org>, Adrian Panella <ianchi74@outlook.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 7471491
+Filename: node_v12.18.4-1_aarch64_cortex-a72.ipk
+Size: 7443591
+SHA256sum: 1e43b68988781a5a31d878734fcad131cd4ff980d7c4f0e0a4cf5cc1cc2f0589
+Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
+ an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
+ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+ *** The following preparations must be made on the host side. ***
+ 1. gcc 6.3 or higher is required.
+ 2. To build a 32-bit target, gcc-multilib, g++-multilib are required.
+ 3. Requires libatomic package. (If necessary, install the 32-bit library at the same time.)
+ ex) sudo apt-get install gcc-multilib g++-multilib
+
+Package: oniguruma5
+Version: 6.9.5_rev1-3
+Depends: libc
+Provides: oniguruma
+Source: feeds/packages/libs/oniguruma
+SourceName: oniguruma
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:oniguruma_project:oniguruma
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 182928
+Filename: oniguruma5_6.9.5_rev1-3_aarch64_cortex-a72.ipk
+Size: 180733
+SHA256sum: 4c261c0332c7f4025c71c849dff655827b0e6131d4b44cb29d4011349f44e006
+Description:  Oniguruma is a modern and flexible regular expressions library.
+ It encompasses features from different regular expression implementations that
+ traditionally exist in different languages.
+ 
+ Character encoding can be specified per regular expression object.
+
+Package: openconnect
+Version: 8.10-1
+Depends: libc, libxml2, kmod-tun, resolveip, vpnc-scripts, libgnutls, libtasn1
+Source: feeds/packages/net/openconnect
+SourceName: openconnect
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LGPL
+Section: net
+CPE-ID: cpe:/a:infradead:openconnect
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 127333
+Filename: openconnect_8.10-1_aarch64_cortex-a72.ipk
+Size: 128168
+SHA256sum: 80a0c488f1655ddf72c5afa7d162fd2d8d484dd563a8041f7eda26f7f563c55e
+Description:  A VPN client compatible with Cisco's AnyConnect SSL VPN, ocserv and Juniper (Pulse secure).
+ 
+ OpenConnect is a client that follows the Cisco's AnyConnect SSL VPN protocol,
+ which is supported by IOS 12.4(9)T or later on Cisco SR500, 870, 880, 1800,
+ 2800, 3800, 7200 Series and Cisco 7301 Routers, as well as the OpenConnect
+ VPN server. It has later been ported to support the Juniper SSL VPN which
+ is now known as Pulse Connect Secure.
+
+Package: openssh-sftp-client
+Version: 8.3p1-1
+Depends: libc, libopenssl1.1, zlib
+Source: feeds/packages/net/openssh
+SourceName: openssh-sftp-client
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 66083
+Filename: openssh-sftp-client_8.3p1-1_aarch64_cortex-a72.ipk
+Size: 66897
+SHA256sum: c5978b875b4af7ecf4f1721d30fecdd8ce5cf55d9df835abe4d016ced8d86de6
+Description:  OpenSSH SFTP client.
+
+Package: openssh-sftp-server
+Version: 8.3p1-1
+Depends: libc, libopenssl1.1, zlib
+Source: feeds/packages/net/openssh
+SourceName: openssh-sftp-server
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 50060
+Filename: openssh-sftp-server_8.3p1-1_aarch64_cortex-a72.ipk
+Size: 50831
+SHA256sum: 9742bc58876952fe647b0ac44b029fed8b9900e577d0da37671c67a194dfe6db
+Description:  OpenSSH SFTP server.
+
+Package: p910nd
+Version: 0.97-8
+Depends: libc
+Source: feeds/packages/net/p910nd
+SourceName: p910nd
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Require-User: p910nd=393:lp=7
+Maintainer: Philipp Kerling <pkerling@casix.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 7173
+Filename: p910nd_0.97-8_aarch64_cortex-a72.ipk
+Size: 8158
+SHA256sum: e02db5137a1a4d1d08d515044ed8ba35d45eb88790d91b2d07fe8e3af3e8cf2e
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: php7-fpm
+Version: 7.4.7-1
+Depends: libc, php7
+Source: feeds/packages/lang/php7
+SourceName: php7-fpm
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1515686
+Filename: php7-fpm_7.4.7-1_aarch64_cortex-a72.ipk
+Size: 1512347
+SHA256sum: 8403510e5778800a64dd91e3eb299c501e388f89f8112f48ae7420e8d68909eb
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the FastCGI Process Manager of the PHP7 interpreter.
+
+Package: php7-mod-curl
+Version: 7.4.7-1
+Depends: libc, php7, libcurl4
+Source: feeds/packages/lang/php7
+SourceName: php7-mod-curl
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 30535
+Filename: php7-mod-curl_7.4.7-1_aarch64_cortex-a72.ipk
+Size: 31300
+SHA256sum: f556679882fcd6905108a94fd408ef57607e5abb1d3fd58b12ee40ddc1a1a1ac
+Description:  cURL shared module
+
+Package: php7-mod-gd
+Version: 7.4.7-1
+Depends: libc, php7, libgd-full
+Source: feeds/packages/lang/php7
+SourceName: php7-mod-gd
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 27905
+Filename: php7-mod-gd_7.4.7-1_aarch64_cortex-a72.ipk
+Size: 28570
+SHA256sum: 9645729872ceaef013cc7ad3231712fc2b85cc824804bf6a9504e8076fe074d3
+Description:  GD graphics shared module
+
+Package: php7-mod-iconv
+Version: 7.4.7-1
+Depends: libc, php7
+Source: feeds/packages/lang/php7
+SourceName: php7-mod-iconv
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 16620
+Filename: php7-mod-iconv_7.4.7-1_aarch64_cortex-a72.ipk
+Size: 17387
+SHA256sum: ac4e3cd0f52b13ef7a7a1652c45fd484963d9d738d4ebf5469f15779bc072393
+Description:  iConv shared module
+
+Package: php7-mod-json
+Version: 7.4.7-1
+Depends: libc, php7
+Source: feeds/packages/lang/php7
+SourceName: php7-mod-json
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 16061
+Filename: php7-mod-json_7.4.7-1_aarch64_cortex-a72.ipk
+Size: 16795
+SHA256sum: 632bd3c93234a9e24117e7ab56dd8ad6eeec87ac67d94b07b52b2d352cfc6050
+Description:  JSON shared module
+
+Package: php7-mod-mbstring
+Version: 7.4.7-1
+Depends: libc, php7, oniguruma5
+Source: feeds/packages/lang/php7
+SourceName: php7-mod-mbstring
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 563058
+Filename: php7-mod-mbstring_7.4.7-1_aarch64_cortex-a72.ipk
+Size: 562494
+SHA256sum: a86b8b367e53f5b0d1d14fbe2cb208371f2704bb6c0cf881291024487b51c8ce
+Description:  MBString shared module
+
+Package: php7-mod-mysqlnd
+Version: 7.4.7-1
+Depends: libc, php7
+Source: feeds/packages/lang/php7
+SourceName: php7-mod-mysqlnd
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 83831
+Filename: php7-mod-mysqlnd_7.4.7-1_aarch64_cortex-a72.ipk
+Size: 84137
+SHA256sum: dcb18a0c7cb8508992d384fbd92d7ac92f3d45f49baec344abec26b8a75b62eb
+Description:  MySQL Native Driver shared module
+
+Package: php7-mod-opcache
+Version: 7.4.7-1
+Depends: libc, php7
+Source: feeds/packages/lang/php7
+SourceName: php7-mod-opcache
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 193848
+Filename: php7-mod-opcache_7.4.7-1_aarch64_cortex-a72.ipk
+Size: 194429
+SHA256sum: 5990831c581d42ab27c6fd6b04552e9df02cdf04102bd1d11233c3dc41338bf7
+Description:  OPcache shared module
+
+Package: php7-mod-pdo-mysql
+Version: 7.4.7-1
+Depends: libc, php7, php7-mod-pdo, php7-mod-mysqlnd
+Source: feeds/packages/lang/php7
+SourceName: php7-mod-pdo-mysql
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 9731
+Filename: php7-mod-pdo-mysql_7.4.7-1_aarch64_cortex-a72.ipk
+Size: 10552
+SHA256sum: 06adb6a68cf0afb6be9d8685619d1ae7340e312dbd17e07109d9ec6e392f3788
+Description:  PDO driver for MySQL shared module
+
+Package: php7-mod-pdo-sqlite
+Version: 7.4.7-1
+Depends: libc, php7, php7-mod-pdo, libsqlite3-0, librt
+Source: feeds/packages/lang/php7
+SourceName: php7-mod-pdo-sqlite
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 10106
+Filename: php7-mod-pdo-sqlite_7.4.7-1_aarch64_cortex-a72.ipk
+Size: 10892
+SHA256sum: 3e9dd52e40ce1a6ceb48b72887474ade5d79d7d1e7c47d9fdddffd35ab3c8133
+Description:  PDO driver for SQLite 3.x shared module
+
+Package: php7-mod-pdo
+Version: 7.4.7-1
+Depends: libc, php7
+Source: feeds/packages/lang/php7
+SourceName: php7-mod-pdo
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 38024
+Filename: php7-mod-pdo_7.4.7-1_aarch64_cortex-a72.ipk
+Size: 38709
+SHA256sum: 1f7c105e8775d58978ac7900747700633c4fda973c49b3fbbafbacabfe6834ab
+Description:  PHP Data Objects shared module
+
+Package: php7-mod-session
+Version: 7.4.7-1
+Depends: libc, php7
+Source: feeds/packages/lang/php7
+SourceName: php7-mod-session
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 32663
+Filename: php7-mod-session_7.4.7-1_aarch64_cortex-a72.ipk
+Size: 33437
+SHA256sum: 8f43ba4d6cd84de667bfd112a62d723594c309c5aee0eff33373de6b6543b3c2
+Description:  Session shared module
+
+Package: php7-mod-sqlite3
+Version: 7.4.7-1
+Depends: libc, php7, libsqlite3-0
+Source: feeds/packages/lang/php7
+SourceName: php7-mod-sqlite3
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 17493
+Filename: php7-mod-sqlite3_7.4.7-1_aarch64_cortex-a72.ipk
+Size: 18259
+SHA256sum: c044002b999db2c5c9c1e1950e99a563ff2eb7e436b728666421164c82838732
+Description:  SQLite3 shared module
+
+Package: php7-mod-zip
+Version: 7.4.7-1
+Depends: libc, php7, libzip
+Source: feeds/packages/lang/php7
+SourceName: php7-mod-zip
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 20063
+Filename: php7-mod-zip_7.4.7-1_aarch64_cortex-a72.ipk
+Size: 20802
+SHA256sum: 6215b6bd00824886f0f0b194ac409d05bfc4dada5f67e05945f24a943169f623
+Description:  ZIP shared module
+
+Package: php7
+Version: 7.4.7-1
+Depends: libc, libpcre2, zlib
+Source: feeds/packages/lang/php7
+SourceName: php7
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2200
+Filename: php7_7.4.7-1_aarch64_cortex-a72.ipk
+Size: 3236
+SHA256sum: eb9d19f13ad2296cabe70cd4d16bc47bb4508a5a4c133dfcf48f0d0b84f60bed
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains only the PHP config file. You must actually choose
+ your PHP flavour (cli, cgi or fastcgi).
+ 
+ Please note, that installing php5 and php7 in parallel on the same target
+ is not supported in OpenWrt/LEDE.
+
+Package: pptpd
+Version: 1.4.0-5
+Depends: libc, kmod-ppp, kmod-gre, kmod-mppe, ppp
+Source: feeds/packages/net/pptpd
+SourceName: pptpd
+Section: net
+CPE-ID: cpe:/a:poptop:pptp_server
+Architecture: aarch64_cortex-a72
+Installed-Size: 32972
+Filename: pptpd_1.4.0-5_aarch64_cortex-a72.ipk
+Size: 33565
+SHA256sum: 8fda28cd25f466a562792c95f822922a8d278bc44a53e7f57031a33deb3f3eca
+Description:  PopTop pptp server
+
+Package: proto-bonding
+Version: 2020-03-30-1
+Depends: libc, kmod-bonding
+Source: feeds/packages/net/bonding
+SourceName: proto-bonding
+License: GPL-2.0
+Section: net
+Maintainer: Helge Mader <ma@dev.tdt.de>
+Architecture: all
+Installed-Size: 1854
+Filename: proto-bonding_2020-03-30-1_all.ipk
+Size: 2624
+SHA256sum: 5fc92f23f202eeb707fad5e44bb5789ff054282949d0a1e46b8938b5af2d1983
+Description:  This package contains the channel bonding proto handler for netifd
+
+Package: python3-asyncio
+Version: 3.8.3-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-asyncio
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 142224
+Filename: python3-asyncio_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 143196
+SHA256sum: 15421d5285711b89456fe84517e45b2db1aac2c31dea284217205ffd83b93eed
+Description:  Python 3.8 asyncio module
+
+Package: python3-base
+Version: 3.8.3-2
+Depends: libc, libpthread, zlib
+Source: feeds/packages/lang/python/python3
+SourceName: python3-base
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1299601
+Filename: python3-base_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 1296535
+SHA256sum: 0007b9b4ba0db46282d6f13cc58e87a65c2b2c7aa0915252f40d0ab03c7b3cdc
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python3-cgi
+Version: 3.8.3-2
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgi
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 12006
+Filename: python3-cgi_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 12889
+SHA256sum: 394993430b9709b16a1e9fe2e1e643e9bc6aa413ee884598b0af100e036e22de
+Description:  Python 3.8 cgi module
+
+Package: python3-cgitb
+Version: 3.8.3-2
+Depends: libc, python3-light, python3-cgi, python3-pydoc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgitb
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5517
+Filename: python3-cgitb_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 6379
+SHA256sum: 58daa93356fbeeb4ab69485c8ab5679a5746ffb4dead9196a1f81ec8848ecff4
+Description:  Python 3.8 cgitb module
+
+Package: python3-codecs
+Version: 3.8.3-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-codecs
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 765377
+Filename: python3-codecs_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 741309
+SHA256sum: be9993143bffe73fb25914eedbc84cd449a7e529ab9c7ada6685760eb2a36a2b
+Description:  Python 3.8 codecs + unicode support
+
+Package: python3-ctypes
+Version: 3.8.3-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ctypes
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 79200
+Filename: python3-ctypes_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 80130
+SHA256sum: 0a7b4a15e99d3c232b4e803b0a62731dadc64bb75308f5417fefc8f1938f7adb
+Description:  Python 3.8 ctypes module
+
+Package: python3-dbm
+Version: 3.8.3-2
+Depends: libc, python3-light, libdb47
+Source: feeds/packages/lang/python/python3
+SourceName: python3-dbm
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 11385
+Filename: python3-dbm_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 12268
+SHA256sum: 8f503ea38ef60bb1c63e6ada9629672bcd2f057f805e8cc0cf6e94a0afdce088
+Description:  Python 3.8 dbm module
+
+Package: python3-decimal
+Version: 3.8.3-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-decimal
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 91256
+Filename: python3-decimal_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 92072
+SHA256sum: 25dec6fa94a8b08933fe1720ba3be4d8faffda36c503517d8fe106c530b0476b
+Description:  Python 3.8 decimal module
+
+Package: python3-distutils
+Version: 3.8.3-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-distutils
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 176897
+Filename: python3-distutils_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 177884
+SHA256sum: 009c03402ee6f2a8568ea7e2aca112f57efde06026c148ed91c1d9f8773aa19f
+Description:  Python 3.8 distutils module
+
+Package: python3-email
+Version: 3.8.3-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-email
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 113090
+Filename: python3-email_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 114099
+SHA256sum: 2f4bd0606a93475bd72d1dce4e9cb0175792f45c2a4f848ecb8eaa6889cd8e62
+Description:  Python 3.8 email module
+
+Package: python3-gdbm
+Version: 3.8.3-2
+Depends: libc, python3-light, libgdbm
+Source: feeds/packages/lang/python/python3
+SourceName: python3-gdbm
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 7587
+Filename: python3-gdbm_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 8467
+SHA256sum: 2e5833cec79d142b6a5c310af31e2a46e20a8e82c039e0084c9995ac211d07a4
+Description:  Python 3.8 gdbm module
+
+Package: python3-light
+Version: 3.8.3-2
+Depends: libc, python3-base, libffi, libbz2-1.0, libuuid1
+Source: feeds/packages/lang/python/python3
+SourceName: python3-light
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1868189
+Filename: python3-light_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 1868559
+SHA256sum: f17e93b71b50a35c998a3dd536c38e0be286c76453d73d118d6fa50cf335653e
+Description:  This package is essentially the python3-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python3-logging
+Version: 3.8.3-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-logging
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 51475
+Filename: python3-logging_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 52440
+SHA256sum: 3835eb50eb5b8fb338a99182ff40ead481d41011295293cf89d8d216676dbefe
+Description:  Python 3.8 logging module
+
+Package: python3-lzma
+Version: 3.8.3-2
+Depends: libc, python3-light, liblzma
+Source: feeds/packages/lang/python/python3
+SourceName: python3-lzma
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 17327
+Filename: python3-lzma_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 18217
+SHA256sum: ff5d00cad78466b684d7e113d8ff7da63c076700273b0f2f13a46bd118fc0cff
+Description:  Python 3.8 lzma module
+
+Package: python3-multiprocessing
+Version: 3.8.3-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-multiprocessing
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 100046
+Filename: python3-multiprocessing_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 101057
+SHA256sum: 82b1e6d257a375482aa614dee88b9f5723c2f2343c974917df2d8291f6d68ae6
+Description:  Python 3.8 multiprocessing
+
+Package: python3-ncurses
+Version: 3.8.3-2
+Depends: libc, python3-light, libncurses6
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ncurses
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 53658
+Filename: python3-ncurses_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 54479
+SHA256sum: d85c370991a6490e9649d16ef6125def29c26115ca68be74ff663787e2d0402f
+Description:  Python 3.8 ncurses module
+
+Package: python3-openssl
+Version: 3.8.3-2
+Depends: libc, python3-light, libopenssl1.1, ca-certs
+Source: feeds/packages/lang/python/python3
+SourceName: python3-openssl
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 70327
+Filename: python3-openssl_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 70823
+SHA256sum: bafa99b69f6f7d6084f4c812fc4c17dd3a98995d3803af02c8f2f22baa506f31
+Description:  Python 3.8 SSL module
+
+Package: python3-pydoc
+Version: 3.8.3-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pydoc
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 188793
+Filename: python3-pydoc_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 189706
+SHA256sum: d52bb3381082fdd83b20bddc64b7530f7676191934a6d5c25b7334595a28a8ce
+Description:  Python 3.8 pydoc module
+
+Package: python3-sqlite3
+Version: 3.8.3-2
+Depends: libc, python3-light, libsqlite3-0
+Source: feeds/packages/lang/python/python3
+SourceName: python3-sqlite3
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 32535
+Filename: python3-sqlite3_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 33428
+SHA256sum: 73fb3f049b8d12779736429a0680284bfea420ba6c13feca23bb519febe18017
+Description:  Python 3.8 sqlite3 module
+
+Package: python3-unittest
+Version: 3.8.3-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-unittest
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 75710
+Filename: python3-unittest_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 76674
+SHA256sum: 0e40e5b642f169d40a35cb409b83d2181f6569f34733f4ead5c50a42fc815896
+Description:  Python 3.8 unittest module
+
+Package: python3-urllib
+Version: 3.8.3-2
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-urllib
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 50878
+Filename: python3-urllib_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 51872
+SHA256sum: 1c5b35b32e9f970d8f8eb90bcbdbf43483bbcb42db71e962557cc84f92acde07
+Description:  Python 3.8 URL library module
+
+Package: python3-xml
+Version: 3.8.3-2
+Depends: libc, python3-light, python3-urllib
+Source: feeds/packages/lang/python/python3
+SourceName: python3-xml
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 216809
+Filename: python3-xml_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 217576
+SHA256sum: 3bdc3454b253664f64f05dfb40ca0e73942de60df65ca5c4db194379a311a105
+Description:  Python 3.8 xml libs
+
+Package: python3
+Version: 3.8.3-2
+Depends: libc, python3-light, python3-unittest, python3-ncurses, python3-ctypes, python3-pydoc, python3-logging, python3-multiprocessing, python3-urllib, python3-gdbm, python3-sqlite3, python3-xml, python3-distutils, python3-codecs, python3-email, python3-openssl, python3-cgi, python3-cgitb, python3-dbm, python3-asyncio, python3-lzma, python3-decimal
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 105
+Filename: python3_3.8.3-2_aarch64_cortex-a72.ipk
+Size: 1102
+SHA256sum: c9ee613d4c5ffb1ab3e89c3472d80852bbd208cd016dd098b8e8752eff458195
+Description:  This package contains the (almost) full Python install.
+ It's python3-light + all other packages.
+
+Package: qmi-utils
+Version: 1.26.0-1
+Depends: libc, libqmi
+Source: feeds/packages/libs/libqmi
+SourceName: qmi-utils
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Nicholas Smith <nicholas.smith@telcoantennas.com.au>
+Architecture: aarch64_cortex-a72
+Installed-Size: 159748
+Filename: qmi-utils_1.26.0-1_aarch64_cortex-a72.ipk
+Size: 153923
+SHA256sum: a2f376f6b5bd1caa9a25c09727ab9127afbbf921ccce0c8688d8b7efce5cc74a
+Description:  Utilities to talk to QMI enabled modems
+
+Package: rpcbind
+Version: 1.2.5-4
+Depends: libc, libtirpc, libwrap
+Source: feeds/packages/net/rpcbind
+SourceName: rpcbind
+License: BSD-3-Clause
+Section: net
+Require-User: rpc=65533:rpc=65533
+CPE-ID: cpe:/a:rpcbind_project:rpcbind
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 29496
+Filename: rpcbind_1.2.5-4_aarch64_cortex-a72.ipk
+Size: 30355
+SHA256sum: df803effa327566c820934a751e054c2b38f67c37aa68ae30864a51016027e97
+Description:  The rpcbind utility is a server that converts RPC program numbers into universal addresses.
+ It must be running on the host to be able to make RPC calls on a server on that machine.
+ 
+ Rpcbind replaces portmap for NFS v2/v3. It has more features, like ipv6 support.
+ Note: Nfs4 only configurations can run without it.
+
+Package: rsync
+Version: 3.2.2-1
+Depends: libc, libpopt0, zlib
+Source: feeds/packages/net/rsync
+SourceName: rsync
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+CPE-ID: cpe:/a:rsync:rsync
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 206635
+Filename: rsync_3.2.2-1_aarch64_cortex-a72.ipk
+Size: 207516
+SHA256sum: f143b71840653fd1a1d39f0e4f8204abb353bd490d025bb655fd74b7db9f00ad
+Description:  rsync is a program that allows files to be copied to and from remote machines
+ in much the same way as rcp. It has many more options than rcp, and uses the
+ rsync remote-update protocol to greatly speed up file transfers when the
+ destination file already exists.
+ 
+ The rsync remote-update protocol allows rsync to transfer just the differences
+ between two sets of files across the network link.
+
+Package: rsyncd
+Version: 3.2.2-1
+Depends: libc, rsync
+Source: feeds/packages/net/rsync
+SourceName: rsyncd
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+CPE-ID: cpe:/a:rsync:rsync
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 578
+Filename: rsyncd_3.2.2-1_aarch64_cortex-a72.ipk
+Size: 1430
+SHA256sum: 2b7074260d5efb1cea7b3e449dfb161c03e4e13e3612ffa98575fcde9a18045f
+Description:  rsyncd is a configuration file and initscript to utilize rsync as a daemon. It
+ uses the same binary as rsync.
+
+Package: ruby-bigdecimal
+Version: 2.7.1-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-bigdecimal
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 33498
+Filename: ruby-bigdecimal_2.7.1-1_aarch64_cortex-a72.ipk
+Size: 34483
+SHA256sum: 2231fb396ff32cd496850e89d656e29240da8929256e9d714260338759d0c7b7
+Description:  This package contains the ruby Arbitrary-precision decimal floating-point library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/2.7/*/bigdecimal.so 
+ - /usr/lib/ruby/2.7/bigdecimal/ 
+ - /usr/lib/ruby/2.7/bigdecimal.rb 
+ - /usr/lib/ruby/gems/2.7/specifications/default/bigdecimal-*.gemspec
+ 
+
+Package: ruby-date
+Version: 2.7.1-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-date
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 63433
+Filename: ruby-date_2.7.1-1_aarch64_cortex-a72.ipk
+Size: 64370
+SHA256sum: a872174afa05d319744e83f10c187b1cda5868b7fb11056d7b1117e03a19250d
+Description:  This package contains the ruby Comparable module for handling dates.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/2.7/date.rb 
+ - /usr/lib/ruby/2.7/*/date_core.so 
+ - /usr/lib/ruby/gems/2.7/specifications/default/date-*.gemspec
+ 
+
+Package: ruby-dbm
+Version: 2.7.1-1
+Depends: libc, ruby, libdb47
+Source: feeds/packages/lang/ruby
+SourceName: ruby-dbm
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 8269
+Filename: ruby-dbm_2.7.1-1_aarch64_cortex-a72.ipk
+Size: 9205
+SHA256sum: 7e8428775027b6834699cedff159d6986eb247ef9e66ea75c56bfafaa26c59fc
+Description:  The DBM class provides a wrapper to a Unix-style dbm or Database Manager library.
+ This package provides dbm.so file.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/2.7/*/dbm.so 
+ - /usr/lib/ruby/gems/2.7/specifications/default/dbm-*.gemspec
+ 
+
+Package: ruby-digest
+Version: 2.7.1-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-digest
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 26038
+Filename: ruby-digest_2.7.1-1_aarch64_cortex-a72.ipk
+Size: 26805
+SHA256sum: a962d4b998041d65e49fd3ae3a21a9d9d1bdd8ab89df9844a92c846259159405
+Description:  Provides digest* files. Can be configured to use OpenSSL or
+ bundled hash functions.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/2.7/digest 
+ - /usr/lib/ruby/2.7/digest.rb 
+ - /usr/lib/ruby/2.7/*/digest.so 
+ - /usr/lib/ruby/2.7/*/digest/*
+ 
+
+Package: ruby-enc
+Version: 2.7.1-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-enc
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 10162
+Filename: ruby-enc_2.7.1-1_aarch64_cortex-a72.ipk
+Size: 10987
+SHA256sum: d6f003b2d1f9680c6687e6a7355ee9c77c925e4d36fb0fc6377273fe5ed3cfb1
+Description:  This package contains the ruby character re-coding library charset (small subset).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/2.7/*/enc/encdb.so 
+ - /usr/lib/ruby/2.7/*/enc/iso_8859_1.so 
+ - /usr/lib/ruby/2.7/*/enc/utf_*.so 
+ - /usr/lib/ruby/2.7/*/enc/euc_jp.so
+ 
+
+Package: ruby-pstore
+Version: 2.7.1-1
+Depends: libc, ruby, ruby-digest, ruby-enc
+Source: feeds/packages/lang/ruby
+SourceName: ruby-pstore
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5514
+Filename: ruby-pstore_2.7.1-1_aarch64_cortex-a72.ipk
+Size: 6370
+SHA256sum: 1073c44b867e83367004514d4a2cd599c529d4eba3d515a8ba8d90317f502ace
+Description:  This package contains the ruby file based persistence.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/2.7/pstore.rb 
+ - /usr/lib/ruby/2.7/pstore/ 
+ - /usr/lib/ruby/gems/2.7/gems/pstore-*/ 
+ - /usr/lib/ruby/gems/2.7/specifications/default/pstore-*.gemspec
+ 
+
+Package: ruby-psych
+Version: 2.7.1-1
+Depends: libc, ruby, ruby-bigdecimal, ruby-date, ruby-enc, ruby-stringio, ruby-strscan, libyaml
+Source: feeds/packages/lang/ruby
+SourceName: ruby-psych
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 32760
+Filename: ruby-psych_2.7.1-1_aarch64_cortex-a72.ipk
+Size: 33748
+SHA256sum: edb90d131a1a8396b491b8ab725287e9fc15d256e22fbd6c25c5ed486d61bdfc
+Description:  This package contains the ruby YAML parser and emitter.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/2.7/psych 
+ - /usr/lib/ruby/2.7/psych.rb 
+ - /usr/lib/ruby/2.7/*/psych.so 
+ - /usr/lib/ruby/gems/2.7/specifications/default/psych-*.gemspec
+ 
+
+Package: ruby-stringio
+Version: 2.7.1-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-stringio
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 13955
+Filename: ruby-stringio_2.7.1-1_aarch64_cortex-a72.ipk
+Size: 14771
+SHA256sum: a75da813cef50388336e5d7b2ce63704e9eb3628ede013d8d1da6d02231b812b
+Description:  This package contains the ruby Pseudo `IO` class from/to `String`.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/2.7/*/stringio.so 
+ - /usr/lib/ruby/gems/2.7/specifications/default/stringio-*.gemspec
+ 
+
+Package: ruby-strscan
+Version: 2.7.1-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-strscan
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 8610
+Filename: ruby-strscan_2.7.1-1_aarch64_cortex-a72.ipk
+Size: 9509
+SHA256sum: fd98ba330217a7042b1dfa065fa603b0e3918ca44414a87bc084afce59a55ec7
+Description:  This package contains the ruby Lexical scanning operations on a String.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/2.7/*/strscan.so 
+ - /usr/lib/ruby/gems/2.7/specifications/default/strscan-*.gemspec
+ 
+
+Package: ruby-yaml
+Version: 2.7.1-1
+Depends: libc, ruby, ruby-dbm, ruby-pstore, ruby-psych
+Source: feeds/packages/lang/ruby
+SourceName: ruby-yaml
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 4353
+Filename: ruby-yaml_2.7.1-1_aarch64_cortex-a72.ipk
+Size: 5206
+SHA256sum: 7243928667f65ef63fd0b637fd8d07dcecce6cdb6df482b99d48ceb22214207b
+Description:  This package contains the ruby YAML toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/2.7/yaml 
+ - /usr/lib/ruby/2.7/yaml.rb 
+ - /usr/lib/ruby/gems/2.7/gems/yaml-*/ 
+ - /usr/lib/ruby/gems/2.7/specifications/default/yaml-*.gemspec
+ 
+
+Package: ruby
+Version: 2.7.1-1
+Depends: libc, libruby2.7
+Source: feeds/packages/lang/ruby
+SourceName: ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1789
+Filename: ruby_2.7.1-1_aarch64_cortex-a72.ipk
+Size: 2693
+SHA256sum: cdca375d9655185083bfab9ec4b2f00637ebb89bdddc900ff6230fed709d0dad
+Description:  Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text files
+ and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ 
+
+Package: runc
+Version: 1.0.0-rc10-1
+Depends: libc, libseccomp
+Source: feeds/packages/utils/runc
+SourceName: runc
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2582502
+Filename: runc_1.0.0-rc10-1_aarch64_cortex-a72.ipk
+Size: 2554311
+SHA256sum: 5b79be0810cb8e4df947adb7d27d08636a4fc849c155e1f8253397e19d80ca00
+Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
+
+Package: screen
+Version: 4.8.0-1
+Depends: libc, libncurses6
+Source: feeds/packages/utils/screen
+SourceName: screen
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+CPE-ID: cpe:/a:gnu:screen
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 186063
+Filename: screen_4.8.0-1_aarch64_cortex-a72.ipk
+Size: 186762
+SHA256sum: a4c5055751f91ebc56dbee0e8c646d4a972f064c80e30fcf047f729dc748132b
+Description:  Screen is a full-screen window manager that multiplexes a physical
+ terminal between several processes, typically interactive shells.
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-4
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, libpcre
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-local
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 50838
+Filename: shadowsocks-libev-ss-local_3.3.5-4_aarch64_cortex-a72.ipk
+Size: 51570
+SHA256sum: af9cadf657bb1cbd188b78f689174be8dffe76eb560d23c3a051f51dfa72493b
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-4
+Depends: libc, libev, libmbedtls12, libpthread, libsodium
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-redir
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 45496
+Filename: shadowsocks-libev-ss-redir_3.3.5-4_aarch64_cortex-a72.ipk
+Size: 46236
+SHA256sum: f731b702a3ab9b85b12756b505b843afa445815af1dce502e5384645822d8d1c
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-4
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, libcares, libpcre
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-server
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 55863
+Filename: shadowsocks-libev-ss-server_3.3.5-4_aarch64_cortex-a72.ipk
+Size: 56560
+SHA256sum: f2314cd362716cf1db2a70ca46934e25ba7d7e6abf1eae8ca99635b7c5510cb0
+Description:  shadowsocks-libev ss-server
+
+Package: shairplay
+Version: 2018-08-24-096b61ad-2
+Depends: libc, libao, libavahi-compat-libdnssd, libltdl7, libpthread
+Source: feeds/packages/sound/shairplay
+SourceName: shairplay
+License: MIT
+LicenseFiles: LICENSE
+Section: sound
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 100598
+Filename: shairplay_2018-08-24-096b61ad-2_aarch64_cortex-a72.ipk
+Size: 101490
+SHA256sum: 7ef32b95e027b9e2b4392ce2212ed92d53fcd9df7ee345fa7becf3da03167aa8
+Description:  Free portable AirPlay server implementation similar to ShairPort.
+
+Package: shairport-sync-openssl
+Version: 3.3.6-2
+Depends: libc, libpthread, alsa-lib, libconfig11, libdaemon, libpopt0, libopenssl1.1, libavahi-client, libsoxr
+Provides: shairport-sync
+Source: feeds/packages/sound/shairport-sync
+SourceName: shairport-sync-openssl
+License: MIT
+LicenseFiles: COPYING LICENSES shairport.c
+Section: sound
+Maintainer: Ted Hess <thess@kitschensync.net>, Mike Brady <mikebrady@eircom.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 90909
+Filename: shairport-sync-openssl_3.3.6-2_aarch64_cortex-a72.ipk
+Size: 91836
+SHA256sum: be0e92e0a6d066cb13865a5a046620181384ae87c989d0775db16471203f0886
+Description:  Shairport Sync plays audio from iTunes and AirPlay sources, including
+ iOS devices, Quicktime Player and third party sources such as forkedDaapd.
+ Audio played by a Shairport Sync-powered device stays synchronised with the source
+ and hence with similar devices playing the same source.
+ 
+ Shairport Sync does not support AirPlay video or photo streaming.
+ Ensure Kernel Modules > Sound Support > kmod-sound-core is selected.
+ Also select kmod-usb-audio if you want to use USB-connected sound cards.
+
+Package: smartdns
+Version: 1.2020.09.08-2235-1
+Depends: libc, libpthread, libopenssl1.1
+Source: feeds/packages/net/smartdns
+SourceName: smartdns
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Nick Peng <pymumu@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 86445
+Filename: smartdns_1.2020.09.08-2235-1_aarch64_cortex-a72.ipk
+Size: 87371
+SHA256sum: 352950b1beca3f021e58b1b784ae0d3479124fd991f79ea333daea6ea83191ec
+Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
+ gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
+ Unlike dnsmasq's all-servers, smartdns returns the fastest IP. 
+
+Package: smartmontools
+Version: 7.1-3
+Depends: libc, uclibcxx
+Source: feeds/packages/utils/smartmontools
+SourceName: smartmontools
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 187693
+Filename: smartmontools_7.1-3_aarch64_cortex-a72.ipk
+Size: 188464
+SHA256sum: a2e06b1906b154aeb0619af354be7931b03a6f406183061d6af03148daa1f4b1
+Description:  smartmontools contains utility programs (smartctl) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
+
+Package: socat
+Version: 1.7.3.4-1
+Depends: libc, libpthread, librt
+Source: feeds/packages/net/socat
+SourceName: socat
+License: GPL-2.0-or-later OpenSSL
+LicenseFiles: COPYING COPYING.OpenSSL
+Section: net
+CPE-ID: cpe:/a:dest-unreach:socat
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 101529
+Filename: socat_1.7.3.4-1_aarch64_cortex-a72.ipk
+Size: 102544
+SHA256sum: 5183a3c4cb4407d0aa372f3a2b944a1a6916f8ac2732eb0561e7e0d41a749f97
+Description:  SoCat (for SOcket CAT) establishes two bidirectional byte streams and
+ transfers data between them.
+ Data channels may be files, pipes, devices (terminal or modem, etc.), or
+ sockets (Unix, IPv4, IPv6, raw, UDP, TCP, SSL). It provides forking,
+ logging and tracing, different modes for interprocess communication and
+ many more options.
+
+Package: sqlite3-cli
+Version: 3320100-1
+Depends: libc, libsqlite3-0, libedit
+Source: feeds/packages/libs/sqlite3
+SourceName: sqlite3-cli
+License: PUBLICDOMAIN
+Section: utils
+CPE-ID: cpe:/a:sqlite:sqlite
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Architecture: aarch64_cortex-a72
+Installed-Size: 91119
+Filename: sqlite3-cli_3320100-1_aarch64_cortex-a72.ipk
+Size: 91958
+SHA256sum: 7565ab26743c5251e08b6933bf0150b7c5b442ae1b6c9b1aa198fc500cbd0246
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains a terminal-based front-end to the SQLite (v3.x) library
+ that can evaluate queries interactively and display the results in multiple
+ formats.
+
+Package: sqm-scripts
+Version: 1.4.0-8
+Depends: libc, tc, kmod-sched-core, kmod-ifb, iptables, iptables-mod-ipopt, iptables-mod-conntrack-extra, kmod-sched-cake-virtual
+Source: feeds/packages/net/sqm-scripts
+SourceName: sqm-scripts
+License: GPL-2.0-only
+Section: net
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 17908
+Filename: sqm-scripts_1.4.0-8_all.ipk
+Size: 18787
+SHA256sum: 41b77261693c28d19f81fc31cab17e76d5c723b9f87765d0f1377b07d7fc6eb5
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: strongswan-charon
+Version: 5.8.4-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-charon
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 244973
+Filename: strongswan-charon_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 245605
+SHA256sum: 7721a5de7c633aec0e5f5e526868f09fdaad4ed0f974ed9865349267c6b4c31f
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains charon, an IKEv2 keying daemon.
+
+Package: strongswan-ipsec
+Version: 5.8.4-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-ipsec
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 3174
+Filename: strongswan-ipsec_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 4033
+SHA256sum: a55a56eb27b31b480895c1f9fab01cdc62a2f81711ee3c7d9e7c6ef7211c0839
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains the ipsec utility.
+
+Package: strongswan-minimal
+Version: 5.8.4-1
+Depends: libc, strongswan, strongswan-charon, strongswan-mod-aes, strongswan-mod-gmp, strongswan-mod-hmac, strongswan-mod-kernel-netlink, strongswan-mod-nonce, strongswan-mod-pubkey, strongswan-mod-random, strongswan-mod-sha1, strongswan-mod-socket-default, strongswan-mod-stroke, strongswan-mod-updown, strongswan-mod-x509, strongswan-mod-xcbc
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-minimal
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 105
+Filename: strongswan-minimal_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 1033
+SHA256sum: 79258da98a995e444fedb680ac94c3c9e00cf5011d43d0136bbd61a7fb46553a
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This meta-package contains only dependencies for a minimal IKEv2 setup.
+
+Package: strongswan-mod-aes
+Version: 5.8.4-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-aes
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 15643
+Filename: strongswan-mod-aes_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 15793
+SHA256sum: 0f20b6a660e0418cd82ad0161a9f89d45ef32b7e4abdb9aa90e1d91a9ca593cd
+Description:  StrongSwan AES crypto plugin
+
+Package: strongswan-mod-gmp
+Version: 5.8.4-1
+Depends: libc, strongswan, libgmp10
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-gmp
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 12714
+Filename: strongswan-mod-gmp_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 13473
+SHA256sum: cb68d5bc5faf073c8ff1054f55a42030176413af0dc91fde701fdb35b00e9fc0
+Description:  StrongSwan libgmp plugin
+
+Package: strongswan-mod-hmac
+Version: 5.8.4-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-hmac
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2673
+Filename: strongswan-mod-hmac_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 3447
+SHA256sum: 92b7050be7458d2ae5e41b72b4441193616def124cd2c4d99841cde40e289da3
+Description:  StrongSwan HMAC crypto plugin
+
+Package: strongswan-mod-kernel-netlink
+Version: 5.8.4-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-kernel-netlink
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 37109
+Filename: strongswan-mod-kernel-netlink_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 37958
+SHA256sum: 5f3fb360149b1fbfec427ffa072bbea8396de4aa622151242bf462fa44e568f3
+Description:  StrongSwan netlink kernel interface plugin
+
+Package: strongswan-mod-nonce
+Version: 5.8.4-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-nonce
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1665
+Filename: strongswan-mod-nonce_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 2428
+SHA256sum: f762033f79bf991f26e0a852c893d480cf9615bbf8e78c0ff8cb4d8bcb3b4800
+Description:  StrongSwan nonce genereation plugin
+
+Package: strongswan-mod-pubkey
+Version: 5.8.4-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-pubkey
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2855
+Filename: strongswan-mod-pubkey_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 3624
+SHA256sum: c6e99dc5bc93f4b99582fa7086994214e902c2e652857fa24c558a5ed7d33b87
+Description:  StrongSwan raw public key plugin
+
+Package: strongswan-mod-random
+Version: 5.8.4-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-random
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2608
+Filename: strongswan-mod-random_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 3367
+SHA256sum: 0a66667e6706cf44dbbf849c6c647e2a5f4b79f534c5bfe176381c41372444aa
+Description:  StrongSwan RNG plugin
+
+Package: strongswan-mod-sha1
+Version: 5.8.4-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-sha1
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5491
+Filename: strongswan-mod-sha1_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 6266
+SHA256sum: 4799577080291b129e71f3afade5d9b9e45c42cb2138f6c028059d37af63e4fc
+Description:  StrongSwan SHA1 crypto plugin
+
+Package: strongswan-mod-socket-default
+Version: 5.8.4-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-socket-default
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5642
+Filename: strongswan-mod-socket-default_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 6437
+SHA256sum: 6e80596f921b38e056414537209b3ed61586f26e70e252db5ccc956eee357839
+Description:  StrongSwan default socket implementation for charon plugin
+
+Package: strongswan-mod-stroke
+Version: 5.8.4-1
+Depends: libc, strongswan, strongswan-charon, strongswan-ipsec
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-stroke
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 69889
+Filename: strongswan-mod-stroke_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 70713
+SHA256sum: 9c164d1278a9f0579bdcf39e0ef128cea286662a1d297ccca69de4205d43601b
+Description:  StrongSwan Stroke plugin
+
+Package: strongswan-mod-updown
+Version: 5.8.4-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-updown
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 9451
+Filename: strongswan-mod-updown_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 10226
+SHA256sum: 347033f724568556c11fb219b9fd8e90ec6f05066f0866ce866de7a7ac282156
+Description:  StrongSwan updown firewall plugin
+
+Package: strongswan-mod-x509
+Version: 5.8.4-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-x509
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 31505
+Filename: strongswan-mod-x509_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 32204
+SHA256sum: f7f4d66378f64cc1c07f5f950785dfea50ae2cea163110871d7716b583d3b218
+Description:  StrongSwan x509 certificate plugin
+
+Package: strongswan-mod-xauth-generic
+Version: 5.8.4-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-xauth-generic
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 3067
+Filename: strongswan-mod-xauth-generic_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 3841
+SHA256sum: 56c66c4fc7f089b9e9087dd7f6fc5857a427497ef3f0057182f2f9bd82a2fc74
+Description:  StrongSwan generic XAuth backend plugin
+
+Package: strongswan-mod-xcbc
+Version: 5.8.4-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-xcbc
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 3227
+Filename: strongswan-mod-xcbc_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 3988
+SHA256sum: 32b4cad8c0fca7d1a904895556f2b1144d63184a4dcf967526c3eba6a7322d76
+Description:  StrongSwan xcbc crypto plugin
+
+Package: strongswan
+Version: 5.8.4-1
+Depends: libc, libpthread, ip, kmod-crypto-authenc, kmod-ipsec, kmod-ipsec4, kmod-ipsec6, kmod-ipt-ipsec, iptables-mod-ipsec
+Source: feeds/packages/net/strongswan
+SourceName: strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_cortex-a72
+Installed-Size: 175447
+Filename: strongswan_5.8.4-1_aarch64_cortex-a72.ipk
+Size: 176044
+SHA256sum: 03ca0f918b821edca4a34417d99202423c8b6930019caf505bae557d2d15490d
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains shared libraries and scripts.
+
+Package: syncthing
+Version: 1.12.1-0
+Depends: libc
+Source: feeds/packages/utils/syncthing
+SourceName: syncthing
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: utils
+Require-User: syncthing=499:syncthing=499
+CPE-ID: cpe:/a:syncthing:syncthing
+Maintainer: Paul Spooren <mail@aparcar.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 8659731
+Filename: syncthing_1.12.1-0_aarch64_cortex-a72.ipk
+Size: 8642140
+SHA256sum: e3f302d7ebcd7207041529e9b0e37a5fd5e4bcfd7688328889f8fdc140647e5e
+Description:  Syncthing replaces proprietary sync and cloud services with something
+ open, trustworthy and decentralized. Your data is your data alone and
+ you deserve to choose where it is stored, if it is shared with some
+ third party and how it's transmitted over the Internet.
+
+Package: tini
+Version: 0.18.0-1
+Depends: libc
+Source: feeds/packages/utils/tini
+SourceName: tini
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 35304
+Filename: tini_0.18.0-1_aarch64_cortex-a72.ipk
+Size: 36055
+SHA256sum: c9414a1421732d4601fa2e813c36fa016e6bb273f9b1feff5c08146d45f29c21
+Description:  A tiny but valid init process for containers.
+
+Package: tinyproxy
+Version: 1.10.0-2
+Depends: libc
+Source: feeds/packages/net/tinyproxy
+SourceName: tinyproxy
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+CPE-ID: cpe:/a:banu:tinyproxy
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 37363
+Filename: tinyproxy_1.10.0-2_aarch64_cortex-a72.ipk
+Size: 38192
+SHA256sum: cf456660f63eb17d86b1e2ada3ccbd41c88e9369340a80111f204f64fe526fd5
+Description:  Tinyproxy is a lightweight HTTP and HTTPS proxy
+
+Package: tmux
+Version: 3.1b-1
+Depends: libc, libncurses6, libevent2-7, libpthread, librt
+Source: feeds/packages/utils/tmux
+SourceName: tmux
+License: ISC
+LicenseFiles: COPYING
+Section: utils
+CPE-ID: cpe:/a:nicholas_marriott:tmux
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 255687
+Filename: tmux_3.1b-1_aarch64_cortex-a72.ipk
+Size: 255988
+SHA256sum: 8de3493ab50856c73d5b0167afec7c4542844ed1a932f04ba32cbf3b8ad7ec25
+Description:  tmux is a modern, BSD-licensed alternative to GNU screen.
+
+Package: transmission-daemon-openssl
+Version: 2.94-8
+Depends: libc, libcurl4, libevent2-7, libminiupnpc, libnatpmp1, libpthread, librt, zlib, libopenssl1.1
+Source: feeds/packages/net/transmission
+SourceName: transmission-daemon-openssl
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+Require-User: transmission=224:transmission=224
+CPE-ID: cpe:/a:transmissionbt:transmission
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 193355
+Filename: transmission-daemon-openssl_2.94-8_aarch64_cortex-a72.ipk
+Size: 194256
+SHA256sum: db38a7e23c172b6e02fd35b94975a10ec5e0100e7ea024358eb07b4aecde1625
+Description:  Transmission is a simple BitTorrent client.
+ It features a very simple, intuitive interface
+ on top on an efficient, cross-platform back-end.
+ This package contains the daemon itself.
+
+Package: transmission-web-control
+Version: 2019-07-24-c27e3ba9-1
+Depends: libc, transmission-daemon-openssl
+Conflicts: transmission-web
+Source: feeds/packages/net/transmission-web-control
+SourceName: transmission-web-control
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 1072652
+Filename: transmission-web-control_2019-07-24-c27e3ba9-1_all.ipk
+Size: 1073518
+SHA256sum: f716aa5c07ce79f12107db3694f335406ea621ad70192590c24c82bf00fe42d4
+Description:  Transmission Web Control is a custom Web UI for Transmission.
+
+Package: tree
+Version: 1.8.0-1
+Depends: libc, libgcc1
+Source: feeds/packages/utils/tree
+SourceName: tree
+Section: utils
+Maintainer: Banglang Huang <banglang.huang@foxmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 25410
+Filename: tree_1.8.0-1_aarch64_cortex-a72.ipk
+Size: 26074
+SHA256sum: 9e01fb73f4be5e2ae10cb1b379637fed92afb08fceee34fde6e90dd619094064
+Description:  List contents of directories in a tree-like format
+
+Package: ttyd
+Version: 1.6.3-1
+Depends: libc, libopenssl1.1, libjson-c4, libuv1, zlib, libwebsockets-full
+Source: feeds/packages/utils/ttyd
+SourceName: ttyd
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Shuanglei Tao <tsl0922@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 239797
+Filename: ttyd_1.6.3-1_aarch64_cortex-a72.ipk
+Size: 240471
+SHA256sum: fa1662c8f346421bf9fafd94ba303aea8744c67255ceebb1043ad66654328393
+Description:  ttyd is a command-line tool for sharing terminal over the web.
+
+Package: udpxy
+Version: 1.0-24.1-1
+Depends: libc
+Source: feeds/packages/net/udpxy
+SourceName: udpxy
+License: GPL-3.0-or-later
+LicenseFiles: chipmunk/gpl.txt
+Section: net
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 34374
+Filename: udpxy_1.0-24.1-1_aarch64_cortex-a72.ipk
+Size: 35433
+SHA256sum: 8d7d2054b82ec0dec88d410b5cad1b01dd3335d5afc84d4499ab554a1db01b4b
+Description:  udproxy makes it possible to convert UDP IPTV streams into HTTP
+ streams which can be viewed even over WLANs. HTTP streams do
+ not generate huge amounts of multicast traffic, so a sd stream
+ only takes about 300k. Interesting for peoply who have IPTV at
+ home and do not want to rent multiple decoders from their
+ provider but just use their own streaming client (for example
+ popcornhour/mediatomb/vlc).
+
+Package: unzip
+Version: 6.0-8
+Depends: libc
+Source: feeds/packages/utils/unzip
+SourceName: unzip
+License: BSD-4-Clause
+LicenseFiles: LICENSE
+Section: utils
+CPE-ID: cpe:/a:info-zip:unzip
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 113828
+Filename: unzip_6.0-8_aarch64_cortex-a72.ipk
+Size: 114679
+SHA256sum: d5f0583a2cebbde2cf46c4395586f5567d9d7cc443762ce4eb1f992b85504143
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: usbmuxd
+Version: 1.1.1-1
+Depends: libc, librt, libusb-1.0-0, libusbmuxd, libopenssl1.1, libimobiledevice
+Source: feeds/packages/utils/usbmuxd
+SourceName: usbmuxd
+License: GPL-2.0-or-later
+LicenseFiles: COPYING.GPLv2
+Section: utils
+CPE-ID: cpe:/a:libimobiledevice:usbmuxd
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 31459
+Filename: usbmuxd_1.1.1-1_aarch64_cortex-a72.ipk
+Size: 32360
+SHA256sum: 23ccea22f76443d66fbdce0f15e8ae0223807861b202b733d0c3f74d8cce74c9
+Description:  This daemon is in charge of multiplexing connections over USB to an iPhone or
+ iPod touch. To users, it means you can sync your music, contacts, photos, etc.
+ over USB. To developers, it means you can connect to any listening localhost
+ socket on the device. usbmuxd is not used for tethering data transfer, which
+ uses a dedicated USB interface as a virtual network device.
+
+Package: vim-full
+Version: 8.1-6
+Depends: libc, libncurses6
+Source: feeds/packages/utils/vim
+SourceName: vim-full
+Section: utils
+CPE-ID: cpe:/a:vim:vim
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: aarch64_cortex-a72
+Installed-Size: 925402
+Filename: vim-full_8.1-6_aarch64_cortex-a72.ipk
+Size: 925317
+SHA256sum: 96232e0c0e85e8f44fe8c6b2765af7f5604116ae28a38cecc640e995066850d2
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Normal build)
+
+Package: vpnc-scripts
+Version: 20151220-2
+Depends: libc
+Source: feeds/packages/net/vpnc-scripts
+SourceName: vpnc-scripts
+Section: net
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: all
+Installed-Size: 2291
+Filename: vpnc-scripts_20151220-2_all.ipk
+Size: 3073
+SHA256sum: d26421438927e3ac20b03e3bf10f8fa34e21b70650e0ed252e9239b7ca0faefc
+Description:  This package contains the vpnc-script which is used by vpnc
+ and OpenConnect to configure the tunnel interface.
+
+Package: watchcat
+Version: 1-7
+Depends: libc
+Source: feeds/packages/utils/watchcat
+SourceName: watchcat
+License: GPL-2.0
+Section: utils
+Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: all
+Installed-Size: 2169
+Filename: watchcat_1-7_all.ipk
+Size: 2954
+SHA256sum: 74b2effff8458dac78b3e9b69191b3fe95bf025cae88256d176fdad51736db1c
+Description:  Allows to configure a periodically reboot, or after losing internet connectivity. Configured trough UCI /etc/config/system.
+
+Package: wifischedule
+Version: 1-2
+Depends: libc
+Source: feeds/packages/net/wifischedule
+SourceName: wifischedule
+License: PRPL
+Section: net
+Maintainer: Nils Koenig <openwrt@newk.it> 
+Architecture: all
+Installed-Size: 3099
+Filename: wifischedule_1-2_all.ipk
+Size: 3877
+SHA256sum: 958014095a2d4fea94fd34528d3abeae87b29e784f5d4006c03f8d66b362f540
+Description:  Turns WiFi on and off according to a schedule defined in UCI.
+
+Package: xl2tpd
+Version: 1.3.15-3
+Depends: libc, ppp-mod-pppol2tp, resolveip
+Source: feeds/packages/net/xl2tpd
+SourceName: xl2tpd
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 53046
+Filename: xl2tpd_1.3.15-3_aarch64_cortex-a72.ipk
+Size: 53990
+SHA256sum: cc455a8200f93a1c57b8c837dba9282dc1024f11731c187b35c6fb1f72eb75af
+Description:  l2tpd is the open source implementation of the L2TP tunneling protocol (RFC2661).
+ It does implement both LAC and LNS role in a L2TP networking architecture. The
+ main goal of this protocol is to tunnel PPP frame trough an IP network.
+
+Package: zerotier
+Version: 1.6.2-2
+Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1
+Source: feeds/packages/net/zerotier
+SourceName: zerotier
+License: BSL 1.1
+LicenseFiles: LICENSE.txt
+Section: net
+Maintainer: Moritz Warning <moritzwarning@web.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 450734
+Filename: zerotier_1.6.2-2_aarch64_cortex-a72.ipk
+Size: 450868
+SHA256sum: 251a175b52c3f92cfef35815bd16707d97061a19e7c1a50c8dd40282259b9dac
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
+
+Package: zoneinfo-asia
+Version: 2020a-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-asia
+License: Public Domain
+Section: utils
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: aarch64_cortex-a72
+Installed-Size: 30976
+Filename: zoneinfo-asia_2020a-1_aarch64_cortex-a72.ipk
+Size: 31363
+SHA256sum: 0b76f1ae6fda4b146af3d0b5cb1a5ef1b8ad1be44f9fe9682444cd681eaaf5d6
+Description:  Zone Information (Asia)
+
+Package: zsh
+Version: 5.8-1
+Depends: libc, libcap, libncurses6, libncursesw6, libpcre, librt
+Source: feeds/packages/utils/zsh
+SourceName: zsh
+License: ZSH
+LicenseFiles: LICENCE
+Section: utils
+CPE-ID: cpe:/a:zsh_project:zsh
+Maintainer: Vadim A. Misbakh-Soloviov <openwrt-zsh@mva.name>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1883801
+Filename: zsh_5.8-1_aarch64_cortex-a72.ipk
+Size: 1881723
+SHA256sum: f847cbf7f6c12049db6e662d1d8955468a391af34fc4854b0e9ef296d43de32c
+Description:  Zsh is a UNIX command interpreter (shell) usable as an interactive
+ login  shell  and  as a shell script command processor. Of the standard
+ shells, zsh most closely resembles ksh but includes many enhancements.
+ Zsh has command line editing, builtin spelling correction, programmable
+ command completion, shell functions (with autoloading), a history
+ mechanism, and a host of other features.
+
